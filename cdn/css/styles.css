@@ -1,0 +1,163 @@
+.bg-black {
+  background-color: #000;
+  color: #fff;
+}
+
+img.grayscale {
+  filter: grayscale(100%);
+}
+
+h1, h2 {
+  margin-bottom: 40px;
+}
+
+h4 {
+  margin-top: 20px;
+}
+
+hr {
+  margin: 60px auto;
+}
+
+.bg-black hr {
+  color: #fff;
+  background-color: #fff;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+.btn .btn-lg {
+  margin-top: 60px;
+}
+
+.btn-link {
+  color: #000;
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+a {
+  color: #000;
+}
+a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+nav {
+  font-size: 0.9rem;
+}
+nav .btn {
+  font-size: 0.9rem;
+}
+
+.navbar .collapse.show, .navbar .collapsing {
+  padding-top: 40px;
+}
+
+.navbar-brand {
+  position: relative;
+  width: 55px
+}
+
+.navbar-brand img {
+  position: absolute;
+  top: -18px;
+  left: -4px;
+}
+
+.main {
+  text-align: center;
+}
+
+section {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  min-height: 100vh;
+  position: relative;
+}
+
+.mixer {
+  background-image: url(../images/mixer.jpeg);
+  background-position: 50% 0px;
+  position: relative;
+}
+
+.mixer img {
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+section .btn {
+  padding: 15px 40px;
+  margin: 0 auto;
+}
+section .social .btn {
+  padding: 0;
+  height: 50px;
+  width: 50px;
+}
+
+.mixer .btn {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+  width: 200px;
+}
+
+.icon.large {
+  font-size: 48px;
+}
+.icon.med {
+  font-size: 30px;
+}
+
+.card-body ul {
+  list-style: none;
+  padding: 0;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #6b6b6b;
+}
+
+#pop-over {
+  display: none;
+  background-color: #fff;
+  padding: 68px 1rem 1rem 1rem;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  overflow-x: auto;
+  z-index: 1;
+}
+
+#pop-over .close {
+  position: fixed;
+  right: 18px;
+}
+
+.testimonials cite::before {
+  content: "\2014 \00A0";
+}

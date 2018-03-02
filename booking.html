@@ -1,0 +1,31 @@
+<h1 class="text-center">BOOKING</h1>
+<p>
+  We are always looking to work with new artists. Fill out the form below and someone will get back
+  to you as soon as we can!
+</p>
+<form method="post" action="process-form.php">
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" class="form-control" id="name" placeholder="Name">
+  </div>
+  <div class="form-group">
+    <label for="email">Email Address</label>
+    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="start-date">Desired Start Date</label>
+      <input type="date" class="form-control" id="start-date" placeholder="mm/dd/yyyy">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="end-date">Desired End Date</label>
+      <input type="date" class="form-control" id="end-date" placeholder="mm/dd/yyyy">
+    </div>
+  </div>
+  <div class="form-group">
+      <label for="message">Tell us what you are looking for:</label>
+      <textarea class="form-control" id="message" rows="3"></textarea>
+  </div>
+  <button id="submit" type="button" class="btn btn-outline-dark text-right">Submit</button>
+</form>
