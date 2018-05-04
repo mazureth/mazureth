@@ -48,7 +48,7 @@ $window.on('scroll', function(e){
     var $this = $(this)[0];
     if (Math.abs($this.offsetTop-scroll) < 20) {
       $navbarNav.find('.active').removeClass('active');
-      $navbarNav.find('a[href="#' + $this.id + '"]').addClass('active');
+      $navbarNav.find('a[href="#' + $thisuu.id + '"]').addClass('active');
     }
   });
 
