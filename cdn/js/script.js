@@ -18,7 +18,7 @@ $('.navbar .nav-item').on('click', function(e){
    if (subpages.indexOf(window.location.pathname) >= 0) { return }
 
    href = $(this).find('a').attr('href');
-   scrollTo = $(href)[0].offsetTop;
+   scrollTo = $(href).offset();
 
    e.preventDefault();
 
@@ -26,7 +26,7 @@ $('.navbar .nav-item').on('click', function(e){
    $(this).addClass('active');
 
    window.scroll({
-     top: scrollTo,
+     top: scrollTo.top,
      left: 0,
      behavior: 'smooth'
    });

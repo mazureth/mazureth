@@ -20,11 +20,11 @@ Message:
 $message
 ";
 
-$headers = "From: $from" . "\r\n" .
-    "Reply-To: $from" . "\r\n" .
+$headers = "From: $email" . "\r\n" .
+    "Reply-To: $email" . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
-if (mail($to, $subject, $emailMessage)) {
+if (mail($to, $subject, $emailMessage, $headers)) {
   header("HTTP/1.0 200 OK", false, 200);
   header('Location: ./booking.html#thanks');
 } else {
