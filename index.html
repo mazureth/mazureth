@@ -1,9 +1,17 @@
 <!doctype html>
 <html lang="en">
 <head>
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
   <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet"/>
-  <link rel="stylesheet" href="https://cdn.mazureth.com/css/styles.css"/>
+  <script>
+    // work around for dev vs prod
+    if (window.location.origin === 'file://') {
+      document.write('<link rel="stylesheet" href="cdn/css/styles.css"/>');
+    } else {
+      document.write('<link rel="stylesheet" href="https://cdn.mazureth.com/css/styles.css"/>');
+    }
+  </script>
 
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
@@ -203,8 +211,7 @@
                 <strong>Studio Sessions</strong>
               </div>
               <div class="card-body">
-                <p>Studio sessions include the use of our live room, isolation booths, control room, and one of our
-                  highly trained audio engineers. You can book by the hour or day.</p>
+                <p>Studio sessions include the use of our entire facility: live room, isolation booths, and control room. </p>
                 <p class="rate"><sup><small>$</small></sup>50<span class="unit">/hour</span></p>
                 <p class="rate"><sup><small>$</small></sup>350<span class="unit">/day</span></p>
                 <a href="booking.html" class="btn btn-secondary">Book Now</a>
@@ -217,8 +224,7 @@
                 <strong>Mixing</strong>
               </div>
               <div class="card-body">
-                <p>Our mixing service include importing your Cubase projects or raw wav files into our DAW plus the use
-                  of our control room and one of our audio engineer.</p>
+                <p>Mixing service includes importing your files into our DAW plus the use of our control room.</p>
                 <p class="rate"><sup><small>$</small></sup>50<span class="unit">/hour</span></p>
                 <p class="rate"><sup><small>$</small></sup>200<span class="unit">/song<sup>†</sup></span></p>
                 <a href="booking.html" class="btn btn-secondary">Book Now</a>
@@ -231,8 +237,7 @@
                 <strong>Mastering</strong>
               </div>
               <div class="card-body">
-                <p>Mastering services include inporting the uncompressed wav files into our DAW and returing a
-                  final polished song that is ready for replication and distirbution.</p>
+                <p>Mastering service includes importing stereo mixes into our DAW and returing a final polished song.</p>
                 <p class="rate"><sup><small>$</small></sup>70<span class="unit">/song</span></p>
                 <p class="rate"><sup><small>$</small></sup>750<span class="unit">/LP<sup>§</sup></span></p>
                 <a href="booking.html" class="btn btn-secondary">Book Now</a>
@@ -245,8 +250,7 @@
                 <strong>Commercial Services</strong>
               </div>
               <div class="card-body">
-                <p>Commercial services include things like voice overs, audio editing, extraction, cleanup, sound design
-                  and more. This may include various parts of our studio and staff.</p>
+                <p>Commercial services include voice overs, audio editing, cleanup, sound design and more.</p>
                 <p class="rate"><sup><small>$</small></sup>65<span class="unit">/hour</span></p>
                 <p class="rate"><sup><small>$</small></sup>500<span class="unit">/day</span></p>
                 <a href="booking.html" class="btn btn-secondary">Book Now</a>
@@ -416,6 +420,14 @@
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <script src="https://cdn.mazureth.com/js/script-min.js"></script>
+  <script>
+    // work around for dev vs prod
+    if (window.location.origin === 'file://') {
+      document.write('<script src="cdn/js/script-min.js"></script>');
+    } else {
+      document.write('<script src="https://cdn.mazureth.com/js/script-min.js"></script>');
+    }
+  </script>
+
 </body>
 </html>
