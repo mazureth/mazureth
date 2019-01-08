@@ -5,12 +5,21 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
   <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet"/>
   <script>
-    // work around for dev vs prod
-    if (window.location.origin === 'file://') {
-      document.write('<link rel="stylesheet" href="cdn/css/styles.css"/>');
-    } else {
-      document.write('<link rel="stylesheet" href="https://cdn.mazureth.com/css/styles.css"/>');
-    }
+    (function() {
+      var cssTag = document.createElement('link');
+          cssHref = '',
+          head = document.querySelector('head'),
+          metaTag = document.querySelector("head meta[charset='utf-8']");
+
+      if (window.location.origin === 'file://') {
+        cssHref = 'cdn/css/styles.css';
+      } else {
+        cssHref = 'https://cdn.mazureth.com/css/styles.css';
+      }
+      cssTag.href = cssHref;
+      cssTag.rel = 'stylesheet';
+      head.insertBefore(cssTag, metaTag);
+    })();
   </script>
 
   <meta charset="utf-8"/>
@@ -396,7 +405,7 @@
 
         <hr />
 
-        <p>Mazureth Studios<br />1702 N 107th St<br /> Seattle, WA 98133</p>
+        <p>Mazureth Studios<br />12822 480th Ave SE<br /> North Bend, WA 98045</p>
         <p>(206) 395 - 9009</p>
         <p>info@mazureth.com</p>
 
@@ -421,12 +430,18 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script>
-    // work around for dev vs prod
-    if (window.location.origin === 'file://') {
-      document.write('<script src="cdn/js/script-min.js"></script>');
-    } else {
-      document.write('<script src="https://cdn.mazureth.com/js/script-min.js"></script>');
-    }
+    (function() {
+      var scriptTag = document.createElement('script');
+          scriptSrc = '',
+          body = document.querySelector('body');
+      if (window.location.origin === 'file://') {
+        scriptSrc = 'cdn/js/script-min.js';
+      } else {
+        scriptSrc = 'https://cdn.mazureth.com/js/script-min.js';
+      }
+      scriptTag.src = scriptSrc;
+      body.appendChild(scriptTag);
+    })();
   </script>
 
 </body>
