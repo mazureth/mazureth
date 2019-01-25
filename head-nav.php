@@ -1,9 +1,24 @@
-<!doctype html>
-<html lang="en">
 <head>
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
   <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet"/>
-  <link rel="stylesheet" href="https://cdn.mazureth.com/css/styles.css"/>
+  <script>
+    (function() {
+      var cssTag = document.createElement('link');
+          cssHref = '',
+          head = document.querySelector('head'),
+          metaTag = document.querySelector("head meta[charset='utf-8']");
+
+      if (window.location.origin === 'file://') {
+        cssHref = 'cdn/css/styles.css';
+      } else {
+        cssHref = 'https://cdn.mazureth.com/css/styles.css';
+      }
+      cssTag.href = cssHref;
+      cssTag.rel = 'stylesheet';
+      head.insertBefore(cssTag, metaTag);
+    })();
+  </script>
 
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
@@ -40,14 +55,14 @@
 
   <meta name="description" content="Mazureth™ Studios is one of North Seattles best recording studios. With artists ranging from electronic/edm to techincal death metal, we have what you need."/>
   <meta name="keywords" content="seattle recording studio, recording studio, mixing, mastering, recording, mazureth, mazureth studios, jesse mazur, music production, studio, producer, record producer"/>
-  <title>Mazureth™ Studios - Seattle Recording Studio - Booking</title>
+  <title>Mazureth™ Studios - Seattle Recording Studio</title>
 
-  <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body>
+
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-black">
     <div class="container">
-      <a class="navbar-brand" href="/">
+      <a class="navbar-brand" href="#">
         <img src="https://cdn.mazureth.com/images/nav-icon.svg"
           alt="Mazureth Logo"
           width="51"
@@ -59,74 +74,28 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="nav-item active">
-            <a class="nav-link" href="./index.html#welcome">WELCOME</a>
+            <a class="nav-link" href="#welcome">WELCOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./index.html#about">ABOUT</a>
+            <a class="nav-link" href="#about">ABOUT</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./index.html#studio">STUDIO</a>
+            <a class="nav-link" href="#services">SERVICES</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./index.html#clients">CLIENTS</a>
+            <a class="nav-link" href="#rates">RATES</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./index.html#contact">CONTACT</a>
+            <a class="nav-link" href="#studio">STUDIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#clients">CLIENTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">CONTACT</a>
           </li>
         </ul>
-        <a class="btn btn-outline-light my-2 my-sm-0 pop-over" href="#" data-fetch="booking.html">BOOK NOW</a>
+        <a class="btn btn-outline-light my-2 my-sm-0" href="booking.php">BOOK NOW</a>
       </div>
     </div>
   </nav>
-
-  <div class="container-fluid">
-    <div class="container">
-
-      <section id="booking">
-
-        <h1 class="text-center">BOOKING</h1>
-        <p id="userMessage">
-          We are always looking to work with new artists. Fill out the form below and someone will get back
-          to you as soon as we can!
-        </p>
-        <form id="contactForm" method="post" action="process-form.php">
-          <div class="form-group">
-            <label for="name">Name</label>
-            <input type="text" class="form-control" name="name" id="name" placeholder="Name">
-          </div>
-          <div class="form-group">
-            <label for="email">Email Address</label>
-            <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelp" placeholder="Email">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-          </div>
-          <div class="form-row">
-            <div class="form-group col-md-6">
-              <label for="start-date">Desired Start Date</label>
-              <input type="date" class="form-control" name="start-date" id="start-date" placeholder="mm/dd/yyyy">
-            </div>
-            <div class="form-group col-md-6">
-              <label for="end-date">Desired End Date</label>
-              <input type="date" class="form-control" name="end-date" id="end-date" placeholder="mm/dd/yyyy">
-            </div>
-          </div>
-          <div class="form-group">
-              <label for="message">Tell us what you are looking for:</label>
-              <textarea class="form-control" name="message" id="message" rows="3"></textarea>
-          </div>
-          <div class="form-group">
-            <div class="g-recaptcha" data-sitekey="6LdScEkUAAAAAJMH5SrBbIKSwEe_PWGVp0ycVsgR"></div>
-          </div>
-          <button id="submit" type="submit" class="btn btn-outline-dark text-right">Submit</button>
-        </form>
-
-      </section>
-    </div>
-  </div>
-
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <script src="https://cdn.mazureth.com/js/script.js"></script>
-
-</body>
-</html>

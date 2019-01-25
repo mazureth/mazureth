@@ -7,41 +7,46 @@ var $window = $(window),
 
 // nav clicks for active 'tab'
 $('.navbar .nav-item').on('click', function(e){
-   var href, scrollTo,
-       subpages = [
-         '/booking.html',
-         '/clients.html',
-         '/gearlist.html'
-       ];
+  var href, scrollTo,
+      loc = window.location,
+      subpages = [
+        '/booking.php',
+        '/clients.php',
+        '/gearlist.php'
+      ];
 
-   // bail if we are on a subpage, links should work as expected
-   if (subpages.indexOf(window.location.pathname) >= 0) { return }
+  href = $(this).find('a').attr('href');
 
-   href = $(this).find('a').attr('href');
-   scrollTo = $(href).offset();
-
-   e.preventDefault();
-
-   $navbarNav.find('.active').removeClass('active');
-   $(this).addClass('active');
-
-   window.scroll({
-     top: scrollTo.top,
-     left: 0,
-     behavior: 'smooth'
-   });
-
-   if(history.pushState) {
-     history.pushState(null, null, href);
-   } else {
-    location.hash = '#myhash';
+  // bail if we are on a subpage, links should work as expected
+  if (subpages.indexOf(loc.pathname) >= 0) {
+    window.location = loc.protocol + '//' + loc.host + '/' + href;
+    return;
    }
+
+  scrollTo = $(href).offset();
+
+  e.preventDefault();
+
+  $navbarNav.find('.active').removeClass('active');
+  $(this).addClass('active');
+
+  window.scroll({
+    top: scrollTo.top,
+    left: 0,
+    behavior: 'smooth'
+  });
+
+  if(history.pushState) {
+    history.pushState(null, null, href);
+  } else {
+    location.hash = '#myhash';
+  }
 
 });
 
 // auto close navbar on click
 $('.navbar-collapse a').click(function(){
-    $(".navbar-collapse").collapse('hide');
+  $(".navbar-collapse").collapse('hide');
 });
 
 // Scroll listener

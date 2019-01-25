@@ -26,10 +26,10 @@ $headers = "From: $email" . "\r\n" .
 
 if (mail($to, $subject, $emailMessage, $headers)) {
   header("HTTP/1.0 200 OK", false, 200);
-  header('Location: ./booking.html#thanks');
+  header('Location: ./booking.php#thanks');
 } else {
   header("HTTP/1.0 500 Internal Server Error", false, 500);
-  header('Location: ./booking.html#error');
+  header('Location: ./booking.php#error');
 }
 
 

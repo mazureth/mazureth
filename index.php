@@ -1,111 +1,12 @@
 <!doctype html>
 <html lang="en">
-<head>
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
-  <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet"/>
-  <script>
-    (function() {
-      var cssTag = document.createElement('link');
-          cssHref = '',
-          head = document.querySelector('head'),
-          metaTag = document.querySelector("head meta[charset='utf-8']");
+<? include('./head-nav.php'); ?>
 
-      if (window.location.origin === 'file://') {
-        cssHref = 'cdn/css/styles.css';
-      } else {
-        cssHref = 'https://cdn.mazureth.com/css/styles.css';
-      }
-      cssTag.href = cssHref;
-      cssTag.rel = 'stylesheet';
-      head.insertBefore(cssTag, metaTag);
-    })();
-  </script>
-
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png"/>
-  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png"/>
-  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png"/>
-  <link rel="manifest" href="./site.webmanifest"/>
-  <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5"/>
-  <meta name="msapplication-TileColor" content="#da532c"/>
-  <meta name="theme-color" content="#ffffff"/>
-
-  <link rel="canonical" href="http://www.mazureth.com" />
-  <meta property="og:site_name" content="Mazureth™ Studios"/>
-  <meta property="og:title" content="Mazureth™ Studios"/>
-  <meta property="og:url" content="http://www.mazureth.com"/>
-  <meta property="og:type" content="website"/>
-  <meta property="og:description" content="Mazureth™ Studios is one of North Seattles best recording studios. With artists ranging from electronic/edm to techincal death metal, we have what you need."/>
-  <meta property="og:image" content="https://cdn.mazureth.com/images/og-image.jpg"/>
-  <meta property="og:image:width" content="960"/>
-  <meta property="og:image:height" content="640"/>
-
-  <meta itemprop="name" content="Mazureth™ Studios"/>
-  <meta itemprop="url" content="http://www.mazureth.com"/>
-  <meta itemprop="description" content="Mazureth™ Studios is one of North Seattles best recording studios. With artists ranging from electronic/edm to techincal death metal, we have what you need."/>
-  <meta itemprop="thumbnailUrl" content="https://cdn.mazureth.com/images/og-image.jpg"/>
-  <meta itemprop="image" content="https://cdn.mazureth.com/images/og-image.jpg"/>
-  <link rel="image_src" href="https://cdn.mazureth.com/images/og-image.jpg"/>
-
-  <meta name="twitter:title" content="Mazureth™ Studios"/>
-  <meta name="twitter:image" content="https://cdn.mazureth.com/images/og-image.jpg"/>
-  <meta name="twitter:url" content="http://www.mazureth.com"/>
-  <meta name="twitter:card" content="summary"/>
-  <meta name="twitter:description" content="Mazureth™ Studios is one of North Seattles best recording studios. With artists ranging from electronic/edm to techincal death metal, we have what you need."/>
-
-  <meta name="description" content="Mazureth™ Studios is one of North Seattles best recording studios. With artists ranging from electronic/edm to techincal death metal, we have what you need."/>
-  <meta name="keywords" content="seattle recording studio, recording studio, mixing, mastering, recording, mazureth, mazureth studios, jesse mazur, music production, studio, producer, record producer"/>
-  <title>Mazureth™ Studios - Seattle Recording Studio</title>
-
-</head>
-<body>
-
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-black">
-    <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="https://cdn.mazureth.com/images/nav-icon.svg"
-          alt="Mazureth Logo"
-          width="51"
-          height="80" />
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item active">
-            <a class="nav-link" href="#welcome">WELCOME</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">ABOUT</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#services">SERVICES</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#rates">RATES</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#studio">STUDIO</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#clients">CLIENTS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">CONTACT</a>
-          </li>
-        </ul>
-        <a class="btn btn-outline-light my-2 my-sm-0" href="booking.html">BOOK NOW</a>
-      </div>
-    </div>
-  </nav>
   <div class="main container-fluid">
 
     <section id="welcome" class="bg-black mixer">
       <img src="https://cdn.mazureth.com/images/mazureth-logo-white.svg" class="img-fluid" alt="Mazureth Logo" />
-      <!--<a class="btn btn-outline-light pop-over" href="#" data-fetch="overview.html">OVERVIEW</a>-->
     </section>
 
     <section id="about">
@@ -223,7 +124,7 @@
                 <p>Studio sessions include the use of our entire facility: live room, isolation booths, and control room. </p>
                 <p class="rate"><sup><small>$</small></sup>50<span class="unit">/hour</span></p>
                 <p class="rate"><sup><small>$</small></sup>350<span class="unit">/day</span></p>
-                <a href="booking.html" class="btn btn-secondary">Book Now</a>
+                <a href="booking.php" class="btn btn-secondary">Book Now</a>
               </div>
             </div>
           </div>
@@ -236,7 +137,7 @@
                 <p>Mixing service includes importing your files into our DAW plus the use of our control room.</p>
                 <p class="rate"><sup><small>$</small></sup>50<span class="unit">/hour</span></p>
                 <p class="rate"><sup><small>$</small></sup>200<span class="unit">/song<sup>†</sup></span></p>
-                <a href="booking.html" class="btn btn-secondary">Book Now</a>
+                <a href="booking.php" class="btn btn-secondary">Book Now</a>
               </div>
             </div>
           </div>
@@ -249,7 +150,7 @@
                 <p>Mastering service includes importing stereo mixes into our DAW and returing a final polished song.</p>
                 <p class="rate"><sup><small>$</small></sup>70<span class="unit">/song</span></p>
                 <p class="rate"><sup><small>$</small></sup>750<span class="unit">/LP<sup>§</sup></span></p>
-                <a href="booking.html" class="btn btn-secondary">Book Now</a>
+                <a href="booking.php" class="btn btn-secondary">Book Now</a>
               </div>
             </div>
           </div>
@@ -262,7 +163,7 @@
                 <p>Commercial services include voice overs, audio editing, cleanup, sound design and more.</p>
                 <p class="rate"><sup><small>$</small></sup>65<span class="unit">/hour</span></p>
                 <p class="rate"><sup><small>$</small></sup>500<span class="unit">/day</span></p>
-                <a href="booking.html" class="btn btn-secondary">Book Now</a>
+                <a href="booking.php" class="btn btn-secondary">Book Now</a>
               </div>
             </div>
           </div>
@@ -323,7 +224,7 @@
               the stuio, or to go on tour with.
             </p>
             <p class="text-center">
-              <a class="btn btn-outline-light" href="gearlist.html">FULL GEAR LIST</a>
+              <a class="btn btn-outline-light" href="gearlist.php">FULL GEAR LIST</a>
             </p>
           </div>
         </div>
@@ -366,7 +267,7 @@
           </div>
         </div>
       </div>
-      <a class="btn btn-outline-dark" href="clients.html">VIEW FULL CLIENT LIST</a>
+      <a class="btn btn-outline-dark" href="clients.php">VIEW FULL CLIENT LIST</a>
       <br /><br /><br />
       <h1>TESTIMONIALS</h1>
       <div class="container text-center testimonials">
@@ -401,11 +302,11 @@
           your budget.
         </p>
 
-        <a class="btn btn-lg btn-outline-light" href="booking.html">BOOK NOW</a>
+        <a class="btn btn-lg btn-outline-light" href="booking.php">BOOK NOW</a>
 
         <hr />
 
-        <p>Mazureth Studios<br />12822 480th Ave SE<br /> North Bend, WA 98045</p>
+        <p>Mazureth™ Studios<br />12822 480th Ave SE<br /> North Bend, WA 98045</p>
         <p>(206) 395 - 9009</p>
         <p>info@mazureth.com</p>
 
@@ -422,27 +323,11 @@
         </p>
 
       </div>
-      <p class="copyright">&copy; 2018 Mazureth, LLC. All Rights Reserved</p>
+      <p class="copyright">&copy; 2018 - <? echo date("Y"); ?> Mazureth™ LLC. All Rights Reserved</p>
     </section>
 
   </div>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <script>
-    (function() {
-      var scriptTag = document.createElement('script');
-          scriptSrc = '',
-          body = document.querySelector('body');
-      if (window.location.origin === 'file://') {
-        scriptSrc = 'cdn/js/script-min.js';
-      } else {
-        scriptSrc = 'https://cdn.mazureth.com/js/script-min.js';
-      }
-      scriptTag.src = scriptSrc;
-      body.appendChild(scriptTag);
-    })();
-  </script>
 
-</body>
+<? include('./footer.php'); ?>
+
 </html>
