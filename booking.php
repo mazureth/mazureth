@@ -34,13 +34,26 @@
             </div>
           </div>
           <div class="form-group">
-              <label for="message">Tell us what you are looking for:</label>
+              <label for="service">Tell us what you are looking for:</label>
+              <select class="form-control" name="service" id="service">
+                <option value="">Select:</option>
+                <option value="Tracking">Tracking</option>
+                <option value="Mixing">Mixing</option>
+                <option value="Mastering">Mastering</option>
+                <option value="Full Production">Full Production</option>
+                <option value="Commercial Services">Commercial Servies</option>
+                <option value="Other">Other</option>
+              </select>
+          </div>
+          <div class="form-group">
+              <label for="message">Message:</label>
               <textarea class="form-control" name="message" id="message" rows="3"></textarea>
           </div>
           <div class="form-group">
             <div class="g-recaptcha" data-sitekey="6LdScEkUAAAAAJMH5SrBbIKSwEe_PWGVp0ycVsgR"></div>
           </div>
           <button id="submit" type="submit" class="btn btn-outline-dark text-right">Submit</button>
+          <input type="hidden" name="token" id="token" value="<? echo md5(date('YmdH') . "D4teS4lt"); ?>" />
         </form>
 
       </section>

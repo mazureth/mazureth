@@ -6,7 +6,7 @@ var $window = $(window),
     $navbarNav = $('#navbarNav');
 
 // nav clicks for active 'tab'
-$('.navbar .nav-item').on('click', function(e){
+$('.navbar .nav-item, .navbar .navbar-brand').on('click', function(e){
   var href, scrollTo,
       loc = window.location,
       subpages = [
@@ -15,7 +15,7 @@ $('.navbar .nav-item').on('click', function(e){
         '/gearlist.php'
       ];
 
-  href = $(this).find('a').attr('href');
+  href = $(this).find('a').attr('href') || $(this).attr('href');
 
   // bail if we are on a subpage, links should work as expected
   if (subpages.indexOf(loc.pathname) >= 0) {
@@ -79,6 +79,7 @@ $('form').submit( function(e) {
       $startDate = $('#start-date'),
       $endDate = $('#end-date'),
       $message = $('#message'),
+      service = $('#service'),
       $captchaBox = $('.g-recaptcha :first-child')[0],
       isHuman = grecaptcha.getResponse(),
       defaultPrevented = false;
@@ -142,6 +143,16 @@ $('form').submit( function(e) {
     $message.addClass('is-valid');
   }
 
+  if (!service.val().trim()) {
+    $service.removeClass('is-valid');
+    $service.addClass('is-invalid');
+    defaultPrevented = true;
+    e.preventDefault();
+  } else {
+    $service.removeClass('is-invalid');
+    $service.addClass('is-valid');
+  }
+
   if (!defaultPrevented) {
     $(this).unbind('submit').submit();
   }
@@ -149,9 +160,9 @@ $('form').submit( function(e) {
 
 var hash = window.location.hash;
 if (hash === "#thanks") {
-  $('#userMessage').html('Thank you for contacting us. We will get back to you as soon as possible');
+  $('#userMessage').addClass('alert alert-success').html('Thank you for contacting us. We will get back to you as soon as possible');
 } else if (hash === '#error') {
-  $('#userMessage').html('There was an error submitting the form. Please try again.');
+  $('#userMessage').addClass('alert alert-danger').html('There was an error submitting the form. Please try again.');
 }
 
 });
