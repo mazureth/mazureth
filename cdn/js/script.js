@@ -79,7 +79,7 @@ $('form').submit( function(e) {
       $startDate = $('#start-date'),
       $endDate = $('#end-date'),
       $message = $('#message'),
-      service = $('#service'),
+      $service = $('#service'),
       $captchaBox = $('.g-recaptcha :first-child')[0],
       isHuman = grecaptcha.getResponse(),
       defaultPrevented = false;
@@ -113,7 +113,8 @@ $('form').submit( function(e) {
     $email.addClass('is-valid');
   }
 
-  if (!$startDate.val().match(/^(19|20)\d\d[- /.](0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])$/)) {
+  if (!$startDate.val().match(/^(19|20)\d\d[- /.](0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])$/)
+      || (new Date($startDate.val())).getTime() < (new Date()).getTime()) {
     $startDate.removeClass('is-valid');
     $startDate.addClass('is-invalid');
     defaultPrevented = true;
@@ -123,7 +124,8 @@ $('form').submit( function(e) {
     $startDate.addClass('is-valid');
   }
 
-  if (!$endDate.val().match(/^(19|20)\d\d[- /.](0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])$/)) {
+  if (!$endDate.val().match(/^(19|20)\d\d[- /.](0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])$/)
+      || (new Date($endDate.val())).getTime() < (new Date($startDate.val())).getTime()) {
     $endDate.removeClass('is-valid');
     $endDate.addClass('is-invalid');
     defaultPrevented = true;

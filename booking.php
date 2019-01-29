@@ -26,11 +26,11 @@
           <div class="form-row">
             <div class="form-group col-md-6">
               <label for="start-date">Desired Start Date</label>
-              <input type="date" class="form-control" name="start-date" id="start-date" placeholder="mm/dd/yyyy">
+              <input type="date" class="form-control" name="start-date" id="start-date" placeholder="mm/dd/yyyy" min="<?=date('Y-m-d') ?>">
             </div>
             <div class="form-group col-md-6">
               <label for="end-date">Desired End Date</label>
-              <input type="date" class="form-control" name="end-date" id="end-date" placeholder="mm/dd/yyyy">
+              <input type="date" class="form-control" name="end-date" id="end-date" placeholder="mm/dd/yyyy" min="<?= date('Y-m-d') ?>">
             </div>
           </div>
           <div class="form-group">

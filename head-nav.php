@@ -57,6 +57,7 @@
   <meta name="keywords" content="seattle recording studio, recording studio, mixing, mastering, recording, mazureth, mazureth studios, jesse mazur, music production, studio, producer, record producer"/>
   <title>Mazureth™ Studios - Seattle Recording Studio</title>
 
+  <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body>
 

@@ -35,15 +35,12 @@ if ($token != md5(date('YmdH') . "D4teS4lt")
     || $service == ""
     || $message == "") {
   header($_SERVER["SERVER_PROTOCOL"]." 400 Bad Request");
-  echo "400 Bad Request, Redirecting";
   echo "<meta http-equiv=\"refresh\" content=\"2;url=https://www.mazureth.com/booking.php#error\" />";
 } elseif (mail($to, $subject, $emailMessage, $headers)) {
   header($_SERVER["SERVER_PROTOCOL"]." 200 OK");
-  echo "Success, Redirecting";
   echo "<meta http-equiv=\"refresh\" content=\"2;url=https://www.mazureth.com/booking.php#thanks\" />";
 } else {
   header($_SERVER["SERVER_PROTOCOL"]." 500 Internal Server Error");
-  echo "500 Internal Server Error, Redirecting";
   echo "<meta http-equiv=\"refresh\" content=\"2;url=https://www.mazureth.com/booking.php#error\" />";
 }
 
