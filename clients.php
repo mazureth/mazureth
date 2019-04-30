@@ -41,7 +41,7 @@
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
           <div class="card text-center">
-            <img class="card-img-top" src="https://cdn.mazureth.com/images/artists/anthrocene.png" alt="Immolator">
+            <img class="card-img-top" src="https://cdn.mazureth.com/images/artists/anthrocene.jpg" alt="Nucleation">
             <div class="card-body">
               <p class="card-text">Anthrocene</p>
             </div>

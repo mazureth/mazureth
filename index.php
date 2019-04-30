@@ -21,8 +21,8 @@
           </div>
           <div class="col-sm-8">
             <p class="text-justify">
-              Jesse Mazur, owner, producer, and engineer at Mazureth™ Studios, has over 10
-              years of experience producing music. He's worked with artists ranging from ambient electronic to
+              Jesse Mazur, owner, producer, and engineer at Mazureth™ Studios, has been producing music since
+              2003 and playing for much longer. He's worked with artists ranging from ambient electronic to
               technical death metal and everything inbetween. He's toured the country in several
               bands and has been signed to both Altantic and Dream Works records. Whether you need an audio
               engineering, a producer, help with arragement, or writing, Jesse is more than capable.
@@ -74,7 +74,7 @@
             <div class="container">
               <h4>Tracking</h4>
               <p>
-                We have a large acoustingly tuned live room, two isolation booths, and a plethora
+                We have a large acoustingly tuned live room, an isolation booth, and a plethora
                 if microphones, guitars, and amps at your disposal on top of whatever you bring with you.
                 We also have several digital instruments and midi controllers as well.
               </p>
@@ -170,7 +170,7 @@
         </div>
         <div>
         <p class="footnote"><sup>†</sup> The $200 song rate for mixing assumes that you will send us the multitrack
-          and accept what we return with minimal feedback. For a more involved post-production process we will
+          and accept what we return with 2 or 3 rounds of feedback. For a more involved post-production process we will
           assume the hourly rate or work out a special deal with the client.</p>
 
         <p class="footnote"><sup>§</sup> The $750 LP flat rate assumes that the LP has a length of about 45 minutes
@@ -250,7 +250,7 @@
           <div class="col-sm">
             <a href="https://www.facebook.com/anthroceneband/" target="_blank">
               <figure class="figure">
-                <img src="https://cdn.mazureth.com/images/artists/anthrocene.png" class="figure-image img-fluid rounded artist-image">
+                <img src="https://cdn.mazureth.com/images/artists/anthrocene.jpg" class="figure-image img-fluid rounded artist-image">
                   <a href="https://www.facebook" alt="Castle Dwellers album cover" />
                 <figcaption class="figure-caption">ANTHROCENE</figcaption>
               </figure>
