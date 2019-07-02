@@ -25,7 +25,7 @@
               <img class="card-img-top" src="https://cdn.mazureth.com/images/artists/400.40_-_MMXVII.jpg" alt="MMXVII">
             </a>
             <div class="card-body">
-              <p class="card-text"><a href="https://soundcloud.com/the40040official/sets/mmxvii" target="_blank">400.40</a></p>
+              <p class="card-text">400.40</p>
             </div>
           </div>
         </div>
@@ -35,13 +35,15 @@
               <img class="card-img-top" src="https://cdn.mazureth.com/images/artists/400.40_-_Wasted_Time.jpg" alt="Wasted Time">
             </a>
             <div class="card-body">
-              <p class="card-text"><a href="https://soundcloud.com/the40040official/sets/wasted-time" target="_blank">400.40</a></p>
+              <p class="card-text">400.40</p>
             </div>
           </div>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
           <div class="card text-center">
-            <img class="card-img-top" src="https://cdn.mazureth.com/images/artists/anthrocene.jpg" alt="Nucleation">
+            <a href="https://open.spotify.com/album/1rZ0TSTy1MJpyL17ZLNxAb?si=qMPs6hXdTuqAVABHtVZxwA" target="_blank">
+              <img class="card-img-top" src="https://cdn.mazureth.com/images/artists/anthrocene.jpg" alt="Nucleation">
+            </a>
             <div class="card-body">
               <p class="card-text">Anthrocene</p>
             </div>
@@ -100,7 +102,7 @@
               <img class="card-img-top" src="https://cdn.mazureth.com/images/artists/miners_work.jpg" alt="Miners Work">
             </a>
             <div class="card-body">
-              <p class="card-text"><a href="https://soundcloud.com/user-359899219/sets/miners-work" target="_blank">Miners Work</a></p>
+              <p class="card-text">Miners Work</p>
             </div>
           </div>
         </div>
@@ -110,7 +112,7 @@
               <img class="card-img-top" src="https://cdn.mazureth.com/images/artists/red_is_recovery.jpg" alt="The Red Album">
             </a>
             <div class="card-body">
-              <p class="card-text"><a href="https://soundcloud.com/user-359899219/sets/red-is-recovery-the-red-album" target="_blank">Red is Recovery</a></p>
+              <p class="card-text">Red is Recovery</p>
             </div>
           </div>
         </div>
@@ -120,7 +122,7 @@
               <img class="card-img-top" src="https://cdn.mazureth.com/images/artists/red_is_recovery_2.jpg" alt="Goodbyes Are New Beginnings">
             </a>
             <div class="card-body">
-              <p class="card-text"><a href="https://i1.sndcdn.com/artworks-000479341680-xs95gl-t500x500.jpg" target="_blank">Red is Recovery</a></p>
+              <p class="card-text">Red is Recovery</p>
             </div>
           </div>
         </div>

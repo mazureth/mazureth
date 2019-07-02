@@ -240,30 +240,20 @@
         </p>
         <div class="row">
           <div class="col-sm">
-            <a href="https://www.facebook.com/castledwellers/" target="_blank">
-              <figure class="figure">
-                <img src="https://cdn.mazureth.com/images/artists/castle-dwellers.jpg" class="figure-image img-fluid rounded artist-image" alt="Castle Dwellers album cover" />
-                <figcaption class="figure-caption">CASTLE DWELLERS</figcaption>
-              </figure>
-            </a>
-          </div>
-          <div class="col-sm">
             <a href="https://www.facebook.com/anthroceneband/" target="_blank">
               <figure class="figure">
                 <img src="https://cdn.mazureth.com/images/artists/anthrocene.jpg" class="figure-image img-fluid rounded artist-image">
-                  <a href="https://www.facebook" alt="Castle Dwellers album cover" />
-                <figcaption class="figure-caption">ANTHROCENE</figcaption>
               </figure>
             </a>
           </div>
           <div class="col-sm">
-            <a href="https://www.facebook.com/castledwellers/" target="_blank">
-              <figure class="figure">
-                <img src="https://cdn.mazureth.com/images/artists/lunanova.jpg" class="figure-image img-fluid rounded artist-image">
-                  <a href="https://www.facebook" alt="Castle Dwellers album cover" />
-                <figcaption class="figure-caption">LUNANOVA</figcaption>
-              </figure>
-            </a>
+            <iframe src="https://open.spotify.com/embed/album/1rZ0TSTy1MJpyL17ZLNxAb" width="100%" height="350" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+          </div>
+          <div class="col-sm text-justify">
+            <h3>Anthrocene</h3>
+            <p>
+              Hailing from Seattle, Anthrocene has accumulated a sonic arsenal that draws elements from wide-ranging influences across many metal subgenres, while maintaining a consistent sound and style. Anthrocene performances take listeners on a journey spanning from blackened thrash bangers to neo-classical power metal anthems to melodeath breakdowns. In support of this musical variety, the lyrical content draws from a cautionary world created by singer Boris Sagal, featuring cosmic perils, nihilistic lumberjacks, Slavic oligarchs, space travel, and mole people.
+            </p>
           </div>
         </div>
       </div>
