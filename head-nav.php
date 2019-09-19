@@ -41,31 +41,31 @@
   <meta name="theme-color" content="#ffffff"/>
 
   <link rel="canonical" href="http://www.mazureth.com" />
-  <meta property="og:site_name" content="Mazureth™ Studios"/>
-  <meta property="og:title" content="Mazureth™ Studios"/>
+  <meta property="og:site_name" content="Mazureth Studios"/>
+  <meta property="og:title" content="Mazureth Studios"/>
   <meta property="og:url" content="http://www.mazureth.com"/>
   <meta property="og:type" content="website"/>
-  <meta property="og:description" content="Mazureth™ Studios is one of North Seattles best recording studios. With artists ranging from electronic/edm to techincal death metal, we have what you need."/>
+  <meta property="og:description" content="Mazureth Studios is a music production studios in North Bend, WA that specializes tracking, mixing, mastering, and corporate production. With artists ranging from electronic to techincal death metal, we have you covered."/>
   <meta property="og:image" content="https://cdn.mazureth.com/images/og-image.jpg"/>
   <meta property="og:image:width" content="960"/>
   <meta property="og:image:height" content="640"/>
 
-  <meta itemprop="name" content="Mazureth™ Studios"/>
+  <meta itemprop="name" content="Mazureth Studios"/>
   <meta itemprop="url" content="http://www.mazureth.com"/>
-  <meta itemprop="description" content="Mazureth™ Studios is one of North Seattles best recording studios. With artists ranging from electronic/edm to techincal death metal, we have what you need."/>
+  <meta itemprop="description" content="Mazureth Studios is a music production studios in North Bend, WA that specializes tracking, mixing, mastering, and corporate production. With artists ranging from electronic to techincal death metal, we have you covered."/>
   <meta itemprop="thumbnailUrl" content="https://cdn.mazureth.com/images/og-image.jpg"/>
   <meta itemprop="image" content="https://cdn.mazureth.com/images/og-image.jpg"/>
   <link rel="image_src" href="https://cdn.mazureth.com/images/og-image.jpg"/>
 
-  <meta name="twitter:title" content="Mazureth™ Studios"/>
+  <meta name="twitter:title" content="Mazureth Studios"/>
   <meta name="twitter:image" content="https://cdn.mazureth.com/images/og-image.jpg"/>
   <meta name="twitter:url" content="http://www.mazureth.com"/>
   <meta name="twitter:card" content="summary"/>
-  <meta name="twitter:description" content="Mazureth™ Studios is one of North Seattles best recording studios. With artists ranging from electronic/edm to techincal death metal, we have what you need."/>
+  <meta name="twitter:description" content="Mazureth Studios is a music production studios in North Bend, WA that specializes tracking, mixing, mastering, and corporate production. With artists ranging from electronic to techincal death metal, we have you covered."/>
 
-  <meta name="description" content="Mazureth™ Studios is one of North Seattles best recording studios. With artists ranging from electronic/edm to techincal death metal, we have what you need."/>
-  <meta name="keywords" content="seattle recording studio, recording studio, mixing, mastering, recording, mazureth, mazureth studios, jesse mazur, music production, studio, producer, record producer"/>
-  <title>Mazureth™ Studios - Seattle Recording Studio</title>
+  <meta name="description" content="Mazureth Studios is a music production studios in North Bend, WA that specializes tracking, mixing, mastering, and corporate production. With artists ranging from electronic to techincal death metal, we have you covered."/>
+  <meta name="keywords" content="music recording studio, recording studio, audio mixing, mastering, audio recording, mazureth, mazureth studios, jesse mazur, audio production, record producer, recoding stuiod in north bend, seattle, bellevue"/>
+  <title>Mazureth Studios | Music Recording Studio in North Bend, WA</title>
 
   <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
@@ -106,6 +106,7 @@
             <a class="nav-link" href="#contact">CONTACT</a>
           </li>
         </ul>
+        <a href="tel:2063959009">206.395.9009</a>
         <a class="btn btn-outline-light my-2 my-sm-0" href="booking.php">BOOK NOW</a>
       </div>
     </div>
