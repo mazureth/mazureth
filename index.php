@@ -240,9 +240,9 @@
         </p>
         <div class="row">
           <div class="col-sm">
-            <a href="https://www.facebook.com/anthroceneband/" target="_blank">
+            <a href="https://www.facebook.com/anthroceneband/" target="_blank" rel="noreferrer">
               <figure class="figure">
-                <img src="https://cdn.mazureth.com/images/artists/anthrocene.jpg" class="figure-image img-fluid rounded artist-image">
+                <img src="https://cdn.mazureth.com/images/artists/anthrocene.jpg" class="figure-image img-fluid rounded artist-image" alt="Anthrocene - Nucleation">
               </figure>
             </a>
           </div>
@@ -301,10 +301,10 @@
         <p>info@mazureth.com</p>
 
         <p class="social">
-          <a class="btn btn-outline-light" href="https://www.facebook.com/mazurethstudios" target="_blank" rel="nofollow">
+          <a class="btn btn-outline-light" href="https://www.facebook.com/mazurethstudios" target="_blank" rel="noreferrer">
             <i class="icon ion-social-facebook med"></i>
           </a>
-          <a class="btn btn-outline-light" href="https://www.instagram.com/mazurethllc/" target="_blank" rel="nofollow">
+          <a class="btn btn-outline-light" href="https://www.instagram.com/mazurethllc/" target="_blank" rel="noreferrer">
             <i class="icon ion-social-instagram med"></i>
           </a>
           <a class="btn btn-outline-light" href="tel:2063959009">

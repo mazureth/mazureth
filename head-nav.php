@@ -106,7 +106,7 @@
             <a class="nav-link" href="#contact">CONTACT</a>
           </li>
         </ul>
-        <a href="tel:2063959009">206.395.9009</a>
+        <a class="btn btn-outline-light my-2 my-sm-0" href="tel:2063959009">Call Us: (206) 395 - 9009</a>
         <a class="btn btn-outline-light my-2 my-sm-0" href="booking.php">BOOK NOW</a>
       </div>
     </div>
