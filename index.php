@@ -6,7 +6,10 @@
   <div class="main container-fluid">
 
     <section id="welcome" class="bg-black mixer">
-      <img src="https://cdn.mazureth.com/images/mazureth-logo-white.svg" class="img-fluid" alt="Mazureth Logo" />
+      <div class="logo-container">
+        <img src="https://cdn.mazureth.com/images/mazureth-logo-white.svg" class="img-fluid" alt="Mazureth Logo" />
+        <p class="trademark">&trade;</p>
+      </div>
     </section>
 
     <section id="about">
@@ -21,7 +24,7 @@
           </div>
           <div class="col-sm-8">
             <p class="text-justify">
-              Jesse Mazur, owner, producer, and engineer at Mazureth™ Studios, has been producing music since
+              Jesse Mazur, owner, producer, and engineer at Mazureth Studios, has been producing music since
               2003 and playing for much longer. He's worked with artists ranging from ambient electronic to
               technical death metal and everything inbetween. He's toured the country in several
               bands and has been signed to both Altantic and Dream Works records. Whether you need an audio
@@ -32,7 +35,7 @@
               While his primary instrument is guitar, he is also a skilled drummer and can play most stringed
               instruments, most brass instruments, and can navigate is way around a piano pretty well. He also has
               several years of singing and vocal lessons under his belt. It's very common for Jesse to appear
-              on the albums created at Mazureth™ Studios.
+              on the albums created at Mazureth Studios.
             </p>
             <blockquote class="text-left">
               <p class="mb-0"><em>"I just love music and being a part of the creative process. I am never having more fun than when
@@ -296,7 +299,7 @@
 
         <hr />
 
-        <p>Mazureth™ Studios<br />12822 480th Ave SE<br /> North Bend, WA 98045</p>
+        <p>Mazureth Studios<br />12822 480th Ave SE<br /> North Bend, WA 98045</p>
         <p>(206) 395 - 9009</p>
         <p>info@mazureth.com</p>
 
@@ -313,7 +316,7 @@
         </p>
 
       </div>
-      <p class="copyright">&copy; 2018 - <? echo date("Y"); ?> Mazureth™ LLC. All Rights Reserved</p>
+      <p class="copyright">&copy; 2018 - <? echo date("Y"); ?> Mazureth LLC. All Rights Reserved</p>
     </section>
 
   </div>

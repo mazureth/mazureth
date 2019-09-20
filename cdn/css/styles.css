@@ -101,13 +101,15 @@ section {
   position: relative;
 }
 
-.mixer img {
+.mixer .logo-container {
   position: absolute;
   top:0;
   bottom: 0;
   left: 0;
   right: 0;
   margin: auto;
+  height: 230px;
+  width: 480px;
 }
 
 section .btn {
@@ -184,6 +186,13 @@ section .social .btn {
   left: 0;
   right: 0;
   color: #6b6b6b;
+}
+
+.trademark {
+  position: absolute;
+  top: 36px;
+  left: 448px;
+  font-size: 14;
 }
 
 .testimonials cite::before {
