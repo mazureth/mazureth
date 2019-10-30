@@ -6,10 +6,7 @@
   <div class="main container-fluid">
 
     <section id="welcome" class="bg-black mixer">
-      <div class="logo-container">
-        <img src="https://cdn.mazureth.com/images/mazureth-logo-white.svg" class="img-fluid" alt="Mazureth Logo" />
-        <p class="trademark">&trade;</p>
-      </div>
+      <img src="https://cdn.mazureth.com/images/mazureth-logo-white.svg" class="img-fluid" alt="Mazureth Logo" />
     </section>
 
     <section id="about">
