@@ -296,7 +296,7 @@
 
         <hr />
 
-        <p>Mazureth Studios<br />12822 480th Ave SE<br /> North Bend, WA 98045</p>
+        <p>Mazureth Studios<br />480th Ave SE<br />North Bend, WA 98045</p>
         <p>(206) 395 - 9009</p>
         <p>info@mazureth.com</p>
 
