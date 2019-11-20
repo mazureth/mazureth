@@ -160,7 +160,7 @@
                 <strong>Commercial Services</strong>
               </div>
               <div class="card-body">
-                <p>Commercial services include voice overs, audio editing, cleanup, sound design and more.</p>
+                <p>Commercial services include voice overs, audio books, cleanup, sound design and more.</p>
                 <p class="rate"><sup><small>$</small></sup>65<span class="unit">/hour</span></p>
                 <p class="rate"><sup><small>$</small></sup>500<span class="unit">/day</span></p>
                 <a href="booking.php" class="btn btn-secondary">Book Now</a>
