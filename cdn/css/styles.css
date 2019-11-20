@@ -44,6 +44,11 @@ label {
   margin-top: 60px;
 }
 
+.btn-outline-light:hover, .btn-outline-dark:hover {
+  color: #fff;
+  background-color: #506eff;
+}
+
 .btn-link {
   color: #000;
   text-decoration: none;
@@ -159,6 +164,11 @@ section .social .btn {
 #about .card:hover {
   margin-top: -15px;
   box-shadow: 0px 15px 38px -10px rgba(0, 0, 0, .5);
+}
+
+#about .card:hover .btn-secondary {
+  background-color: #506eff;
+  color: #fff;
 }
 
 #clients .card {
