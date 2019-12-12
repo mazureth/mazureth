@@ -40,10 +40,10 @@
   <meta name="msapplication-TileColor" content="#da532c"/>
   <meta name="theme-color" content="#ffffff"/>
 
-  <link rel="canonical" href="http://www.mazureth.com" />
+  <link rel="canonical" href="https://www.mazureth.com" />
   <meta property="og:site_name" content="Mazureth Studios"/>
   <meta property="og:title" content="Mazureth Studios"/>
-  <meta property="og:url" content="http://www.mazureth.com"/>
+  <meta property="og:url" content="https://www.mazureth.com"/>
   <meta property="og:type" content="website"/>
   <meta property="og:description" content="Mazureth Studios is a music production studios in North Bend, WA that specializes tracking, mixing, mastering, and corporate production. With artists ranging from electronic to techincal death metal, we have you covered."/>
   <meta property="og:image" content="https://cdn.mazureth.com/images/og-image.jpg"/>
@@ -51,7 +51,7 @@
   <meta property="og:image:height" content="640"/>
 
   <meta itemprop="name" content="Mazureth Studios"/>
-  <meta itemprop="url" content="http://www.mazureth.com"/>
+  <meta itemprop="url" content="https://www.mazureth.com"/>
   <meta itemprop="description" content="Mazureth Studios is a music production studios in North Bend, WA that specializes tracking, mixing, mastering, and corporate production. With artists ranging from electronic to techincal death metal, we have you covered."/>
   <meta itemprop="thumbnailUrl" content="https://cdn.mazureth.com/images/og-image.jpg"/>
   <meta itemprop="image" content="https://cdn.mazureth.com/images/og-image.jpg"/>
@@ -59,7 +59,7 @@
 
   <meta name="twitter:title" content="Mazureth Studios"/>
   <meta name="twitter:image" content="https://cdn.mazureth.com/images/og-image.jpg"/>
-  <meta name="twitter:url" content="http://www.mazureth.com"/>
+  <meta name="twitter:url" content="https://www.mazureth.com"/>
   <meta name="twitter:card" content="summary"/>
   <meta name="twitter:description" content="Mazureth Studios is a music production studios in North Bend, WA that specializes tracking, mixing, mastering, and corporate production. With artists ranging from electronic to techincal death metal, we have you covered."/>
 
