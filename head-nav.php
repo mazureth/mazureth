@@ -19,7 +19,7 @@
           head = document.querySelector('head'),
           metaTag = document.querySelector("head meta[charset='utf-8']");
 
-      if (window.location.origin === 'file://' || window.location.hostname === '127.0.0.1') {
+      if (window.location.host.indexOf('localhost') > -1) {
         cssHref = 'cdn/css/styles.css';
       } else {
         cssHref = 'https://cdn.mazureth.com/css/styles.css';

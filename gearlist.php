@@ -43,7 +43,11 @@
                 <li>Cubase 9.5 Pro</li>
                 <li>Behringer X32</li>
                 <li>Motu 828 MK3</li>
-                <li>Custom Built PC 32 Gig Ram Quad Core Intel Processor</li>
+                <li>Custom Built PC
+                <ul>
+                  <li>32 Gig Ram</li>
+                  <li>Quad Core Intel Processor</li>
+                </ul>
                 <li>Terabyte Solid State Drives<li>
               </ul>
             </div>
@@ -62,7 +66,7 @@
             <div class="card-body">
               <ul>
                 <li>Event 20/20</li>
-                <li>Visio 42" Display</li>
+                <li>Sony 55" Display</li>
                 <li>Behringer Powerplay P1</li>
               </ul>
             </div>
@@ -131,7 +135,11 @@
                 <li>PreSonus BlueTube Stereo Tube Preamp (2 inputs)</li>
                 <li>DBX 131S</li>
                 <li>BBE Sonic Maximizer 882i</li>
-                <li>Waves Sibilance De-Esser</li>
+                <li>Waves PuigTec EQ</li>
+                <li>Waves Abbey Road TG Master Chain</li>
+                <li>Waves SSL 4000 EQ</li>
+                <li>Audio Assault Multi Transient</li>
+                <li>Audio Assault D-Rez</li>
               </ul>
             </div>
           </div>
@@ -150,10 +158,16 @@
               <ul>
                 <li>Alesis 3630 Compressor (2)</li>
                 <li>Rocktron HUSH Super C</li>
+                <li>Waves Abbey Road TG Master Chain</li>
                 <li>Waves Linear Phase Multiband Compressor</li>
+                <li>Waves Renaissance Compressor</li>
+                <li>Waves Sibilance De-Esser</li>
                 <li>Waves L3 Ultramaximizer</li>
                 <li>Waves UA LA-2A</li>
                 <li>Waves DBX 160A</li>
+                <li>Audio Assault HQ-2</li>
+                <li>Audio Assault The Punch</li>
+                <li>Audio Assault T-Comp</li>
               </ul>
             </div>
           </div>
@@ -277,8 +291,14 @@
             <div class="card-body">
               <ul>
                 <li>Waves SSL 4000 Collection</li>
+                <li>Waves Abbey Road TG Master Chain</li>
                 <li>Waves Linear Phase Multiband Compressor</li>
+                <li>Waves Renaissance Compressor</li>
+                <li>Waves Sibilance De-Esser</li>
+                <li>Waves PuigTec EQ</li>
                 <li>Waves L3 Ultramaximizer</li>
+                <li>Waves UA LA-2A</li>
+                <li>Waves DBX 160A</li>
                 <li>Waves Morphoder<li>
                 <li>VST Guitar Amp</li>
                 <li>VST Bass Amp</li>
