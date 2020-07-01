@@ -300,21 +300,21 @@ var works = [
     jobType: "Full Production"
   },
   {
-    artistName: "The Divide Comedy Club",
+    artistName: "Divide Comedy Club",
     albumName: "Nothing Cool Happens In Heaven (Single)",
     description: "Seattle based atmosphereic and psychadelic band's second single release, fronted by a powerful female vocalist.",
     coverArt: "https://cdn.mazureth.com/images/artists/dcc_-_heaven.JPG",
-    artistLink: "",
-    albumLink: "",
+    artistLink: "https://open.spotify.com/artist/0V3wNDGlwNMLVEaLXaUohT",
+    albumLink: "https://open.spotify.com/album/3knh0sDKjE63NkxLLz27rY?si=4tq55k50RYaLaMh76b6lcA",
     jobType: "Full Production"
   },
   {
-    artistName: "The Divide Comedy Club",
+    artistName: "Divide Comedy Club",
     albumName: "Out For Launch (Single)",
     description: "Seattle based atmosphereic and psychadelic band's first single release, fronted by a powerful female vocalist.",
     coverArt: "https://cdn.mazureth.com/images/artists/dcc_-_launch.JPG",
-    artistLink: "",
-    albumLink: "",
+    artistLink: "https://open.spotify.com/artist/0V3wNDGlwNMLVEaLXaUohT",
+    albumLink: "https://open.spotify.com/album/4kdDONVqMXR8XP3IchLR85",
     jobType: "Full Production"
   },
   {

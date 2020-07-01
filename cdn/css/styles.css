@@ -213,6 +213,10 @@ section .social .btn {
   transform: translate(100%, 0);
 }
 
+#gear ul > li > ul > li {
+  margin-left: 10px;
+}
+
 .card-body ul {
   list-style: none;
   padding: 0;
