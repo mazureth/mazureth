@@ -131,12 +131,15 @@
           </div>
           <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
             <div class="card-body">
+              <h6>Preamps</h6>
               <ul>
                 <li>Behringer X32 - Midas (32 inputs)</li>
                 <li>Behringer S32 - Midas (32 inputs)</li>
                 <li>Motu 828 MK3 (10 inputs)</li>
                 <li>PreSonus BlueTube Stereo Tube Preamp (2 inputs)</li>
-                <li>&nbsp;</li>
+              </ul>
+              <h6>Equializers</h6>
+              <ul>
                 <li>BBE Sonic Maximizer 882i</li>
                 <li>DBX 131S</li>
                 <li>&nbsp;</li>
