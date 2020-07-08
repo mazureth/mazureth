@@ -140,9 +140,16 @@
                 <li>BBE Sonic Maximizer 882i</li>
                 <li>DBX 131S</li>
                 <li>&nbsp;</li>
+                <li>Acustica Coffee the Pun</li>
+                <li>Acustica Coral Baxter</li>
+                <li>Acustica Titanium 3 Basstard</li>
+                <li>&nbsp;</li>
                 <li>Audio Assault Multi Transient</li>
                 <li>Audio Assault D-Rez</li>
+                <li>&nbsp;</li>
                 <li>TDR Nova</li>
+                <li>TDR VOS SlickEQ</li>
+                <li>&nbsp;</li>
                 <li>Waves Abbey Road TG Master Chain</li>
                 <li>Waves PuigTec EQ</li>
                 <li>Waves Scheps 73</li>
@@ -165,9 +172,18 @@
               <ul>
                 <li>Alesis 3630 Compressor (2)</li>
                 <li>&nbsp;</li>
+                <li>Acustica Tan</li>
+                <li>&nbsp;</li>
                 <li>Audio Assault HQ-2</li>
                 <li>Audio Assault The Punch</li>
                 <li>Audio Assault T-Comp</li>
+                <li>&nbsp;</li>
+                <li>Klanghelm DC1A3</li>
+                <li>Klanghelm MJUCjr</li>
+                <li>&nbsp;</li>
+                <li>Pulsar Smasher</li>
+                <li>&nbsp;</li>
+                <li>TDR Kotelnikcov</li>
                 <li>&nbsp;</li>
                 <li>Waves Abbey Road TG Master Chain</li>
                 <li>Waves CLA-2A</li>
@@ -196,9 +212,20 @@
           <div id="collapseThirteen" class="collapse" aria-labelledby="headingThirteen" data-parent="#accordion">
             <div class="card-body">
               <ul>
+                <li>Digitech TSR-12</li> 
                 <li>Korg SDD-3000 Digital Delay</li>
                 <li>Line 6 POD (Kidney Bean)</li>
                 <li>Rocktron HUSH Super C</li>
+                <li>&nbsp;</li>
+                <li>Ignite Amps TS-999 (TS-9 Tube Screamer)</li>
+                <li>Ignite Amps TS-B (TS-808 Tube Screamer)</li>
+                <li>&nbsp;</li>
+                <li>iZotope Stutter Edit 2</li>
+                <li>iZotope Trash 2</li>
+                <li>&nbsp;</li>
+                <li>Klanghelm IVGI Saturator</li>
+                <li>&nbsp;</li>
+                <li>Nick Crown Tube Driver</li>
                 <li>&nbsp;</li>
                 <li>Waves Berzerk Distortion</li>
                 <li>Waves J37 Tape</li>
@@ -256,8 +283,12 @@
                 <li>Marshall Lead 1960A</li>
                 <li>&nbsp;</li>
                 <li>Ignite Amps Emissary</li>
-                <li>Nick Crow 8505</li>
+                <li>Ignite NadIR Loader</li>
+                <li>&nbsp;</li>
                 <li>Nick Crow 7170</li>
+                <li>Nick Crow 8505</li>
+                <li>Nick Sharp Wagnar Sharp</li>
+                <li>&nbsp;</li>
                 <li>Steinberg VST Guitar Amp</li>
                 <li>Steinberg VST Bass Amp</li>
                 <li>
@@ -291,8 +322,10 @@
                 <li>Zildjian ZBT Plus 14" Hi-Hats</li>
                 <li>Zildjian Sweet Ride 21" Ride</li>
                 <li>&nbsp;</li>
-                <li>Superior Drummer 3</li>
-                <li>EZ Drummer 2</li>
+                <li>iZotope Breaktweaker</li>
+                <li>&nbsp;</li>
+                <li>Tunetracks EZ Drummer 2</li>
+                <li>Tunetracks Superior Drummer 3</li>
               </ul>
             </div>
           </div>
@@ -310,17 +343,22 @@
             <div class="card-body">
               <ul>
                 <li>Alesis V49 Midi Confroller</li>
-                <li>EZ Drummer 2</li>
-                <li>Groove Agent SE 4</li>
-                <li>HALion Sonic SE 3</li>
-                <li>LoopMash 2</li>
-                <li>Metal Machine Drums</li>
-                <li>Mystic</li>
-                <li>Padshop</li>
-                <li>Prologue</li>
-                <li>Retrologue 2</li>
-                <li>Spector</li>
-                <li>Superior Drummer 3</li>
+                <li>&nbsp;</li>
+                <li>iZotope Iris 2</li>
+                <li>&nbsp;</li>
+                <li>Steinberg Groove Agent SE 4</li>
+                <li>Steinberg HALion Sonic SE 3</li>
+                <li>Steinberg LoopMash 2</li>
+                <li>Steinberg Mystic</li>
+                <li>Steinberg Padshop</li>
+                <li>Steinberg Prologue</li>
+                <li>Steinberg Retrologue 2</li>
+                <li>Steinberg Spector</li>
+                <li>&nbsp;</li>
+                <li>Tunetracks EZ Drummer 2</li>
+                <li>Tunetracks Metal Machine Drums</li>
+                <li>Tunetracks Superior Drummer 3</li>
+                <li>&nbsp;</li>
                 <li>Waves Morphoder<li>
               </ul>
             </div>
@@ -343,6 +381,14 @@
                 <li>Audio Assault T-Comp</li>
                 <li>Audio Assault Multi Transient</li>
                 <li>Audio Assault D-Rez</li>
+                <li>&nbsp;</li>
+                <li>iZotope Breaktweaker</li>
+                <li>iZotope Iris</li>
+                <li>iZotope Nectar</li>
+                <li>iZotope Neutron</li>
+                <li>iZotope Ozone</li>
+                <li>iZotope RX-7</li>
+                <li>iZotope Stutter</li>
                 <li>&nbsp;</li>
                 <li>Waves Abbey Road TG Master Chain</li> 
                 <li>Waves Berzerk Distortion</li>
