@@ -74,7 +74,7 @@
             <div class="container">
               <h4>Tracking</h4>
               <p>
-                We have a large acoustingly tuned live room, an isolation booth, and a plethora
+                We have a large acoustingly tuned live room, a state of the art control room, and a plethora
                 if microphones, guitars, and amps at your disposal on top of whatever you bring with you.
                 We also have several digital instruments and midi controllers as well.
               </p>
@@ -121,9 +121,9 @@
                 <strong>Studio Sessions</strong>
               </div>
               <div class="card-body">
-                <p>Studio sessions include the use of our entire facility: live room, isolation booths, and control room. </p>
+                <p>Studio sessions include the use of our entire facility: the live room, control room, and studio gear. </p>
                 <p class="rate"><sup><small>$</small></sup>50<span class="unit">/hour</span></p>
-                <p class="rate"><sup><small>$</small></sup>350<span class="unit">/day</span></p>
+                <p class="rate"><sup><small>$</small></sup>350<span class="unit">/day<sup>*</sup></span></p>
                 <a href="booking.php" class="btn btn-secondary">Book Now</a>
               </div>
             </div>
@@ -162,19 +162,23 @@
               <div class="card-body">
                 <p>Commercial services include voice overs, audio books, cleanup, sound design and more.</p>
                 <p class="rate"><sup><small>$</small></sup>65<span class="unit">/hour</span></p>
-                <p class="rate"><sup><small>$</small></sup>500<span class="unit">/day</span></p>
+                <p class="rate"><sup><small>$</small></sup>500<span class="unit">/day<sup>*</sup></span></p>
                 <a href="booking.php" class="btn btn-secondary">Book Now</a>
               </div>
             </div>
           </div>
         </div>
         <div>
-        <p class="footnote"><sup>†</sup> The $200 song rate for mixing assumes that you will send us the multitrack
-          and accept what we return with 2 or 3 rounds of feedback. For a more involved post-production process we will
-          assume the hourly rate or work out a special deal with the client.</p>
+        <p class="footnote"><sup>*</sup> One billable day is 9 ½ hours and includes a 1 hour break for lunch as
+          well as two 15 minute "ear fatigue" breaks for the engineer. Typically the engineer is never sitting for
+          more than 2 consecutive hours. Any time beyond 9 ½ hours will be billed at the hourly rate.</p>
 
-        <p class="footnote"><sup>§</sup> The $750 LP flat rate assumes that the LP has a length of about 45 minutes
-          or 10 - 12 songs. Anything outside of that range will require us to use the  per song rate or work out a
+        <p class="footnote"><sup>†</sup> The $200 song rate for mixing assumes that you will send us the multitrack
+          and accept what we return with a maximum 3 rounds of feedback. For a more involved post-production process
+          we will assume the hourly rate or work out a special deal with the client.</p>
+
+        <p class="footnote"><sup>§</sup> The $750 LP flat rate assumes that the LP has a length of approx. 45 minutes
+          or 12 songs. Anything outside of that range will require us to use the per song rate or work out a
           speical deal with the client.</p>
         </div>
       </div>
@@ -242,17 +246,22 @@
           <div class="col-sm">
             <a href="https://www.facebook.com/anthroceneband/" target="_blank" rel="noreferrer">
               <figure class="figure">
-                <img src="https://cdn.mazureth.com/images/artists/anthrocene.jpg" class="figure-image img-fluid rounded artist-image" alt="Anthrocene - Nucleation">
+                <img src="https://cdn.mazureth.com/images/artists/castle-dwellers.jpg" class="figure-image img-fluid rounded artist-image" alt="Castle Dwellers - Like the Waving Sea">
               </figure>
             </a>
           </div>
           <div class="col-sm">
-            <iframe src="https://open.spotify.com/embed/album/1rZ0TSTy1MJpyL17ZLNxAb" width="100%" height="350" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe src="https://open.spotify.com/embed/album/5Ry7lYkRmmtkYa00lPAje0" width="350" height="350" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
           </div>
           <div class="col-sm text-justify">
-            <h3>Anthrocene</h3>
+            <h3>Castle Dwellers</h3>
             <p>
-              Hailing from Seattle, Anthrocene has accumulated a sonic arsenal that draws elements from wide-ranging influences across many metal subgenres, while maintaining a consistent sound and style. Anthrocene performances take listeners on a journey spanning from blackened thrash bangers to neo-classical power metal anthems to melodeath breakdowns. In support of this musical variety, the lyrical content draws from a cautionary world created by singer Boris Sagal, featuring cosmic perils, nihilistic lumberjacks, Slavic oligarchs, space travel, and mole people.
+              Castle Dwellers were a Seattle based sunshine rock band, fronted by singer, songwriter, and multi-instrumentalist
+              Jared Hauser who is accompanied by guitarist James Haagenson, bassist Boris Sagal, and
+              drummer Alex Folkerth. Their musical style spaned a broad spectrum ranging from slow blues grooves to power pop,
+              but with a common denominator that seemed to tie it all togehter. This album marked the bands 
+              final release as life took many of its members in different directions. Jared and Boris continue to have 
+              a presence in other Seattle outfits High Romantics and Anthrocene respectively.
             </p>
           </div>
         </div>
@@ -265,9 +274,8 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <p class="lead">
-                <em>"Listens to your suggestions when the tracks are being produced and makes the recording
-                  process super easy and simple! Would definitely recommend this place if you are looking to go
-                  a step further with your music."</em>
+                <em>"Listens to your suggestions and makes the recording process super easy and simple!
+                  Would definitely recommend this place!"</em>
               </p>
               <cite title="Julian Forester - 400.40">Julian Forester (400.40)</cite>
             </div>
@@ -313,7 +321,7 @@
         </p>
 
       </div>
-      <p class="copyright">&copy; 2018 - <? echo date("Y"); ?> Mazureth LLC. All Rights Reserved</p>
+      <p class="copyright">&copy; 2003 - <? echo date("Y"); ?> Mazureth LLC. All Rights Reserved</p>
     </section>
 
   </div>

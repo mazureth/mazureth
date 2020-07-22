@@ -292,11 +292,11 @@ var works = [
   },
   {
     artistName: "Castle Dwellers",
-    albumName: "??? (LP)",
+    albumName: "Like the Waving Sea",
     description: "Catchy guitar driven indie rock with obvious blues influences",
     coverArt: "https://cdn.mazureth.com/images/artists/castle-dwellers.jpg",
     artistLink: "https://open.spotify.com/artist/4Lb6DpAcqn6Y21HkOsjyHA?si=3U0MPlssQxKHFqe5MP16ZA",
-    albumLink: "",
+    albumLink: "https://open.spotify.com/album/5Ry7lYkRmmtkYa00lPAje0?si=zhoVk5-JT-yHRl09jY82tw",
     jobType: "Full Production"
   },
   {
