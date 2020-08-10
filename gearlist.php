@@ -40,7 +40,7 @@
           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
             <div class="card-body">
               <ul>
-                <li>Cubase 9.5 Pro</li>
+                <li>Cubase Pro 10.5</li>
                 <li>&nbsp;</li>
                 <li>Behringer X32</li>
                 <li>Motu 828 MK3</li>
@@ -288,8 +288,14 @@
                 <li>Ignite Amps Emissary</li>
                 <li>Ignite NadIR Loader</li>
                 <li>&nbsp;</li>
-                <li>Nick Crow 7170</li>
-                <li>Nick Crow 8505</li>
+                <li>NaLex J800 (Marshal JCM 800 Sim)</li>
+                <li>NaLex Crunshman (Friedman Sim)</li>
+                <li>NaLex Gerbert (Diezel Sim)</li>
+                <li>NaLex Ninja</li>
+                <li>NaLex Pectifier (Mesa Boogie Dual Rectifier Sim)</li>
+                <li>&nbsp;</li>
+                <li>Nick Crow 7170 (Peavey 5150 Sim)</li>
+                <li>Nick Crow 8505 (Peavey 6505 Sim)</li>
                 <li>Nick Sharp Wagnar Sharp</li>
                 <li>&nbsp;</li>
                 <li>Steinberg VST Guitar Amp</li>
@@ -311,19 +317,22 @@
           <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion">
             <div class="card-body">
               <ul>
+                <li>Axis Longboards X Double Pedal with Microtune</li>
+                <li>&nbsp;</li>
                 <li>Meinl HCS 14" Hi-Hats</li>
                 <li>Meinl HCS 20" Ride</li>
                 <li>Meinl HCS 16" Crash</li>
                 <li>Meinl HCS 18" Crash</li>
                 <li>Meinl HCS 16" China</li>
                 <li>Meinl HCS 10" Splash</li>
+                <li>Zildjian ZBT Plus 14" Hi-Hats</li>
+                <li>Zildjian Sweet Ride 21" Ride</li>
+                <li>&nbsp;</li>
                 <li>Pearl Session Custom 22" Kick</li>
                 <li>Pearl Session Custom 12" Tom</li>
                 <li>Pearl Session Custom 13" Tom</li>
                 <li>Pearl Session Custom 16" Tom</li>
-                <li>Tama Stagestar 13" Snare (Steel)</li>
-                <li>Zildjian ZBT Plus 14" Hi-Hats</li>
-                <li>Zildjian Sweet Ride 21" Ride</li>
+                <li>Tama Stagestar 14" Snare (Steel)</li>
                 <li>&nbsp;</li>
                 <li>iZotope Breaktweaker</li>
                 <li>&nbsp;</li>
