@@ -247,8 +247,8 @@ section .social .btn {
 }
 
 .footnote {
-  font-size: .8em;
+  font-size: .5em;
   color: #9e9e9e;
   text-align: left;
-  margin: 1rem 0;
+  margin: .5rem 0 0;
 }

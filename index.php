@@ -170,16 +170,13 @@
         </div>
         <div>
         <p class="footnote"><sup>*</sup> One billable day is 9 ½ hours and includes a 1 hour break for lunch as
-          well as two 15 minute "ear fatigue" breaks for the engineer. Typically the engineer is never sitting for
-          more than 2 consecutive hours. Any time beyond 9 ½ hours will be billed at the hourly rate.</p>
+          well as two 15 minute "ear fatigue" breaks for the engineer.</p>
 
         <p class="footnote"><sup>†</sup> The $200 song rate for mixing assumes that you will send us the multitrack
-          and accept what we return with a maximum 3 rounds of feedback. For a more involved post-production process
-          we will assume the hourly rate or work out a special deal with the client.</p>
+          and accept what we return with 3 rounds of feedback.</p>
 
-        <p class="footnote"><sup>§</sup> The $750 LP flat rate assumes that the LP has a length of approx. 45 minutes
-          or 12 songs. Anything outside of that range will require us to use the per song rate or work out a
-          speical deal with the client.</p>
+        <p class="footnote"><sup>§</sup> The $750 LP flat rate assumes that the LP has a length of approximately 45
+          minutes or 12 songs, whichever is reached first.</p>
         </div>
       </div>
     </section>
