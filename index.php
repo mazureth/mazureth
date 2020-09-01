@@ -9,7 +9,7 @@
       <img src="https://cdn.mazureth.com/images/mazureth-logo-white.svg" class="img-fluid" alt="Mazureth Logo" />
     </section>
 
-    <section id="about">
+    <section id="about" class="subSectionStart">
       <div class="container">
         <h1>ABOUT</h1>
         <div class="row">
@@ -41,8 +41,12 @@
             </blockquote>
           </div>
         </div>
+      </div>
+    </section>
 
-        <h2 id="services">SERVICES</h2>
+    <section id="services" class="subSection">
+      <div class="container">
+        <h2 id="">SERVICES</h2>
         <ul class="nav nav-tabs nav-justified" id="services" role="tablist">
           <li class="nav-item">
             <a class="nav-link active" id="recording-tab" data-toggle="tab" href="#recording" role="tab" aria-controls="home" aria-selected="true">
@@ -111,9 +115,12 @@
             </div>
           </div>
         </div>
+      </div>
+    </section>
 
-        <h2 id="rates">RATES</h2>
-
+    <section id="rates" class="subSectionEnd">
+      <div class="container">
+        <h2 id="">RATES</h2>
         <div class="row">
           <div class="col">
             <div class="card">
@@ -123,7 +130,7 @@
               <div class="card-body">
                 <p>Studio sessions include the use of our entire facility: the live room, control room, and studio gear. </p>
                 <p class="rate"><sup><small>$</small></sup>50<span class="unit">/hour</span></p>
-                <p class="rate"><sup><small>$</small></sup>350<span class="unit">/day<sup>*</sup></span></p>
+                <p class="rate"><sup><small>$</small></sup>475<span class="unit">/day<sup>*</sup></span></p>
                 <a href="booking.php" class="btn btn-secondary">Book Now</a>
               </div>
             </div>
@@ -136,7 +143,7 @@
               <div class="card-body">
                 <p>Mixing service includes importing your files into our DAW plus the use of our control room.</p>
                 <p class="rate"><sup><small>$</small></sup>50<span class="unit">/hour</span></p>
-                <p class="rate"><sup><small>$</small></sup>200<span class="unit">/song<sup>†</sup></span></p>
+                <p class="rate"><sup><small>$</small></sup>250<span class="unit">/song<sup>†</sup></span></p>
                 <a href="booking.php" class="btn btn-secondary">Book Now</a>
               </div>
             </div>
@@ -162,20 +169,20 @@
               <div class="card-body">
                 <p>Commercial services include voice overs, audio books, cleanup, sound design and more.</p>
                 <p class="rate"><sup><small>$</small></sup>65<span class="unit">/hour</span></p>
-                <p class="rate"><sup><small>$</small></sup>500<span class="unit">/day<sup>*</sup></span></p>
+                <p class="rate"><sup><small>$</small></sup>625<span class="unit">/day<sup>*</sup></span></p>
                 <a href="booking.php" class="btn btn-secondary">Book Now</a>
               </div>
             </div>
           </div>
         </div>
         <div>
-        <p class="footnote"><sup>*</sup> One billable day is 9 ½ hours and includes a 1 hour break for lunch as
+        <p class="footnote"><sup>*</sup> One billable day is 10 hours and includes a 1 hour break for lunch as
           well as two 15 minute "ear fatigue" breaks for the engineer.</p>
 
-        <p class="footnote"><sup>†</sup> The $200 song rate for mixing assumes that you will send us the multitrack
+        <p class="footnote"><sup>†</sup> The song rate for mixing assumes that you will send us the multitrack
           and accept what we return with 3 rounds of feedback.</p>
 
-        <p class="footnote"><sup>§</sup> The $750 LP flat rate assumes that the LP has a length of approximately 45
+        <p class="footnote"><sup>§</sup> The LP flat rate assumes that the LP has a length of approximately 45
           minutes or 12 songs, whichever is reached first.</p>
         </div>
       </div>

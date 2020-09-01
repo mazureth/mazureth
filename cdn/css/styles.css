@@ -99,6 +99,21 @@ section {
   min-height: 100vh;
   position: relative;
 }
+section.subSectionStart {
+  padding-top: 80px;
+  padding-bottom: 0;
+  min-height: 0;
+}
+section.subSection {
+  padding-top: 0;
+  padding-bottom: 0;
+  min-height: 0;
+}
+section.subSectionEnd {
+  padding-top: 0;
+  padding-bottom: 40px;
+  min-height: 0;
+}
 
 .mixer {
   background-image: url(../images/mixer.jpeg);

@@ -319,7 +319,7 @@ var works = [
   },
   {
     artistName: "Glen Ridge",
-    albumName: "Glen Ridge (LP)",
+    albumName: "All The Things (LP)",
     description: "Folky bluegrass musings of singer/songwriter Glen Ridge.",
     coverArt: "https://cdn.mazureth.com/images/artists/glen_ridge.png",
     artistLink: "",
