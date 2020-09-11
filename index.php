@@ -248,24 +248,23 @@
         </p>
         <div class="row">
           <div class="col-sm">
-            <a href="https://www.facebook.com/anthroceneband/" target="_blank" rel="noreferrer">
+            <a href="https://www.facebook.com/AlpenglowSeattle/" target="_blank" rel="noreferrer">
               <figure class="figure">
-                <img src="https://cdn.mazureth.com/images/artists/castle-dwellers.jpg" class="figure-image img-fluid rounded artist-image" alt="Castle Dwellers - Like the Waving Sea">
+                <img src="https://cdn.mazureth.com/images/artists/AlpenglowMountainTime.jpg" class="figure-image img-fluid rounded artist-image" alt="Alpenglow - Mountain Time">
               </figure>
             </a>
           </div>
           <div class="col-sm">
-            <iframe src="https://open.spotify.com/embed/album/5Ry7lYkRmmtkYa00lPAje0" width="350" height="350" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe src="https://open.spotify.com/embed/album/1aucdFj58YlUALfS3p3ru4" width="350" height="350" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
           </div>
           <div class="col-sm text-justify">
-            <h3>Castle Dwellers</h3>
+            <h3>Alpenglow</h3>
             <p>
-              Castle Dwellers were a Seattle based sunshine rock band, fronted by singer, songwriter, and multi-instrumentalist
-              Jared Hauser who is accompanied by guitarist James Haagenson, bassist Boris Sagal, and
-              drummer Alex Folkerth. Their musical style spaned a broad spectrum ranging from slow blues grooves to power pop,
-              but with a common denominator that seemed to tie it all togehter. This album marked the bands 
-              final release as life took many of its members in different directions. Jared and Boris continue to have 
-              a presence in other Seattle outfits High Romantics and Anthrocene respectively.
+              Hailing from Seattle, Aplenglow is a bluegrass trio that seeks to re-imagine the genre by blending a classic, 
+              acoustic foundation with rhythmic and melodic flavors normally seen in rock, pop, and dance music. Their songs take
+              the listener on a musical journey that has roots in Americana with story-like lyrical content. Long instrumental
+              interludes throughout add a progressive element that musicians are drawn too but keep the average listener engaged.
+              The three piece includes Jacob Lamonaco on guitar, Boris Sagal on mandolin, and Keith Wyss on upright bass.
             </p>
           </div>
         </div>
