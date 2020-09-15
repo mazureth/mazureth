@@ -6,12 +6,11 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'UA-15886975-2');
   </script>
-  
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
-  <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet"/>
+  <link rel="preload" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet';this.media='screen'">
+  <link rel="preload" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet';this.media='screen';">
+
   <script>
     (function() {
       var cssTag = document.createElement('link');
@@ -67,7 +66,6 @@
   <meta name="keywords" content="north bend recoring studio, music recording studio, recording studio, audio mixing, mastering, audio recording, mazureth, mazureth studios, jesse mazur, audio production, record producer, recoding stuiod in north bend, seattle, bellevue"/>
   <title>Mazureth Studios | Music Recording Studio in North Bend, WA</title>
 
-  <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body>
 

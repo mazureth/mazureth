@@ -1,9 +1,19 @@
 $(function() {
 
+// WebP detection for older browsers
+function canUseWebP() {
+  var elem = document.createElement('canvas');
+  if (!!(elem.getContext && elem.getContext('2d'))) {
+      return elem.toDataURL('image/webp').indexOf('data:image/webp') == 0;
+  }
+  return false;
+}
+
 var $window = $(window),
     $mixer = $('.mixer'),
     $mainSection = $('.main section'),
-    $navbarNav = $('#navbarNav');
+    $navbarNav = $('#navbarNav'),
+    webpSupported = canUseWebP();
 
 // nav clicks for active 'tab'
 $('.navbar .nav-item, .navbar .navbar-brand').on('click', function(e){
@@ -181,6 +191,9 @@ if ($clients.length) {
       artistLink = works[i].artistLink,
       albumLink = works[i].albumLink,
       jobType = works[i].jobType,
+      extension = webpSupported
+                ? 'webp'
+                : 'jpg',
       host = (window.location.host.indexOf('localhost') > -1)
            ? 'http://localhost:9000/cdn/'
            : 'https://cdn.mazureth.com/';
@@ -204,7 +217,7 @@ if ($clients.length) {
         </div>`;
 
     template += coverArt.length
-      ? `<img class="card-img-top" src="${host}${coverArt}" alt="${artistName} - ${albumName}">`
+      ? `<img class="card-img-top" src="${host}${coverArt}${extension}" alt="${artistName} - ${albumName}">`
       : ``;
 
     template += `</div></div>`;
@@ -227,6 +240,18 @@ if ($clients.length) {
 
 }
 
+// replace webp with jpg when not supported
+if (!webpSupported) {
+  // grabs all images tags on the page and changes the extension
+  $('img[src$=".webp"]').each(function(){
+    var src = this.src;
+    src = src.replace('webp', 'jpg');
+    this.src = src;
+  });
+  // adds a class to the mixer window to use diferent background image
+  $('#welcome').addClass('noWebp');
+}
+
 });
 
 var works = [
@@ -234,7 +259,7 @@ var works = [
     artistName: "27 South",
     albumName: "27 South (LP)",
     description: "27 South was a southern heavy metal band from Tallahassee, FL. 'Pantera riffs and Slayer speeds'",
-    coverArt: "images/artists/27_South.jpg",
+    coverArt: "images/artists/27_South.",
     artistLink: "",
     albumLink: "",
     jobType: "Full Production"
@@ -243,7 +268,7 @@ var works = [
     artistName: "400.40",
     albumName: "MMXVII (EP)",
     description: "Follow up to the bands debut EP release, this released explored a wider range of musical styles dipping into blues and hip hop.",
-    coverArt: "images/artists/400.40_-_MMXVII.jpg",
+    coverArt: "images/artists/400.40_-_MMXVII.",
     artistLink: "",
     albumLink: "https://soundcloud.com/the40040official/sets/mmxvii",
     jobType: "Full Production"
@@ -252,7 +277,7 @@ var works = [
     artistName: "400.40",
     albumName: "Wasted Time (EP)",
     description: "Seattle piano driven indie rock with hints of jass and hip hop.",
-    coverArt: "images/artists/400.40_-_Wasted_Time.jpg",
+    coverArt: "images/artists/400.40_-_Wasted_Time.",
     artistLink: "",
     albumLink: "https://soundcloud.com/the40040official/sets/wasted-time",
     jobType: "Full Production"
@@ -261,7 +286,7 @@ var works = [
     artistName: "Alpenglow",
     albumName: "Mountain Time (EP)",
     description: "Seattle based progressive bluegrass band that has just hit the scene, they wanted a demo to send to venues for booking.",
-    coverArt: "images/artists/AlpenglowMountainTime.jpg",
+    coverArt: "images/artists/AlpenglowMountainTime.",
     artistLink: "https://www.facebook.com/AlpenglowSeattle/",
     albumLink: "https://open.spotify.com/album/1aucdFj58YlUALfS3p3ru4?si=dKaG-qGVQRam0bO489NAww",
     jobType: "Full Production"
@@ -270,7 +295,7 @@ var works = [
     artistName: "Anthrocene",
     albumName: "Nucleation (LP)",
     description: "Seattle based power thrash metal that takes listeners on a wild journey of fiction centering around a fire wielding demon",
-    coverArt: "images/artists/anthrocene.jpg",
+    coverArt: "images/artists/anthrocene.",
     artistLink: "https://www.facebook.com/anthroceneband/",
     albumLink: "https://open.spotify.com/album/1rZ0TSTy1MJpyL17ZLNxAb?si=qMPs6hXdTuqAVABHtVZxwA",
     jobType: "Tracking"
@@ -279,7 +304,7 @@ var works = [
     artistName: "The Avenue",
     albumName: "8-Track Diaries (EP)",
     description: "Tallahassee based indie emo punk rock",
-    coverArt: "images/artists/avenue_1.jpg",
+    coverArt: "images/artists/avenue_1.",
     artistLink: "",
     albumLink: "",
     jobType: "Full Production"
@@ -288,7 +313,7 @@ var works = [
     artistName: "The Avenue",
     albumName: "The Process of Eliminating Options (LP)",
     description: "The Avenue's first (and only) full length album with catchy riffs and clever lyrics that defined this era of power pop punk",
-    coverArt: "images/artists/avenue_2.jpg",
+    coverArt: "images/artists/avenue_2.",
     artistLink: "",
     albumLink: "",
     jobType: "Full Production"
@@ -297,7 +322,7 @@ var works = [
     artistName: "Castle Dwellers",
     albumName: "Like the Waving Sea",
     description: "Catchy guitar driven indie rock with obvious blues influences",
-    coverArt: "images/artists/castle-dwellers.jpg",
+    coverArt: "images/artists/castle-dwellers.",
     artistLink: "https://open.spotify.com/artist/4Lb6DpAcqn6Y21HkOsjyHA?si=3U0MPlssQxKHFqe5MP16ZA",
     albumLink: "https://open.spotify.com/album/5Ry7lYkRmmtkYa00lPAje0?si=zhoVk5-JT-yHRl09jY82tw",
     jobType: "Full Production"
@@ -306,7 +331,7 @@ var works = [
     artistName: "Divide Comedy Club",
     albumName: "Nothing Cool Happens In Heaven (Single)",
     description: "Seattle based atmosphereic and psychadelic band's second single release, fronted by a powerful female vocalist.",
-    coverArt: "images/artists/dcc_-_heaven.JPG",
+    coverArt: "images/artists/dcc_-_heaven.",
     artistLink: "https://open.spotify.com/artist/0V3wNDGlwNMLVEaLXaUohT",
     albumLink: "https://open.spotify.com/album/3knh0sDKjE63NkxLLz27rY?si=4tq55k50RYaLaMh76b6lcA",
     jobType: "Full Production"
@@ -315,7 +340,7 @@ var works = [
     artistName: "Divide Comedy Club",
     albumName: "Out For Launch (Single)",
     description: "Seattle based atmosphereic and psychadelic band's first single release, fronted by a powerful female vocalist.",
-    coverArt: "images/artists/dcc_-_launch.JPG",
+    coverArt: "images/artists/dcc_-_launch.",
     artistLink: "https://open.spotify.com/artist/0V3wNDGlwNMLVEaLXaUohT",
     albumLink: "https://open.spotify.com/album/4kdDONVqMXR8XP3IchLR85",
     jobType: "Full Production"
@@ -324,7 +349,7 @@ var works = [
     artistName: "Glen Ridge",
     albumName: "All The Things (LP)",
     description: "Folky bluegrass musings of singer/songwriter Glen Ridge.",
-    coverArt: "images/artists/glen_ridge.png",
+    coverArt: "images/artists/glen_ridge.",
     artistLink: "",
     albumLink: "",
     jobType: "Full Production"
@@ -333,7 +358,7 @@ var works = [
     artistName: "Luna Nova",
     albumName: "What are you, gay? (EP)",
     description: "Trip hop, jazztronic, downtemp songs about coming out as a non-binary",
-    coverArt: "images/artists/lunanova.jpg",
+    coverArt: "images/artists/lunanova.",
     artistLink: "",
     albumLink: "",
     jobType: "Full Production"
@@ -342,7 +367,7 @@ var works = [
     artistName: "Miners Work",
     albumName: "Miners Work (LP)",
     description: "Tallahasse based indie frat rock",
-    coverArt: "images/artists/miners_work.jpg",
+    coverArt: "images/artists/miners_work.",
     artistLink: "",
     albumLink: "https://soundcloud.com/user-359899219/sets/miners-work",
     jobType: "Full Production"
@@ -351,7 +376,7 @@ var works = [
     artistName: "Plateau",
     albumName: "Everything Was Sweet (LP)",
     description: "Seattle based indie rock band with clear influences from both the gunge era as well as the British pop invasion of the 60s.",
-    coverArt: "images/artists/plateau.jpg",
+    coverArt: "images/artists/plateau.",
     artistLink: "https://plateauseattle.bandcamp.com/",
     albumLink: "",
     jobType: "Mixing"
@@ -360,7 +385,7 @@ var works = [
     artistName: "Red Is Recovery",
     albumName: "Red Is Recovery (LP)",
     description: "Debut album of Tallahassee based indie rock band that kicked off local fame leading to regional followings and label attention.",
-    coverArt: "images/artists/red_is_recovery.jpg",
+    coverArt: "images/artists/red_is_recovery.",
     artistLink: "https://myspace.com/redisrecovery",
     albumLink: "https://soundcloud.com/user-359899219/sets/red-is-recovery-the-red-album",
     jobType: "Full Production"
@@ -369,7 +394,7 @@ var works = [
     artistName: "Red Is Recovery",
     albumName: "Goodbyes Are New Beginnings (EP)",
     description: "The follow up to their debut album released immedately before the band relocated to Orlando, FL.",
-    coverArt: "images/artists/red_is_recovery_2.jpg",
+    coverArt: "images/artists/red_is_recovery_2.",
     artistLink: "https://myspace.com/redisrecovery",
     albumLink: "https://soundcloud.com/user-359899219/sets/red-is-recovery-goodbyes-are-new-beginnings",
     jobType: "Full Production"

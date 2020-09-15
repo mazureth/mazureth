@@ -116,9 +116,13 @@ section.subSectionEnd {
 }
 
 .mixer {
-  background-image: url(../images/mixer.jpeg);
+  background-image: url(https://cdn.mazureth.com/images/mixer.webp);
   background-position: 50% 0px;
   position: relative;
+}
+
+.mixer.noWebp {
+  background-image: url(https://cdn.mazureth.com/images/mixer.jpg);
 }
 
 .mixer img {
@@ -155,7 +159,7 @@ section .social .btn {
   font-size: 30px;
 }
 
-#about .card {
+#rates .card {
   transition: margin 0.3s ease-out, box-shadow 0.3s ease-out;
   -webkit-transition: margin 0.3s ease-out, box-shadow 0.3s ease-out;
   -moz-transition: margin 0.3s ease-out, box-shadow 0.3s ease-out;
@@ -163,25 +167,25 @@ section .social .btn {
 }
 
 @media (max-width: 990px) {
-  #about .card {
+  #rates .card {
     margin-bottom: 15px;
   }
 }
 
-#about .card .card-body p {
+#rates .card .card-body p {
   text-align: justify;
 }
 
-#about .card .card-body p.rate {
+#rates .card .card-body p.rate {
   text-align: center;
 }
 
-#about .card:hover {
+#rates .card:hover {
   margin-top: -15px;
   box-shadow: 0px 15px 38px -10px rgba(0, 0, 0, .5);
 }
 
-#about .card:hover .btn-secondary {
+#rates .card:hover .btn-secondary {
   background-color: #506eff;
   color: #fff;
 }
@@ -226,6 +230,11 @@ section .social .btn {
   -o-transform: translate(100%, 0);
   -ms-transform: translate(100%, 0);
   transform: translate(100%, 0);
+}
+
+#clients .featured {
+  max-height: 369px;
+  overflow-y: scroll;
 }
 
 #gear ul > li > ul > li {

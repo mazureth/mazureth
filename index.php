@@ -15,7 +15,7 @@
         <div class="row">
           <div class="col-sm">
               <figure class="figure">
-                <img src="https://cdn.mazureth.com/images/jesse.jpg" class="figure-image img-fluid rounded grayscale" alt="Castle Dwellers album cover" />
+                <img src="https://cdn.mazureth.com/images/jesse.webp" class="figure-image img-fluid rounded grayscale" alt="Castle Dwellers album cover" />
                 <figcaption class="figure-caption">JESSE MAZUR</figcaption>
               </figure>
           </div>
@@ -201,13 +201,13 @@
               </ol>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img class="d-block w-100" src="https://cdn.mazureth.com/images/live-room.jpg" alt="Live Room">
+                  <img class="d-block w-100" src="https://cdn.mazureth.com/images/live-room.webp" alt="Live Room">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="https://cdn.mazureth.com/images/control-room.jpg" alt="Control Room">
+                  <img class="d-block w-100" src="https://cdn.mazureth.com/images/control-room.webp" alt="Control Room">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="https://cdn.mazureth.com/images/van.jpg" alt="The Van">
+                  <img class="d-block w-100" src="https://cdn.mazureth.com/images/van.webp" alt="The Van">
                 </div>
               </div>
             </div>
@@ -250,14 +250,14 @@
           <div class="col-sm">
             <a href="https://www.facebook.com/AlpenglowSeattle/" target="_blank" rel="noreferrer">
               <figure class="figure">
-                <img src="https://cdn.mazureth.com/images/artists/AlpenglowMountainTime.jpg" class="figure-image img-fluid rounded artist-image" alt="Alpenglow - Mountain Time">
+                <img src="https://cdn.mazureth.com/images/featuredArtist.webp" class="figure-image img-fluid rounded artist-image" alt="Alpenglow - Mountain Time">
               </figure>
             </a>
           </div>
           <div class="col-sm">
             <iframe src="https://open.spotify.com/embed/album/1aucdFj58YlUALfS3p3ru4" width="350" height="350" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
           </div>
-          <div class="col-sm text-justify">
+          <div class="col-sm text-justify featured">
             <h3>Alpenglow</h3>
             <p>
               Hailing from Seattle, Aplenglow is a bluegrass trio that seeks to re-imagine the genre by blending a classic, 
