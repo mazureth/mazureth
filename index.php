@@ -233,10 +233,10 @@
           <div class="col-sm text-left">
             <h3>Overview</h3>
             <p>
-              Our main console is a Behriner X32 coupled with a Behriner S32 snake. This provides us with
+              Our main console is a Behringer X32 coupled with a Behringer S32 snake. This provides us with
               32 inputs and 16 outputs. More than enough for even the largest bands. We have a plethroa of
               microphones including all the industry standards from Shure, Sennheiser, Rode, and more. Our
-              powerful recoding PC has 32 gigs of ram, a quad core Intel processor, and several terabytes of
+              powerful recording PC has 32 gigs of ram, a quad core Intel processor, and several terabytes of
               solid state storage.
             </p>
             <p>
