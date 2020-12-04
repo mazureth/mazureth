@@ -43,6 +43,7 @@
                 <li>Cubase Pro 10.5</li>
                 <li>&nbsp;</li>
                 <li>Behringer X32</li>
+                <li>Motu 2408 MK1</li>
                 <li>Motu 828 MK3</li>
                 <li>&nbsp;</li>
                 <li>Custom Built PC
@@ -67,9 +68,8 @@
           <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
             <div class="card-body">
               <ul>
-                <li>Behringer Powerplay P1</li>
                 <li>Event 20/20</li>              
-                <li>&nbsp;</li>
+                <li>&nbsp;</li>                
                 <li>Sony 55" Display</li>
               </ul>
             </div>
@@ -87,6 +87,8 @@
           <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
             <div class="card-body">
               <ul>
+                <li>Behringer Powerplay P1</li>
+                <li>&nbsp;</li>
                 <li>AKG K240</li>
                 <li>Sennheiser HD280PRO</li>
               </ul>
@@ -133,10 +135,9 @@
             <div class="card-body">
               <h6>Preamps</h6>
               <ul>
-                <li>Behringer X32 - Midas (32 inputs)</li>
-                <li>Behringer S32 - Midas (32 inputs)</li>
-                <li>Motu 828 MK3 (10 inputs)</li>
-                <li>PreSonus BlueTube Stereo Tube Preamp (2 inputs)</li>
+                <li>Behringer X32 w/S32 - Midas (32 preamps)</li>
+                <li>Motu 828 MK3 (2 preamps)</li>
+                <li>PreSonus BlueTube Stereo Tube Preamp (2 preamps)</li>
               </ul>
               <h6>Equializers</h6>
               <ul>
@@ -149,6 +150,8 @@
                 <li>&nbsp;</li>
                 <li>Audio Assault Multi Transient</li>
                 <li>Audio Assault D-Rez</li>
+                <li>&nbsp;</li>
+                <li>Slate Digital Fresh Air</li>
                 <li>&nbsp;</li>
                 <li>TDR Nova</li>
                 <li>TDR VOS SlickEQ</li>
@@ -189,16 +192,20 @@
                 <li>TDR Kotelnikcov</li>
                 <li>&nbsp;</li>
                 <li>Waves Abbey Road TG Master Chain</li>
+                <li>Waves API 2500 Bus Compressor</li>
                 <li>Waves CLA-2A</li>
                 <li>Waves CLA-76</li>
                 <li>Waves DBX 160</li>
                 <li>Waves DeEsser</li>
+                <li>Waves L2 Ultramaximizer</li>
                 <li>Waves L3 Ultramaximizer</li>
                 <li>Waves Linear Phase Multiband Compressor</li>
+                <li>Waves PuigChild Compressor</li>
                 <li>Waves MV2</li>
                 <li>Waves Renaissance Compressor</li>
                 <li>Waves Sibilance</li>
-                <li>Waves SSL 4000 Dynamics</li>
+                <li>Waves SSL 4000 Bus Compressor</li>
+                <li>Waves Vocal Rider</li>
               </ul>
             </div>
           </div>
@@ -220,6 +227,8 @@
                 <li>Line 6 POD (Kidney Bean)</li>
                 <li>Rocktron HUSH Super C</li>
                 <li>&nbsp;</li>
+                <li>Bricasti M7 Impulse Response Library</li>
+                <li>&nbsp;</li>
                 <li>Ignite Amps TS-999 (TS-9 Tube Screamer)</li>
                 <li>Ignite Amps TS-B (TS-808 Tube Screamer)</li>
                 <li>&nbsp;</li>
@@ -229,6 +238,10 @@
                 <li>Klanghelm IVGI Saturator</li>
                 <li>&nbsp;</li>
                 <li>Nick Crown Tube Driver</li>
+                <li>&nbsp;</li>
+                <li>TSE 808 Tube Screamer</li>
+                <li>TSE RA7 "Rat" Distortion</li>
+                <li>TSE BOD "SansAmp"</li>
                 <li>&nbsp;</li>
                 <li>Waves Berzerk Distortion</li>
                 <li>Waves J37 Tape</li>
@@ -283,10 +296,12 @@
                 <li>Fender Twin Reverb (1978)</li>
                 <li>Fender Hot Rod Deville</li>
                 <li>Marshall Valvestate AVT 2000</li>
-                <li>Marshall Lead 1960A</li>
+                <li>Marshall Lead 1960A Cabinet</li>
                 <li>&nbsp;</li>
                 <li>Ignite Amps Emissary</li>
                 <li>Ignite NadIR Loader</li>
+                <li>&nbsp;</li>
+                <li>Jens Bogren Impulse Response Library</li>
                 <li>&nbsp;</li>
                 <li>NaLex J800 (Marshal JCM 800 Sim)</li>
                 <li>NaLex Crunshman (Friedman Sim)</li>
@@ -402,16 +417,19 @@
                 <li>iZotope RX-7</li>
                 <li>iZotope Stutter</li>
                 <li>&nbsp;</li>
-                <li>Waves Abbey Road TG Master Chain</li> 
+                <li>Waves Abbey Road TG Master Chain</li>
+                <li>Waves API 2500 Bus Compressor</li> 
                 <li>Waves Berzerk Distortion</li>
                 <li>Waves CLA-2A</li>
                 <li>Waves CLA-76</li>
                 <li>Waves DBX 160A</li>
                 <li>Waves DeEsser</li>
                 <li>Waves J37 Tape</li>
+                <li>Waves L2 Ultramaximizer</li>
                 <li>Waves L3 Ultramaximizer</li>
                 <li>Waves Linear Phase Multiband Compressor</li>
                 <li>Waves Morphoder<li>
+                <li>Waves PuigChild Compressor</li>
                 <li>Waves PuigTec EQ</li>
                 <li>Waves Renaissance Compressor</li>
                 <li>Waves Scheps 73</li>
@@ -419,6 +437,7 @@
                 <li>Waves SSL 4000 Collection</li>
                 <li>Waves Studio Rack</li>
                 <li>Waves Torque</li>
+                <li>Waves Vocal Rider</li>
                 <li>Waves WLM Plus Loudness Meter</li>
                 <li>&nbsp;</li>
                 <li>Steinberg VST Guitar Amp</li>

@@ -44,14 +44,14 @@
   <meta property="og:title" content="Mazureth Studios"/>
   <meta property="og:url" content="https://www.mazureth.com"/>
   <meta property="og:type" content="website"/>
-  <meta property="og:description" content="Mazureth Studios is a music production studio in North Bend, WA that specializes tracking, mixing, mastering, and corporate production. With artists ranging from electronic to techincal death metal, we have you covered."/>
+  <meta property="og:description" content="Mazureth Studios is a music production studio in North Bend, WA that specializes tracking, mixing, mastering, and corporate production. With artists ranging from electronic dance music to techincal death metal, we have you covered."/>
   <meta property="og:image" content="https://cdn.mazureth.com/images/og-image.jpg"/>
   <meta property="og:image:width" content="960"/>
   <meta property="og:image:height" content="640"/>
 
   <meta itemprop="name" content="Mazureth Studios"/>
   <meta itemprop="url" content="https://www.mazureth.com"/>
-  <meta itemprop="description" content="Mazureth Studios is a music production studio in North Bend, WA that specializes tracking, mixing, mastering, and corporate production. With artists ranging from electronic to techincal death metal, we have you covered."/>
+  <meta itemprop="description" content="Mazureth Studios is a music production studio in North Bend, WA that specializes tracking, mixing, mastering, and corporate production. With artists ranging from electronic dance music to techincal death metal, we have you covered."/>
   <meta itemprop="thumbnailUrl" content="https://cdn.mazureth.com/images/og-image.jpg"/>
   <meta itemprop="image" content="https://cdn.mazureth.com/images/og-image.jpg"/>
   <link rel="image_src" href="https://cdn.mazureth.com/images/og-image.jpg"/>
@@ -60,10 +60,10 @@
   <meta name="twitter:image" content="https://cdn.mazureth.com/images/og-image.jpg"/>
   <meta name="twitter:url" content="https://www.mazureth.com"/>
   <meta name="twitter:card" content="summary"/>
-  <meta name="twitter:description" content="Mazureth Studios is a music production studios in North Bend, WA that specializes tracking, mixing, mastering, and corporate production. With artists ranging from electronic to techincal death metal, we have you covered."/>
+  <meta name="twitter:description" content="Mazureth Studios is a music production studios in North Bend, WA that specializes tracking, mixing, mastering, and corporate production. With artists ranging from electronic dance music to techincal death metal, we have you covered."/>
 
   <meta name="description" content="Mazureth Studios is a music production studio in North Bend, WA that specializes tracking, mixing, mastering, and corporate production. With artists ranging from electronic to techincal death metal, we have you covered."/>
-  <meta name="keywords" content="north bend recoring studio, music recording studio, recording studio, audio mixing, mastering, audio recording, mazureth, mazureth studios, jesse mazur, audio production, record producer, recoding stuiod in north bend, seattle, bellevue"/>
+  <meta name="keywords" content="north bend recoring studio, music recording studio, recording studio, band studio, audio mixing, mastering, audio recording, recording, mazureth, mazureth studios, jesse mazur, audio production, record producer, music producer, record label, recoding stuiod in north bend, recoding stuiod in north bend, recoding stuiod in north bend"/>
   <title>Mazureth Studios | Music Recording Studio in North Bend, WA</title>
 
 </head>
@@ -104,7 +104,7 @@
             <a class="nav-link" href="#contact">CONTACT</a>
           </li>
         </ul>
-        <a class="btn btn-outline-light my-2 my-sm-0" href="tel:2063959009">Call Us: (206) 395 - 9009</a>
+        <a class="btn btn-outline-light my-2 my-sm-0 callUs">Call Us: <script>document.write(atob('KDIwNikgMzk1IC0gOTAwOQ=='));</script></a>
         <a class="btn btn-outline-light my-2 my-sm-0" href="booking.php">BOOK NOW</a>
       </div>
     </div>

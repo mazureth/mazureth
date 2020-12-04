@@ -9,6 +9,12 @@ function canUseWebP() {
   return false;
 }
 
+// phone call buttons
+$('.callUs').click(function(e){
+  e.preventDefault();
+  window.open('tel:2063959009', '_self');
+});
+
 var $window = $(window),
     $mixer = $('.mixer'),
     $mainSection = $('.main section'),

@@ -59,6 +59,10 @@ label {
   text-decoration: underline;
 }
 
+.callUs {
+  cursor: pointer;
+}
+
 a {
   color: #000;
 }

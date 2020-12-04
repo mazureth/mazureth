@@ -49,9 +49,15 @@
         <h2 id="">SERVICES</h2>
         <ul class="nav nav-tabs nav-justified" id="services" role="tablist">
           <li class="nav-item">
-            <a class="nav-link active" id="recording-tab" data-toggle="tab" href="#recording" role="tab" aria-controls="home" aria-selected="true">
+            <a class="nav-link active" id="recording-tab" data-toggle="tab" href="#recording" role="tab" aria-controls="recording" aria-selected="true">
               <i class="icon ion-mic-a large"></i>
               <span class="sr-only">recording details</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="remote-tab" data-toggle="tab" href="#remote" role="tab" aria-controls="remote" aria-selected="true">
+              <i class="icon ion-ios-cloud-upload large"></i>
+              <span class="sr-only">remote recording details</span>
             </a>
           </li>
           <li class="nav-item">
@@ -79,8 +85,20 @@
               <h4>Tracking</h4>
               <p>
                 We have a large acoustingly tuned live room, a state of the art control room, and a plethora
-                if microphones, guitars, and amps at your disposal on top of whatever you bring with you.
-                We also have several digital instruments and midi controllers as well.
+                if microphones, instruments, and amps at your disposal on top of whatever you bring with you.
+                We also have several digital instruments and midi controllers as well. <strong>NEW:</strong> 
+                We now offer remote tracking!
+              </p>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="remote" role="tabpanel" aria-labelledby="remote-tab">
+            <div class="container">
+              <h4>Remote Tracking</h4>
+              <p>
+                If you have your own audio device we can track you remotely via Cubase VST Connect from anywhere 
+                with a good internet connection just in a few easy steps! This is a great option if you are not in
+                the Pacific North West or have transportation limitations. <em><small>Standard session rates apply</small></em>
+
               </p>
             </div>
           </div>
@@ -179,8 +197,8 @@
         <p class="footnote"><sup>*</sup> One billable day is 10 hours and includes a 1 hour break for lunch as
           well as two 15 minute "ear fatigue" breaks for the engineer.</p>
 
-        <p class="footnote"><sup>†</sup> The song rate for mixing assumes that you will send us the multitrack
-          and accept what we return with 3 rounds of feedback.</p>
+        <p class="footnote"><sup>†</sup> The standard song rate for mixing assumes that you will send us the multitrack
+          files and includes 3 mix recalls.</p>
 
         <p class="footnote"><sup>§</sup> The LP flat rate assumes that the LP has a length of approximately 45
           minutes or 12 songs, whichever is reached first.</p>
@@ -308,14 +326,14 @@
         <hr />
 
         <p>Mazureth Studios<br />480th Ave SE<br />North Bend, WA 98045</p>
-        <p>(206) 395 - 9009</p>
-        <p>info@mazureth.com</p>
+        <p><a class="callUs"><script>document.write(atob('KDIwNikgMzk1IC0gOTAwOQ=='));</script></a></p>
+        <p><script>document.write(atob('aW5mb0BtYXp1cmV0aC5jb20='));</script></p>
 
         <p class="social">
-          <a class="btn btn-outline-light" href="https://www.facebook.com/mazurethstudios" target="_blank" rel="noreferrer">
+          <a class="btn btn-outline-light" href="https://www.facebook.com/mazurethstudios" target="_blank" rel="nofollow">
             <i class="icon ion-social-facebook med"></i>
           </a>
-          <a class="btn btn-outline-light" href="https://www.instagram.com/mazurethllc/" target="_blank" rel="noreferrer">
+          <a class="btn btn-outline-light" href="https://www.instagram.com/mazurethllc/" target="_blank" rel="nofollow">
             <i class="icon ion-social-instagram med"></i>
           </a>
           <a class="btn btn-outline-light" href="tel:2063959009">
