@@ -325,7 +325,7 @@
 
         <hr />
 
-        <p>Mazureth Studios<br />480th Ave SE<br />North Bend, WA 98045</p>
+        <p>Mazureth Studios<br />North Bend, WA 98045</p>
         <p><a class="callUs"><script>document.write(atob('KDIwNikgMzk1IC0gOTAwOQ=='));</script></a></p>
         <p><script>document.write(atob('aW5mb0BtYXp1cmV0aC5jb20='));</script></p>
 

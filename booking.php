@@ -38,6 +38,7 @@
               <select class="form-control" name="service" id="service">
                 <option value="">Select:</option>
                 <option value="Tracking">Tracking</option>
+                <option value="RemoteTracking">Remote Tracking</option>
                 <option value="Mixing">Mixing</option>
                 <option value="Mastering">Mastering</option>
                 <option value="Full Production">Full Production</option>
