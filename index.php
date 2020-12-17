@@ -264,7 +264,18 @@
           We have recoreded with some incredible artists over the years and have build some great relationships that we
           hope to maintain for years to come.
         </p>
+        <h3>FEATURED CLIENT</h3>
         <div class="row">
+        <div class="col-sm text-justify featured">
+            <h3>Alpenglow</h3>
+            <p>
+              Hailing from Seattle, Aplenglow is a bluegrass trio that seeks to re-imagine the genre by blending a classic, 
+              acoustic foundation with rhythmic and melodic flavors normally seen in rock, pop, and dance music. Their songs take
+              the listener on a musical journey that has roots in Americana with story-like lyrical content. Long instrumental
+              interludes throughout add a progressive element that musicians are drawn too but keep the average listener engaged.
+              The three piece includes Jacob Lamonaco on guitar, Boris Sagal on mandolin, and Keith Wyss on upright bass.
+            </p>
+          </div>
           <div class="col-sm">
             <a href="https://www.facebook.com/AlpenglowSeattle/" target="_blank" rel="noreferrer">
               <figure class="figure">
@@ -275,21 +286,10 @@
           <div class="col-sm">
             <iframe src="https://open.spotify.com/embed/album/1aucdFj58YlUALfS3p3ru4" width="350" height="350" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
           </div>
-          <div class="col-sm text-justify featured">
-            <h3>Alpenglow</h3>
-            <p>
-              Hailing from Seattle, Aplenglow is a bluegrass trio that seeks to re-imagine the genre by blending a classic, 
-              acoustic foundation with rhythmic and melodic flavors normally seen in rock, pop, and dance music. Their songs take
-              the listener on a musical journey that has roots in Americana with story-like lyrical content. Long instrumental
-              interludes throughout add a progressive element that musicians are drawn too but keep the average listener engaged.
-              The three piece includes Jacob Lamonaco on guitar, Boris Sagal on mandolin, and Keith Wyss on upright bass.
-            </p>
-          </div>
         </div>
       </div>
-      <a class="btn btn-outline-dark" href="clients.php">VIEW FULL CLIENT LIST</a>
-      <br /><br /><br />
-      <h1>TESTIMONIALS</h1>
+      <br /><br />
+      <h3>TESTIMONIALS</h3>
       <div class="container text-center testimonials">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
@@ -310,6 +310,12 @@
           </div>
         </div>
       </div>
+      <br /><br />
+      <div class="container">
+        <h3 id="otherClients" class="hidden">OTHER CLIENTS</h3>
+        <div id="moreCovers" class="row"></div>
+      </div>
+      <a class="btn btn-outline-dark" href="clients.php">VIEW FULL CLIENT LIST</a>
     </section>
 
     <section id="contact" class="bg-black">

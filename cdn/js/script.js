@@ -9,6 +9,54 @@ function canUseWebP() {
   return false;
 }
 
+function generateCoverGrid(works) {
+  var template = '';
+
+  for (var i = 0; i < works.length; i++) {
+    
+    var artistName = works[i].artistName,
+      albumName = works[i].albumName,
+      description = works[i].description,
+      coverArt = works[i].coverArt,
+      artistLink = works[i].artistLink,
+      albumLink = works[i].albumLink,
+      jobType = works[i].jobType,
+      extension = webpSupported
+                ? 'webp'
+                : 'jpg',
+      host = (window.location.host.indexOf('localhost') > -1)
+           ? 'http://localhost:9000/cdn/'
+           : 'https://cdn.mazureth.com/';
+
+    template += `
+    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+      <div class="card">
+        <div class="card-body">`;
+          
+    template += artistLink.length
+      ? `<p class="card-text"><strong>Artist:</strong> <a href="${artistLink}" target="_blank" rel="noreferrer">${artistName}</a></p>`
+      : `<p class="card-text"><strong>Artist:</strong> ${artistName}</p>`;
+
+    template += albumLink.length
+      ? `<p class="card-text"><strong>Album:</strong> <a href="${albumLink}" target="_blank" rel="noreferrer">${albumName}</a></p>`
+      : `<p class="card-text"><strong>Album:</strong> ${albumName}</p>`;
+
+    template += `
+          <p class="card-text"><strong>Job Type:</strong> ${jobType}</p>
+          <p class="card-text"><strong>Description:</strong> ${description}</p>
+        </div>`;
+
+    template += coverArt.length
+      ? `<img class="card-img-top" src="${host}${coverArt}${extension}" alt="${artistName} - ${albumName}">`
+      : ``;
+
+    template += `</div></div>`;
+
+  }
+
+  return template;
+}
+
 // phone call buttons
 $('.callUs').click(function(e){
   e.preventDefault();
@@ -185,65 +233,21 @@ if (hash === "#thanks") {
 
 var $clients = $('#clientRows');
 if ($clients.length) {
-  
-  var template = '';
+  var template = generateCoverGrid(works);
+  $clients.append(template);
+}
 
-  for (var i = 0; i < works.length; i++) {
-    
-    var artistName = works[i].artistName,
-      albumName = works[i].albumName,
-      description = works[i].description,
-      coverArt = works[i].coverArt,
-      artistLink = works[i].artistLink,
-      albumLink = works[i].albumLink,
-      jobType = works[i].jobType,
-      extension = webpSupported
-                ? 'webp'
-                : 'jpg',
-      host = (window.location.host.indexOf('localhost') > -1)
-           ? 'http://localhost:9000/cdn/'
-           : 'https://cdn.mazureth.com/';
-
-    template += `
-    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
-      <div class="card">
-        <div class="card-body">`;
-          
-    template += artistLink.length
-      ? `<p class="card-text"><strong>Artist:</strong> <a href="${artistLink}" target="_blank" rel="noreferrer">${artistName}</a></p>`
-      : `<p class="card-text"><strong>Artist:</strong> ${artistName}</p>`;
-
-    template += albumLink.length
-      ? `<p class="card-text"><strong>Album:</strong> <a href="${albumLink}" target="_blank" rel="noreferrer">${albumName}</a></p>`
-      : `<p class="card-text"><strong>Album:</strong> ${albumName}</p>`;
-
-    template += `
-          <p class="card-text"><strong>Job Type:</strong> ${jobType}</p>
-          <p class="card-text"><strong>Description:</strong> ${description}</p>
-        </div>`;
-
-    template += coverArt.length
-      ? `<img class="card-img-top" src="${host}${coverArt}${extension}" alt="${artistName} - ${albumName}">`
-      : ``;
-
-    template += `</div></div>`;
-
-    // add template to the page
-    $clients.append(template);
-    template = '';
-
-    // last one does not need new row, just break
-    if (i === works.lenth) { 
-      break;
-    }
-
-    // multiples of 4 need a new row
-    if (i !== 0 && ((i+1) % 4) === 0) {
-      $clients.append('<div class="row"></div>');      
-    }
-
+// add 4 random covers to main page if screen is large
+if ($window.height() > 924) {
+  var fourWorks = [], i, randWork = 0, moreCovers, tmpWorks = works;
+  for (var i = 0; i < 4; i++) {
+    randWork = Math.floor(Math.random() * ((tmpWorks.length - 1) + 1));
+    fourWorks.push(works[randWork]);
+    tmpWorks.splice(randWork, 1);
   }
-
+  moreCovers = generateCoverGrid(fourWorks);
+  $('#otherClients').removeClass('hidden');
+  $('#moreCovers').append(moreCovers);
 }
 
 // replace webp with jpg when not supported
@@ -334,7 +338,7 @@ var works = [
     jobType: "Full Production"
   },
   {
-    artistName: "Divide Comedy Club",
+    artistName: "Divine Comedy Club",
     albumName: "Nothing Cool Happens In Heaven (Single)",
     description: "Seattle based atmosphereic and psychadelic band's second single release, fronted by a powerful female vocalist.",
     coverArt: "images/artists/dcc_-_heaven.",
@@ -343,7 +347,7 @@ var works = [
     jobType: "Full Production"
   },
   {
-    artistName: "Divide Comedy Club",
+    artistName: "Divine Comedy Club",
     albumName: "Out For Launch (Single)",
     description: "Seattle based atmosphereic and psychadelic band's first single release, fronted by a powerful female vocalist.",
     coverArt: "images/artists/dcc_-_launch.",

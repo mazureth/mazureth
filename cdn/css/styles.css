@@ -59,6 +59,10 @@ label {
   text-decoration: underline;
 }
 
+.hidden {
+  display: none;
+}
+
 .callUs {
   cursor: pointer;
 }
