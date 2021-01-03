@@ -5,6 +5,15 @@
 
 img.grayscale {
   filter: grayscale(100%);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease, box-shadow 0.3s ease-out;
+  -moz-transition: all 0.5s ease, box-shadow 0.3s ease-out;
+  -o-transition: all 0.5s ease, box-shadow 0.3s ease-out;
+}
+
+img.grayscale:hover {
+  filter: grayscale(10%);
+  box-shadow: 0px 15px 38px -10px rgba(0, 0, 0, .5);
 }
 
 h1, h2 {
@@ -205,6 +214,7 @@ section .social .btn {
   overflow: hidden auto;
   padding-top: 100%;
   position: relative;
+  text-align: left;
   width: 100%;
 }
 
