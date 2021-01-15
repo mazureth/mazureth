@@ -339,10 +339,10 @@
           <a class="btn btn-outline-light" href="https://www.facebook.com/mazurethstudios" target="_blank" rel="nofollow">
             <i class="icon ion-social-facebook med"></i>
           </a>
-          <a class="btn btn-outline-light" href="https://www.instagram.com/mazurethllc/" target="_blank" rel="nofollow">
+          <a class="btn btn-outline-light" href="https://www.instagram.com/mazurethstudios/" target="_blank" rel="nofollow">
             <i class="icon ion-social-instagram med"></i>
           </a>
-          <a class="btn btn-outline-light" href="tel:2063959009">
+          <a class="btn btn-outline-light callUs">
             <i class="icon ion-social-whatsapp med"></i>
           </a>
         </p>
