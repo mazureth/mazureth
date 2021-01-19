@@ -388,7 +388,7 @@ var works = [
     description: "Seattle based indie rock band with clear influences from both the gunge era as well as the British pop invasion of the 60s.",
     coverArt: "images/artists/plateau.",
     artistLink: "https://plateauseattle.bandcamp.com/",
-    albumLink: "",
+    albumLink: "https://soundcloud.com/user-359899219/sets/plateau-everything-was-sweet",
     jobType: "Mixing"
   },
   {
