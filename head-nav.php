@@ -10,7 +10,7 @@
   </script>
   <link rel="preload" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet';this.media='screen'">
   <link rel="preload" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet';this.media='screen';">
-  <link rel="preload" href="https://cdn.mazureth.com/css/styles.css" as="style" onload="this.onload=null;this.rel='stylesheet';this.media='screen'" id="mainStylesheet">
+  <link rel="preload" href="https://cdn.mazureth.com/css/styles.min.css" as="style" onload="this.onload=null;this.rel='stylesheet';this.media='screen'" id="mainStylesheet">
   
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
