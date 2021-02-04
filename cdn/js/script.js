@@ -57,6 +57,12 @@ function generateCoverGrid(works) {
   return template;
 }
 
+// use local css when necessary
+if (window.location.host.indexOf('localhost') > -1) {
+  cssTag = document.getElementById('mainStylesheet');
+  cssTag.href = 'cdn/css/styles.css';
+}
+
 // phone call buttons
 $('.callUs').click(function(e){
   e.preventDefault();

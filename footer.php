@@ -9,7 +9,7 @@
     if (window.location.host.indexOf('localhost') > -1) {
       scriptSrc = 'cdn/js/script.js';
     } else {
-      scriptSrc = 'https://cdn.mazureth.com/js/script-min.js';
+      scriptSrc = 'https://cdn.mazureth.com/js/script.min.js';
     }
     scriptTag.src = scriptSrc;
     body.appendChild(scriptTag);

@@ -10,25 +10,8 @@
   </script>
   <link rel="preload" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet';this.media='screen'">
   <link rel="preload" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet';this.media='screen';">
-
-  <script>
-    (function() {
-      var cssTag = document.createElement('link');
-          cssHref = '',
-          head = document.querySelector('head'),
-          metaTag = document.querySelector("head meta[charset='utf-8']");
-
-      if (window.location.host.indexOf('localhost') > -1) {
-        cssHref = 'cdn/css/styles.css';
-      } else {
-        cssHref = 'https://cdn.mazureth.com/css/styles.css';
-      }
-      cssTag.href = cssHref;
-      cssTag.rel = 'stylesheet';
-      head.insertBefore(cssTag, metaTag);
-    })();
-  </script>
-
+  <link rel="preload" href="https://cdn.mazureth.com/css/styles.css" as="style" onload="this.onload=null;this.rel='stylesheet';this.media='screen'" id="mainStylesheet">
+  
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
   <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png"/>
