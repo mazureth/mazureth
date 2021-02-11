@@ -1,5 +1,7 @@
 $(function() {
 
+$('body').show();
+
 // WebP detection for older browsers
 function canUseWebP() {
   var elem = document.createElement('canvas');
@@ -63,11 +65,13 @@ if (window.location.host.indexOf('localhost') > -1) {
   cssTag.href = 'cdn/css/styles.css';
 }
 
-// phone call buttons
+// phone call/email buttons
 $('.callUs').click(function(e){
   e.preventDefault();
   window.open('tel:2063959009', '_self');
 });
+$('.phNum').append(atob('KDIwNikgMzk1IC0gOTAwOQ=='));
+$('.emailAddr').append(atob('aW5mb0BtYXp1cmV0aC5jb20='));
 
 var $window = $(window),
     $mixer = $('.mixer'),

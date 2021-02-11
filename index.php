@@ -332,8 +332,8 @@
         <hr />
 
         <p>Mazureth Studios<br />North Bend, WA 98045</p>
-        <p><a class="callUs"><script>document.write(atob('KDIwNikgMzk1IC0gOTAwOQ=='));</script></a></p>
-        <p><script>document.write(atob('aW5mb0BtYXp1cmV0aC5jb20='));</script></p>
+        <p><a class="callUs phNum"></a></p>
+        <p class="emailAddr"></p>
 
         <p class="social">
           <a class="btn btn-outline-light" href="https://www.facebook.com/mazurethstudios" target="_blank" rel="nofollow">

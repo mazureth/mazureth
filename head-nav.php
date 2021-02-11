@@ -50,7 +50,7 @@
   <title>Mazureth Studios | Music Recording Studio in North Bend, WA</title>
 
 </head>
-<body>
+<body style="display: none">
 
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-black">
     <div class="container">
@@ -87,7 +87,7 @@
             <a class="nav-link" href="#contact">CONTACT</a>
           </li>
         </ul>
-        <a class="btn btn-outline-light my-2 my-sm-0 callUs">Call Us: <script>document.write(atob('KDIwNikgMzk1IC0gOTAwOQ=='));</script></a>
+        <a class="btn btn-outline-light my-2 my-sm-0 callUs phNum">Call Us: </a>
         <a class="btn btn-outline-light my-2 my-sm-0" href="booking.php">BOOK NOW</a>
       </div>
     </div>
