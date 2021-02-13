@@ -96,7 +96,7 @@
               <h4>Remote Tracking</h4>
               <p>
                 If you have your own audio device we can track you remotely via Cubase VST Connect from anywhere 
-                with a good internet connection just in a few easy steps! This is a great option if you are not in
+                with a good internet connection in just a few easy steps! This is a great option if you are not in
                 the Pacific North West or have transportation limitations. <em><small>Standard session rates apply</small></em>
 
               </p>
@@ -117,14 +117,14 @@
               <h4>Mastering</h4>
               <p>
                 Our control room has been tuned to fit our Event 20/20 studio monitors and we know
-                just how to get your music that final polish it needs to be radio ready. We also play
+                just how to get your music that final polish it needs to be "radio" ready. We also play
                 your music back in the most common listening environmetns to be sure it will sound perfect.
               </p>
             </div>
           </div>
           <div class="tab-pane fade" id="production" role="tabpanel" aria-labelledby="production-tab">
             <div class="container">
-              <h4>Production</h4>
+              <h4>Full Production</h4>
               <p>
                 We offer full production services that include pre-production "scratch" tracking, tracking,
                 mixing, mastering, and post-production editing. We can also help with writing, arrangement,

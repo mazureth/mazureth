@@ -269,6 +269,7 @@
                 <li>Heartbreaker Hollowbody SG</li>
                 <li>Johnson Acoustic Guitar</li>
                 <li>Peavey Predator Plus TR7 (7 String)</li>
+                <li>Martin Travel Acoustic</li>
                 <li>Squire Stratocaster</li>
                 <li>&nbsp;</li>
                 <li>Ibanez Ergodyne EDB 405 Bass (5 String)</li>
@@ -332,7 +333,7 @@
           <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion">
             <div class="card-body">
               <ul>
-                <li>Axis Longboards X Double Pedal with Microtune</li>
+                <li>Trick Dominator Double Pedal</li>
                 <li>&nbsp;</li>
                 <li>Meinl HCS 14" Hi-Hats</li>
                 <li>Meinl HCS 20" Ride</li>
