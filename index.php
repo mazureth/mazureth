@@ -23,7 +23,7 @@
             <p class="text-justify">
               Jesse Mazur, owner, producer, and engineer at Mazureth Studios, has been producing music since
               2003 and playing for much longer. He's worked with artists ranging from ambient electronic to
-              technical death metal and everything inbetween. He's toured the country in several
+              technical death metal and everything in between. He's toured the country in several
               bands and has been signed to both Altantic and Dream Works records. Whether you need an audio
               engineering, a producer, help with arragement, or writing, Jesse is more than capable.
             </p>
