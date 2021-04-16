@@ -30,7 +30,7 @@
             <p class="text-justify">
               Jesse's also a multi-instumentalist and is happy to do session work on your album as well.
               While his primary instrument is guitar, he is also a skilled drummer and can play most stringed
-              instruments, most brass instruments, and can navigate is way around a piano pretty well. He also has
+              instruments, most brass instruments, and can navigate his way around a piano pretty well. He also has
               several years of singing and vocal lessons under his belt. It's very common for Jesse to appear
               on the albums created at Mazureth Studios.
             </p>
