@@ -267,24 +267,24 @@
         <h3>FEATURED CLIENT</h3>
         <div class="row">
         <div class="col-sm text-justify featured">
-            <h3>Alpenglow</h3>
+            <h3>Divine Comedy Club</h3>
             <p>
-              Hailing from Seattle, Aplenglow is a bluegrass trio that seeks to re-imagine the genre by blending a classic, 
-              acoustic foundation with rhythmic and melodic flavors normally seen in rock, pop, and dance music. Their songs take
-              the listener on a musical journey that has roots in Americana with story-like lyrical content. Long instrumental
-              interludes throughout add a progressive element that musicians are drawn too but keep the average listener engaged.
-              The three piece includes Jacob Lamonaco on guitar, Boris Sagal on mandolin, and Keith Wyss on upright bass.
+              A project originally founded by drummer Jesse Niemer and guitarist Mannny Xenos in 2017, the band has gone
+              through many names and styles before settling on the psychedelic and atmospheric sound of Diving Comedy Club. 
+              Made up of members Garrett Olerud (Bass), Hannah Decker (Vocals and Synth), Jesse Niemer (Percussion), and 
+              Manny Xenos (Guitar), D.C.C draws influences from a variety of genres and artists. Combining the sounds 
+              of early 60s rock and psych and the more modern style of dream-pop, D.C.C has crafted a sound unique to them.
             </p>
           </div>
           <div class="col-sm">
-            <a href="https://www.facebook.com/AlpenglowSeattle/" target="_blank" rel="noreferrer">
+            <a href="https://www.facebook.com/divinecomedyclub" target="_blank" rel="noreferrer">
               <figure class="figure">
                 <img src="https://cdn.mazureth.com/images/featuredArtist.webp" class="figure-image img-fluid rounded artist-image" alt="Alpenglow - Mountain Time">
               </figure>
             </a>
           </div>
           <div class="col-sm">
-            <iframe src="https://open.spotify.com/embed/album/1aucdFj58YlUALfS3p3ru4" width="350" height="350" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe src="https://open.spotify.com/embed/album/6NXK1KEN16US4TeRmTIQ4B" width="350" height="350" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
           </div>
         </div>
       </div>

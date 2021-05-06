@@ -349,6 +349,15 @@ var works = [
   },
   {
     artistName: "Divine Comedy Club",
+    albumName: "Euclidian Distances",
+    description: "Seattle based atmosphereic and psychadelic band's first album, fronted by a powerful female vocalist.",
+    coverArt: "images/artists/dcc_-_euclidian_distances.",
+    artistLink: "https://open.spotify.com/artist/0V3wNDGlwNMLVEaLXaUohT",
+    albumLink: "https://open.spotify.com/album/6NXK1KEN16US4TeRmTIQ4B?si=9XP-2XBvToCz86ulMHJxfg",
+    jobType: "Full Production"
+  },
+  {
+    artistName: "Divine Comedy Club",
     albumName: "Nothing Cool Happens In Heaven (Single)",
     description: "Seattle based atmosphereic and psychadelic band's second single release, fronted by a powerful female vocalist.",
     coverArt: "images/artists/dcc_-_heaven.",
