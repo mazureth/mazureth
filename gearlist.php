@@ -108,16 +108,20 @@
             <div class="card-body">
               <h6>CONDENSERS</h6>
               <ul>
+                <li>AKG C414 XLII (2)</li>
                 <li>Rode NT2-A</li>
                 <li>Samson C02 Pencils (Matched Pair)</li>
               </ul>
               <h6>DYNAMIC</h6>
               <ul>
+                <li>Electro-Voice RE20</li>
                 <li>Sennheiser e609 (2)</li>
-                <li>Sennheiser MD421-II (5)</li>              
-                <li>Shure SM 57 (3)</li>
+                <li>Sennheiser MD421-II (6)</li>              
+                <li>Shure SM57 (3)</li>
+                <li>Shure SM7B</li>
                 <li>Superlux PRA-218B Kick Mic</li>
                 <li>Superlux PRA-228A Tom Mics (3)</li>
+                <li>Yamaha NS10 Sub Kick</li>
               </ul>
             </div>
           </div>
@@ -135,9 +139,12 @@
             <div class="card-body">
               <h6>Preamps</h6>
               <ul>
-                <li>Behringer X32 w/S32 - Midas (32 preamps)</li>
-                <li>Motu 828 MK3 (2 preamps)</li>
-                <li>PreSonus BlueTube Stereo Tube Preamp (2 preamps)</li>
+                <li>Behringer X32 (32 pres)</li>
+                <li>Behringer S32 (32 pres)</li>
+                <li>Cloudlifter CL1 (1 pre)</li>
+                <li>Motu 828 MK3 (2 pres)</li>
+                <li>PreSonus BlueTube Stereo Tube Preamp (2 pres)</li>
+                <li>Radial ProDI (2)</li>
               </ul>
               <h6>Equializers</h6>
               <ul>
@@ -176,7 +183,7 @@
           <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
             <div class="card-body">
               <ul>
-                <li>Alesis 3630 Compressor (2)</li>
+                <li>Alesis 3630 Compressor</li>
                 <li>&nbsp;</li>
                 <li>Acustica Tan</li>
                 <li>&nbsp;</li>
