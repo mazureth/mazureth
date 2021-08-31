@@ -15,7 +15,7 @@
         <div class="row">
           <div class="col-sm">
               <figure class="figure">
-                <img src="https://cdn.mazureth.com/images/jesse.webp" class="figure-image img-fluid rounded grayscale" alt="Castle Dwellers album cover" />
+                <img src="https://cdn.mazureth.com/images/jesse.webp" class="figure-image img-fluid rounded grayscale" alt="Jesse Mazur" />
                 <figcaption class="figure-caption">JESSE MAZUR</figcaption>
               </figure>
           </div>
@@ -54,7 +54,7 @@
               <span class="sr-only">recording details</span>
             </a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item d-sm-none">
             <a class="nav-link" id="remote-tab" data-toggle="tab" href="#remote" role="tab" aria-controls="remote" aria-selected="true">
               <i class="icon ion-ios-cloud-upload large"></i>
               <span class="sr-only">remote recording details</span>
