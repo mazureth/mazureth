@@ -54,7 +54,7 @@
               <span class="sr-only">recording details</span>
             </a>
           </li>
-          <li class="nav-item d-sm-none">
+          <li class="nav-item d-none d-md-block">
             <a class="nav-link" id="remote-tab" data-toggle="tab" href="#remote" role="tab" aria-controls="remote" aria-selected="true">
               <i class="icon ion-ios-cloud-upload large"></i>
               <span class="sr-only">remote recording details</span>
