@@ -133,13 +133,13 @@ section.subSectionEnd {
 }
 
 .mixer {
-  background-image: url(https://cdn.mazureth.com/images/mixer.webp);
+  background-image: url(https://mazureth.com/cdn/images/mixer.webp);
   background-position: 50% 0px;
   position: relative;
 }
 
 .mixer.noWebp {
-  background-image: url(https://cdn.mazureth.com/images/mixer.jpg);
+  background-image: url(https://mazureth.com/cdn/images/mixer.jpg);
 }
 
 .mixer img {

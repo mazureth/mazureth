@@ -6,7 +6,7 @@
   <div class="main container-fluid">
 
     <section id="welcome" class="bg-black mixer">
-      <img src="https://cdn.mazureth.com/images/mazureth-logo-white.svg" class="img-fluid" alt="Mazureth Logo" />
+      <img src="https://mazureth.com/cdn/images/mazureth-logo-white.svg" class="img-fluid" alt="Mazureth Logo" />
     </section>
 
     <section id="about" class="subSectionStart">
@@ -15,7 +15,7 @@
         <div class="row">
           <div class="col-sm">
               <figure class="figure">
-                <img src="https://cdn.mazureth.com/images/jesse.webp" class="figure-image img-fluid rounded grayscale" alt="Jesse Mazur" />
+                <img src="https://mazureth.com/cdn/images/jesse.webp" class="figure-image img-fluid rounded grayscale" alt="Jesse Mazur" />
                 <figcaption class="figure-caption">JESSE MAZUR</figcaption>
               </figure>
           </div>
@@ -219,13 +219,13 @@
               </ol>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img class="d-block w-100" src="https://cdn.mazureth.com/images/live-room.webp" alt="Live Room">
+                  <img class="d-block w-100" src="https://mazureth.com/cdn/images/live-room.webp" alt="Live Room">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="https://cdn.mazureth.com/images/control-room.webp" alt="Control Room">
+                  <img class="d-block w-100" src="https://mazureth.com/cdn/images/control-room.webp" alt="Control Room">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="https://cdn.mazureth.com/images/van.webp" alt="The Van">
+                  <img class="d-block w-100" src="https://mazureth.com/cdn/images/van.webp" alt="The Van">
                 </div>
               </div>
             </div>
@@ -279,7 +279,7 @@
           <div class="col-sm">
             <a href="https://www.facebook.com/divinecomedyclub" target="_blank" rel="noreferrer">
               <figure class="figure">
-                <img src="https://cdn.mazureth.com/images/featuredArtist.webp" class="figure-image img-fluid rounded artist-image" alt="Alpenglow - Mountain Time">
+                <img src="https://mazureth.com/cdn/images/featuredArtist.webp" class="figure-image img-fluid rounded artist-image" alt="Alpenglow - Mountain Time">
               </figure>
             </a>
           </div>
