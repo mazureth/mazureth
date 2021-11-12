@@ -48,32 +48,32 @@
       <div class="container">
         <h2 id="">SERVICES</h2>
         <ul class="nav nav-tabs nav-justified" id="services" role="tablist">
-          <li class="nav-item">
-            <a class="nav-link active" id="recording-tab" data-toggle="tab" href="#recording" role="tab" aria-controls="recording" aria-selected="true">
+          <li class="nav-item" role="tab">
+            <a class="nav-link active" id="recording-tab" data-toggle="tab" href="#recording" aria-controls="recording" aria-selected="true">
               <i class="icon ion-mic-a large"></i>
               <span class="sr-only">recording details</span>
             </a>
           </li>
-          <li class="nav-item d-none d-md-block">
-            <a class="nav-link" id="remote-tab" data-toggle="tab" href="#remote" role="tab" aria-controls="remote" aria-selected="true">
+          <li class="nav-item d-none d-md-block" role="tab">
+            <a class="nav-link" id="remote-tab" data-toggle="tab" href="#remote" aria-controls="remote" aria-selected="false">
               <i class="icon ion-ios-cloud-upload large"></i>
               <span class="sr-only">remote recording details</span>
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" id="mixing-tab" data-toggle="tab" href="#mixing" role="tab" aria-controls="mixing" aria-selected="false">
+          <li class="nav-item" role="tab">
+            <a class="nav-link" id="mixing-tab" data-toggle="tab" href="#mixing" aria-controls="mixing" aria-selected="false">
               <i class="icon ion-levels large"></i>
               <span class="sr-only">mixing details</span>
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" id="mastering-tab" data-toggle="tab" href="#mastering" role="tab" aria-controls="mastering" aria-selected="false">
+          <li class="nav-item" role="tab">
+            <a class="nav-link" id="mastering-tab" data-toggle="tab" href="#mastering" aria-controls="mastering" aria-selected="false">
               <i class="icon ion-disc large"></i>
               <span class="sr-only">mastering details</span>
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" id="production-tab" data-toggle="tab" href="#production" role="tab" aria-controls="production" aria-selected="false">
+          <li class="nav-item" role="tab">
+            <a class="nav-link" id="production-tab" data-toggle="tab" href="#production" aria-controls="production" aria-selected="false">
               <i class="icon ion-ios-infinite large"></i>
               <span class="sr-only">production details</span>
             </a>
@@ -284,7 +284,7 @@
             </a>
           </div>
           <div class="col-sm">
-            <iframe src="https://open.spotify.com/embed/album/6NXK1KEN16US4TeRmTIQ4B" width="350" height="350" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe title="Featured Artist Playlist" src="https://open.spotify.com/embed/album/6NXK1KEN16US4TeRmTIQ4B" width="350" height="350" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
           </div>
         </div>
       </div>

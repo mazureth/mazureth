@@ -77,7 +77,8 @@ var $window = $(window),
     $mixer = $('.mixer'),
     $mainSection = $('.main section'),
     $navbarNav = $('#navbarNav'),
-    webpSupported = canUseWebP();
+    webpSupported = canUseWebP(),
+    maxScrollDepth = 0;
 
 // nav clicks for active 'tab'
 $('.navbar .nav-item, .navbar .navbar-brand').on('click', function(e){
@@ -128,6 +129,10 @@ $window.on('scroll', function(e){
   var scroll = $window.scrollTop(),
       mixerPosition;
 
+  if (scroll > maxScrollDepth) {
+    maxScrollDepth = scroll;
+  }
+
   if ($mixer.length) {
     mixerPosition = $mixer.css('backgroundPosition').split(' ');
 
@@ -141,9 +146,19 @@ $window.on('scroll', function(e){
       if (Math.abs($this.offsetTop-scroll) < 20) {
         $navbarNav.find('.active').removeClass('active');
         $navbarNav.find('a[href="#' + $this.id + '"]').addClass('active');
+
       }
     });
   }
+});
+
+// services clicks
+$('#services .nav-item').click(function(){
+  var $this = $(this);
+  var tab = $this.find('.nav-link')[0].id.split('-')[0];
+  gtag('event', 'service tab click', {
+    'value': tab
+  });
 });
 
 // form handler
