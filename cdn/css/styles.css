@@ -269,7 +269,7 @@ section .social .btn {
   bottom: 0;
   left: 0;
   right: 0;
-  color: #6b6b6b;
+  color: #767676;
 }
 
 .testimonials cite::before {
@@ -285,12 +285,12 @@ section .social .btn {
 }
 .rate .unit {
   font-size: 1rem;
-  color: #777777;
+  color: #767676;
 }
 
 .footnote {
   font-size: .5em;
-  color: #aaaaaa;
+  color: #767676;
   text-align: left;
   margin: .5rem 0 0;
 }

@@ -48,32 +48,32 @@
       <div class="container">
         <h2 id="">SERVICES</h2>
         <ul class="nav nav-tabs nav-justified" id="services" role="tablist">
-          <li class="nav-item" role="tab">
-            <a class="nav-link active" id="recording-tab" data-toggle="tab" href="#recording" aria-controls="recording" aria-selected="true">
+          <li class="nav-item" role="tab" aria-controls="recording" aria-selected="true">
+            <a class="nav-link active" id="recording-tab" data-toggle="tab" href="#recording">
               <i class="icon ion-mic-a large"></i>
               <span class="sr-only">recording details</span>
             </a>
           </li>
-          <li class="nav-item d-none d-md-block" role="tab">
-            <a class="nav-link" id="remote-tab" data-toggle="tab" href="#remote" aria-controls="remote" aria-selected="false">
+          <li class="nav-item d-none d-md-block" role="tab" aria-controls="remote" aria-selected="false">
+            <a class="nav-link" id="remote-tab" data-toggle="tab" href="#remote">
               <i class="icon ion-ios-cloud-upload large"></i>
               <span class="sr-only">remote recording details</span>
             </a>
           </li>
-          <li class="nav-item" role="tab">
-            <a class="nav-link" id="mixing-tab" data-toggle="tab" href="#mixing" aria-controls="mixing" aria-selected="false">
+          <li class="nav-item" role="tab" aria-controls="mixing" aria-selected="false">
+            <a class="nav-link" id="mixing-tab" data-toggle="tab" href="#mixing">
               <i class="icon ion-levels large"></i>
               <span class="sr-only">mixing details</span>
             </a>
           </li>
-          <li class="nav-item" role="tab">
-            <a class="nav-link" id="mastering-tab" data-toggle="tab" href="#mastering" aria-controls="mastering" aria-selected="false">
+          <li class="nav-item" role="tab" aria-controls="mastering" aria-selected="false">
+            <a class="nav-link" id="mastering-tab" data-toggle="tab" href="#mastering">
               <i class="icon ion-disc large"></i>
               <span class="sr-only">mastering details</span>
             </a>
           </li>
-          <li class="nav-item" role="tab">
-            <a class="nav-link" id="production-tab" data-toggle="tab" href="#production" aria-controls="production" aria-selected="false">
+          <li class="nav-item" role="tab" aria-controls="production" aria-selected="false">
+            <a class="nav-link" id="production-tab" data-toggle="tab" href="#production">
               <i class="icon ion-ios-infinite large"></i>
               <span class="sr-only">production details</span>
             </a>
