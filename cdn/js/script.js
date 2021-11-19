@@ -163,7 +163,8 @@ $('#services .nav-item').click(function(){
 
 // form handler
 $('form').submit( function(e) {
-  var $name = $('#name'),
+  var $firstName = $('#firstName'),
+      $lastName = $('#lastName'),
       $email = $('#email'),
       $startDate = $('#start-date'),
       $endDate = $('#end-date'),
@@ -182,14 +183,24 @@ $('form').submit( function(e) {
     $('.g-recaptcha :first-child').first().css('border','none');
   }
 
-  if (!$name.val().trim()) {
-    $name.removeClass('is-valid');
-    $name.addClass('is-invalid');
+  if (!$firstName.val().trim()) {
+    $firstName.removeClass('is-valid');
+    $firstName.addClass('is-invalid');
     defaultPrevented = true;
     e.preventDefault();
   } else {
-    $name.removeClass('is-invalid');
-    $name.addClass('is-valid');
+    $firstName.removeClass('is-invalid');
+    $firstName.addClass('is-valid');
+  }
+
+  if (!$lastName.val().trim()) {
+    $lastName.removeClass('is-valid');
+    $lastName.addClass('is-invalid');
+    defaultPrevented = true;
+    e.preventDefault();
+  } else {
+    $lastName.removeClass('is-invalid');
+    $lastName.addClass('is-valid');
   }
 
   if (!$email.val().match(/^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/)) {

@@ -98,7 +98,6 @@
                 If you have your own audio device we can track you remotely via Cubase VST Connect from anywhere 
                 with a good internet connection in just a few easy steps! This is a great option if you are not in
                 the Pacific North West or have transportation limitations. <em><small>Standard session rates apply</small></em>
-
               </p>
             </div>
           </div>

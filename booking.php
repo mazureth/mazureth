@@ -14,9 +14,15 @@
           to you as soon as we can!
         </p>
         <form id="contactForm" method="post" action="process-form.php">
-          <div class="form-group">
-            <label for="name">Name</label>
-            <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+        <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="firstName">First Name</label>
+              <input type="text" class="form-control" name="firstName" id="firstName" placeholder="First Name">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="lastName">Last Name</label>
+              <input type="text" class="form-control" name="lastName" id="lastName" placeholder="Last Name">
+            </div>
           </div>
           <div class="form-group">
             <label for="email">Email Address</label>
