@@ -59,7 +59,7 @@ if ($token != md5(date('YmdH') . "D4teS4lt")
 
 // SendGrid integration to add the new form fillout to the appropriate list
 $curl = curl_init();
-$sendGridPayload = "{\"list_ids\": [\"16275b82-a697-4732-95f0-e6e6b2e6e41e\"],\"contacts\": [{\"email\": \"$email\",\"first_name\": \"$firstName\",\"last_name\": \"$lastName\"}]}";
+$sendGridPayload = "{\"list_ids\":[\"16275b82-a697-4732-95f0-e6e6b2e6e41e\"],\"contacts\":[{\"email\":\"$email\",\"first_name\":\"$firstName\",\"last_name\":\"$lastName\",\"custom_fields\":{\"w9_T\":\"$startDate\",\"w10_T\":\"$endDate\",\"w7_T\":\"$service\",\"w8_T\":\"$message\"}}]}";
 
 curl_setopt_array($curl, array(
   CURLOPT_URL => "https://api.sendgrid.com/v3/marketing/contacts",
