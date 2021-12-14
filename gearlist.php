@@ -170,7 +170,7 @@
               </ul>
               <h6>Channel Strips</h6>
               <ul>
-                <li>Cubase Pro 10.5 Channel Strip</li>
+                <li>Cubase Pro 10.5 Strip</li>
                 <li>Waves Scheps 73</li>
                 <li>Waves SSL 4000</li>
                 <li>Waves SSL EV2</li>
@@ -259,6 +259,7 @@
                 <li>&nbsp;</li>
                 <li>Waves Berzerk Distortion</li>
                 <li>Waves J37 Tape</li>
+                <li>Waves Retro LoFi</li>
                 <li>Waves Torquq</li>
               </ul>
             </div>
