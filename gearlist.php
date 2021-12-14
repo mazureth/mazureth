@@ -131,7 +131,7 @@
           <div class="card-header" id="headingSix">
             <h5 class="mb-0">
               <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                PREAMPS & EQUALIZERS
+                PREAMPS, EQUALIZERS, & CHANNEL STRIPS
               </button>
             </h5>
           </div>
@@ -167,6 +167,13 @@
                 <li>Waves PuigTec EQ</li>
                 <li>Waves Scheps 73</li>
                 <li>Waves SSL 4000 EQ</li>
+              </ul>
+              <h6>Channel Strips</h6>
+              <ul>
+                <li>Cubase Pro 10.5 Channel Strip</li>
+                <li>Waves Scheps 73</li>
+                <li>Waves SSL 4000</li>
+                <li>Waves SSL EV2</li>
               </ul>
             </div>
           </div>
