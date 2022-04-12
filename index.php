@@ -86,7 +86,7 @@
               <p>
                 We have a large acoustingly tuned live room, a state of the art control room, and a plethora
                 if microphones, instruments, and amps at your disposal on top of whatever you bring with you.
-                We also have several digital instruments and midi controllers as well. <strong>NEW:</strong> 
+                We also have several digital instruments and midi controllers as well. <strong>NEW:</strong>
                 We now offer remote tracking!
               </p>
             </div>
@@ -95,7 +95,7 @@
             <div class="container">
               <h4>Remote Tracking</h4>
               <p>
-                If you have your own audio device we can track you remotely via Cubase VST Connect from anywhere 
+                If you have your own audio device we can track you remotely via Cubase VST Connect from anywhere
                 with a good internet connection in just a few easy steps! This is a great option if you are not in
                 the Pacific North West or have transportation limitations. <em><small>Standard session rates apply</small></em>
               </p>
@@ -266,24 +266,24 @@
         <h3>FEATURED CLIENT</h3>
         <div class="row">
         <div class="col-sm text-justify featured">
-            <h3>Divine Comedy Club</h3>
+            <h3>drew.</h3>
             <p>
-              A project originally founded by drummer Jesse Niemer and guitarist Mannny Xenos in 2017, the band has gone
-              through many names and styles before settling on the psychedelic and atmospheric sound of Diving Comedy Club. 
-              Made up of members Garrett Olerud (Bass), Hannah Decker (Vocals and Synth), Jesse Niemer (Percussion), and 
-              Manny Xenos (Guitar), D.C.C draws influences from a variety of genres and artists. Combining the sounds 
-              of early 60s rock and psych and the more modern style of dream-pop, D.C.C has crafted a sound unique to them.
+              Drew Johnson, who uses the stylized moniker "drew.", is a Snoqualmie, WA hip hop artist picking up where
+              Juice WLRD left off. This is the third single drew. has released so far. Like his earlier tracks,
+              <em>Ballin For U</em> hits hard while maintaining its simplicity. He creates an atmospheric space that
+              entrances the listener, while also driving that 808 bass through the entire song. We are excited to see
+              what the future has in store for this up and coming artist!
             </p>
           </div>
           <div class="col-sm">
-            <a href="https://www.facebook.com/divinecomedyclub" target="_blank" rel="noreferrer">
+            <a href="https://soundcloud.com/drew-johnson-382771780/tracks" target="_blank" rel="noreferrer">
               <figure class="figure">
-                <img src="https://mazureth.com/cdn/images/featuredArtist.webp" class="figure-image img-fluid rounded artist-image" alt="Alpenglow - Mountain Time">
+                <img src="https://mazureth.com/cdn/images/featuredArtist.webp" class="figure-image img-fluid rounded artist-image" alt="drew. - Ballin For U">
               </figure>
             </a>
           </div>
           <div class="col-sm">
-            <iframe title="Featured Artist Playlist" src="https://open.spotify.com/embed/album/6NXK1KEN16US4TeRmTIQ4B" width="350" height="350" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe title="Featured Artist Playlist" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1244253397&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" width="350" height="350" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
           </div>
         </div>
       </div>
