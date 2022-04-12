@@ -268,11 +268,11 @@
         <div class="col-sm text-justify featured">
             <h3>drew.</h3>
             <p>
-              Drew Johnson, who uses the stylized moniker "drew.", is a Snoqualmie, WA hip hop artist picking up where
-              Juice WLRD left off. This is the third single drew. has released so far. Like his earlier tracks,
-              <em>Ballin For U</em> hits hard while maintaining its simplicity. He creates an atmospheric space that
-              entrances the listener, while also driving that 808 bass through the entire song. We are excited to see
-              what the future has in store for this up and coming artist!
+              Drew Johnson, who uses the stylized moniker "drew.", is a Snoqualmie, WA hip hop artist. His writing
+              is 100% freestyle. He loads up a beat, hits records, and let's the flow drive the lyrics. His new single,
+              <em>Ballin For U</em>, hits hard while maintaining its simplicity. He creates an atmospheric space that
+              entrances the listener, while also driving an 808 bass through the entire song. The result is a perfect
+              blend of chill vibes, pumping beats, rapping, and singing.
             </p>
           </div>
           <div class="col-sm">
