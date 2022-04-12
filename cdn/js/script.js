@@ -15,7 +15,7 @@ function generateCoverGrid(works) {
   var template = '';
 
   for (var i = 0; i < works.length; i++) {
-    
+
     var artistName = works[i].artistName,
       albumName = works[i].albumName,
       description = works[i].description,
@@ -34,7 +34,7 @@ function generateCoverGrid(works) {
     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
       <div class="card">
         <div class="card-body">`;
-          
+
     template += artistLink.length
       ? `<p class="card-text"><strong>Artist:</strong> <a href="${artistLink}" target="_blank" rel="noreferrer">${artistName}</a></p>`
       : `<p class="card-text"><strong>Artist:</strong> ${artistName}</p>`;
@@ -401,6 +401,15 @@ var works = [
     jobType: "Full Production"
   },
   {
+    artistName: "drew.",
+    albumName: "Ballin For U (Single)",
+    description: "Snowqualmie, WA based hip hop artists with clear Juice WRLD influences, meshing rapping with singing.",
+    coverArt: "images/artists/drew._-_ballin_4_u.",
+    artistLink: "https://soundcloud.com/drew-johnson-382771780/tracks",
+    albumLink: "https://soundcloud.com/drew-johnson-382771780/ballin-for-u",
+    jobType: "Mixing & Mastering"
+  },
+  {
     artistName: "Glen Ridge",
     albumName: "All The Things (LP)",
     description: "Folky bluegrass musings of singer/songwriter Glen Ridge.",
@@ -434,7 +443,7 @@ var works = [
     coverArt: "images/artists/plateau.",
     artistLink: "https://plateauseattle.bandcamp.com/",
     albumLink: "https://soundcloud.com/user-359899219/sets/plateau-everything-was-sweet",
-    jobType: "Mixing"
+    jobType: "Mixing & Mastering"
   },
   {
     artistName: "Red Is Recovery",
