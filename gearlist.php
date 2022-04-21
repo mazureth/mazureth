@@ -68,8 +68,8 @@
           <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
             <div class="card-body">
               <ul>
-                <li>Event 20/20</li>              
-                <li>&nbsp;</li>                
+                <li>Event 20/20</li>
+                <li>&nbsp;</li>
                 <li>Sony 55" Display</li>
               </ul>
             </div>
@@ -116,7 +116,7 @@
               <ul>
                 <li>Electro-Voice RE20</li>
                 <li>Sennheiser e609 (2)</li>
-                <li>Sennheiser MD421-II (6)</li>              
+                <li>Sennheiser MD421-II (6)</li>
                 <li>Shure SM57 (3)</li>
                 <li>Shure SM7B</li>
                 <li>Superlux PRA-218B Kick Mic</li>
@@ -158,7 +158,14 @@
                 <li>Audio Assault Multi Transient</li>
                 <li>Audio Assault D-Rez</li>
                 <li>&nbsp;</li>
+                <li>bx_cleansweep V2</li>
+                <li>bx_subfilter</li>
+                <li>&nbsp;</li>
+                <li>elysia niveau filter</li>
+                <li>&nbsp;</li>
                 <li>Slate Digital Fresh Air</li>
+                <li>&nbsp;</li>
+                <li>SPL Free Ranger</li>
                 <li>&nbsp;</li>
                 <li>TDR Nova</li>
                 <li>TDR VOS SlickEQ</li>
@@ -198,10 +205,15 @@
                 <li>Audio Assault The Punch</li>
                 <li>Audio Assault T-Comp</li>
                 <li>&nbsp;</li>
+                <li>bx_masterdesk</li>
+                <li>bx_masterdesk Classic</li>
+                <li>&nbsp;</li>
                 <li>Klanghelm DC1A3</li>
                 <li>Klanghelm MJUCjr</li>
                 <li>&nbsp;</li>
                 <li>Pulsar Smasher</li>
+                <li>&nbsp;</li>
+                <li>Shadow Hills Mastering Compressor</li>
                 <li>&nbsp;</li>
                 <li>TDR Kotelnikcov</li>
                 <li>&nbsp;</li>
@@ -236,10 +248,12 @@
           <div id="collapseThirteen" class="collapse" aria-labelledby="headingThirteen" data-parent="#accordion">
             <div class="card-body">
               <ul>
-                <li>Digitech TSR-12</li> 
+                <li>Digitech TSR-12</li>
                 <li>Korg SDD-3000 Digital Delay</li>
                 <li>Line 6 POD (Kidney Bean)</li>
                 <li>Rocktron HUSH Super C</li>
+                <li>&nbsp;</li>
+                <li>Black Box HG-2</li>
                 <li>&nbsp;</li>
                 <li>Bricasti M7 Impulse Response Library</li>
                 <li>&nbsp;</li>
@@ -305,7 +319,7 @@
           </div>
           <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
             <div class="card-body">
-              <ul>              
+              <ul>
                 <li>Ampeg BA-10B</li>
                 <li>Epiphone Studio 10<li>
                 <li>EVH 5150</li>
@@ -313,6 +327,10 @@
                 <li>Fender Hot Rod Deville</li>
                 <li>Marshall Valvestate AVT 2000</li>
                 <li>Marshall Lead 1960A Cabinet</li>
+                <li>&nbsp;</li>
+                <li>Ampeg SVT-VR Classic</li>
+                <li>&nbsp;</li>
+                <li>bx_rockrack V3 Player</li>
                 <li>&nbsp;</li>
                 <li>Ignite Amps Emissary</li>
                 <li>Ignite NadIR Loader</li>
@@ -387,6 +405,8 @@
               <ul>
                 <li>Alesis V49 Midi Confroller</li>
                 <li>&nbsp;</li>
+                <li>bx_oberhausen</li>
+                <li>&nbsp;</li>
                 <li>iZotope Iris 2</li>
                 <li>&nbsp;</li>
                 <li>Steinberg Groove Agent SE 4</li>
@@ -434,7 +454,7 @@
                 <li>iZotope Stutter</li>
                 <li>&nbsp;</li>
                 <li>Waves Abbey Road TG Master Chain</li>
-                <li>Waves API 2500 Bus Compressor</li> 
+                <li>Waves API 2500 Bus Compressor</li>
                 <li>Waves Berzerk Distortion</li>
                 <li>Waves CLA-2A</li>
                 <li>Waves CLA-76</li>
