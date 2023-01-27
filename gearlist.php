@@ -23,7 +23,6 @@
             <div class="card-body">
               <ul>
                 <li>Behringer X32 Digital Consle w/ Behringer S32</li>
-                <li>Yamaha Rm 800 Analog Console</li>
               </li>
             </div>
           </div>
@@ -145,11 +144,13 @@
                 <li>Motu 828 MK3 (2 pres)</li>
                 <li>PreSonus BlueTube Stereo Tube Preamp (2 pres)</li>
                 <li>Radial ProDI (2)</li>
+                <li>Warm WA273 2 Channel (Neve 1073 Clone)</li>
               </ul>
               <h6>Equializers</h6>
               <ul>
                 <li>BBE Sonic Maximizer 882i</li>
-                <li>DBX 131S</li>
+                <li>DBX 131S</li1
+                <li>Warm EQP-WA (Pultec EQP-1A Clone) (2)</li>
                 <li>&nbsp;</li>
                 <li>Acustica Coffee the Pun</li>
                 <li>Acustica Coral Baxter</li>
@@ -198,6 +199,7 @@
             <div class="card-body">
               <ul>
                 <li>Alesis 3630 Compressor</li>
+                <li>Waves Stereo Bus Comp (SSL 4000 Bus Comp Clone)</li>
                 <li>&nbsp;</li>
                 <li>Acustica Tan</li>
                 <li>&nbsp;</li>
