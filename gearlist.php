@@ -110,6 +110,7 @@
                 <li>AKG C414 XLII (2)</li>
                 <li>Rode NT2-A</li>
                 <li>Samson C02 Pencils (Matched Pair)</li>
+                <li>sE 8 Small Diaphragm Concdencer (Matched Pair)</li>
               </ul>
               <h6>DYNAMIC</h6>
               <ul>
