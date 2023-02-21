@@ -365,6 +365,15 @@ var works = [
     jobType: "Full Production"
   },
   {
+    artistName: "Bone Frau",
+    albumName: "Umlaut",
+    description: "Seattle based prog rock with a very braod musical range",
+    coverArt: "images/artists/bone_frau_umlaut.",
+    artistLink: "https://bonefrau.bandcamp.com/",
+    albumLink: "https://bonefrau.bandcamp.com/album/umlaut",
+    jobType: "Full Production"
+  },
+  {
     artistName: "Castle Dwellers",
     albumName: "Like the Waving Sea",
     description: "Catchy guitar driven indie rock with obvious blues influences",
