@@ -39,7 +39,8 @@
           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
             <div class="card-body">
               <ul>
-                <li>Cubase Pro 10.5</li>
+                <li>Cubase Pro 12.5</li>
+                <li>Pro Tools</li>
                 <li>&nbsp;</li>
                 <li>Behringer X32</li>
                 <li>Motu 2408 MK1</li>
