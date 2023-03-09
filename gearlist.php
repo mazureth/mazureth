@@ -39,12 +39,11 @@
           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
             <div class="card-body">
               <ul>
-                <li>Cubase Pro 12.5</li>
+                <li>Cubase Pro</li>
                 <li>Pro Tools</li>
                 <li>&nbsp;</li>
-                <li>Behringer X32</li>
-                <li>Motu 2408 MK1</li>
-                <li>Motu 828 MK3</li>
+                <li>Behringer X32 (32 x 16 IO)</li>
+                <li>Behringer S32 (32 x 16 IO)</li>
                 <li>&nbsp;</li>
                 <li>Custom Built PC
                 <ul>
@@ -88,6 +87,7 @@
             <div class="card-body">
               <ul>
                 <li>Behringer Powerplay P1</li>
+                <li>Samson S-amp</li>
                 <li>&nbsp;</li>
                 <li>AKG K240</li>
                 <li>Sennheiser HD280PRO</li>
@@ -143,7 +143,6 @@
                 <li>Behringer X32 (32 pres)</li>
                 <li>Behringer S32 (32 pres)</li>
                 <li>Cloudlifter CL1 (1 pre)</li>
-                <li>Motu 828 MK3 (2 pres)</li>
                 <li>PreSonus BlueTube Stereo Tube Preamp (2 pres)</li>
                 <li>Radial ProDI (2)</li>
                 <li>Warm WA273 2 Channel (Neve 1073 Clone)</li>
