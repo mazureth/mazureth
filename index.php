@@ -266,24 +266,24 @@
         <h3>FEATURED CLIENT</h3>
         <div class="row">
         <div class="col-sm text-justify featured">
-            <h3>drew.</h3>
+            <h3>Bone Frau</h3>
             <p>
-              Drew Johnson, who uses the stylized moniker "drew.", is a Snoqualmie, WA hip hop artist. His writing
-              is 100% freestyle. He loads up a beat, hits records, and let's the flow drive the lyrics. His new single,
-              <em>Ballin For U</em>, hits hard while maintaining its simplicity. He creates an atmospheric space that
-              entrances the listener, while also driving an 808 bass through the entire song. The result is a perfect
-              blend of chill vibes, pumping beats, rapping, and singing.
+              Bone Frau are a Seattle based prog rock quartet. They combine numerous genres like jazz, rock, reggae,
+              pop, and metal seamlessly into a sound that varies widely from song to song and yet maintains a
+              consistency that is very "them". They share writing duties and singing duties across the band. This 3
+              song EP features songs from 3 different members and 2 different singers. They are predominantly a live
+              band and wanted to capture that, so we recorded live off the floor that the results were fantastic.
             </p>
           </div>
           <div class="col-sm">
-            <a href="https://soundcloud.com/drew-johnson-382771780/tracks" target="_blank" rel="noreferrer">
+            <a href="https://bonefrau.bandcamp.com/album/umlaut" target="_blank" rel="noreferrer">
               <figure class="figure">
-                <img src="https://mazureth.com/cdn/images/featuredArtist.webp" class="figure-image img-fluid rounded artist-image" alt="drew. - Ballin For U">
+                <img src="https://mazureth.com/cdn/images/featuredArtist.webp" class="figure-image img-fluid rounded artist-image" alt="Bone Frau - Umlaut">
               </figure>
             </a>
           </div>
           <div class="col-sm">
-            <iframe title="Featured Artist Playlist" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1244253397&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" width="350" height="350" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe title="Featured Artist Playlist" src="https://bandcamp.com/EmbeddedPlayer/album=1005649191/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless style="border: 0; width: 350px; height: 3500px;" width="350" height="350" frameborder="0" allowtransparency="true" allow="encrypted-media"><a href="https://bonefrau.bandcamp.com/album/umlaut">Umlaut by Bone Frau</a></iframe>
           </div>
         </div>
       </div>
