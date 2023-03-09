@@ -283,7 +283,7 @@
             </a>
           </div>
           <div class="col-sm">
-            <iframe title="Featured Artist Playlist" src="https://bandcamp.com/EmbeddedPlayer/album=1005649191/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless style="border: 0; width: 350px; height: 3500px;" width="350" height="350" frameborder="0" allowtransparency="true" allow="encrypted-media"><a href="https://bonefrau.bandcamp.com/album/umlaut">Umlaut by Bone Frau</a></iframe>
+            <iframe title="Featured Artist Playlist" src="https://bandcamp.com/EmbeddedPlayer/album=1005649191/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless style="border: 0; width: 350px; height: 350px;" width="350" height="350" frameborder="0" allowtransparency="true" allow="encrypted-media"><a href="https://bonefrau.bandcamp.com/album/umlaut">Umlaut by Bone Frau</a></iframe>
           </div>
         </div>
       </div>
