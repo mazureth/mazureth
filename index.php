@@ -5,7 +5,7 @@
 
   <div class="main container-fluid">
 
-    <section id="welcome" class="bg-black mixer">
+    <section id="welcome" class="bg-black hero">
       <img src="https://mazureth.com/cdn/images/mazureth-logo-white.svg" class="img-fluid" alt="Mazureth Logo" />
     </section>
 

@@ -132,17 +132,17 @@ section.subSectionEnd {
   min-height: 0;
 }
 
-.mixer {
-  background-image: url(https://mazureth.com/cdn/images/mixer.webp);
+.hero {
+  background-image: url(https://mazureth.com/cdn/images/hero.webp);
   background-position: 50% 0px;
   position: relative;
 }
 
-.mixer.noWebp {
-  background-image: url(https://mazureth.com/cdn/images/mixer.jpg);
+.hero.noWebp {
+  background-image: url(https://mazureth.com/cdn/images/hero.jpg);
 }
 
-.mixer img {
+.hero img {
   position: absolute;
   top:0;
   bottom: 0;
