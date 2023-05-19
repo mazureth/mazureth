@@ -74,7 +74,7 @@ $('.phNum').append(atob('KDIwNikgMzk1IC0gOTAwOQ=='));
 $('.emailAddr').append(atob('aW5mb0BtYXp1cmV0aC5jb20='));
 
 var $window = $(window),
-    $mixer = $('.mixer'),
+    $hero = $('.hero'),
     $mainSection = $('.main section'),
     $navbarNav = $('#navbarNav'),
     webpSupported = canUseWebP(),
@@ -127,18 +127,18 @@ $('.navbar-collapse a').click(function(){
 // Scroll listener
 $window.on('scroll', function(e){
   var scroll = $window.scrollTop(),
-      mixerPosition;
+      heroPosition;
 
   if (scroll > maxScrollDepth) {
     maxScrollDepth = scroll;
   }
 
-  if ($mixer.length) {
-    mixerPosition = $mixer.css('backgroundPosition').split(' ');
+  if ($hero.length) {
+    heroPosition = $hero.css('backgroundPosition').split(' ');
 
-    // mixer paralax
-    mixerPosition[1] = 0 + (scroll / 5) + 'px';
-    $mixer.css('backgroundPosition', mixerPosition.join(' '));
+    // hero paralax
+    heroPosition[1] = 0 + (scroll / 5) + 'px';
+    $hero.css('backgroundPosition', heroPosition.join(' '));
 
     // dumb scroll spy
     $mainSection.each(function(){
@@ -294,7 +294,7 @@ if (!webpSupported) {
     src = src.replace('webp', 'jpg');
     this.src = src;
   });
-  // adds a class to the mixer window to use diferent background image
+  // adds a class to the hero window to use different background image
   $('#welcome').addClass('noWebp');
 }
 
