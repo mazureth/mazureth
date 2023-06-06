@@ -306,6 +306,12 @@
               </p>
               <cite title="Alex Folkerth - Castle Dwellers">Alex Folkerth (Castle Dwellers)</cite>
             </div>
+            <div class="carousel-item">
+              <p class="lead">
+                <em>"This is a first class studio... I’m very happy with the product and professionalism."</em>
+              </p>
+              <cite title="Keith Wyss - Bone Frau">Keith Wyss (Bone Frau)</cite>
+            </div>
           </div>
         </div>
       </div>
