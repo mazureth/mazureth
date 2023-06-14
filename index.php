@@ -215,16 +215,40 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
               </ol>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img class="d-block w-100" src="https://mazureth.com/cdn/images/live-room.webp" alt="Live Room">
+                  <img class="d-block w-100" src="https://mazureth.com/cdn/images/carousel01.jpg" alt="Full studio">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="https://mazureth.com/cdn/images/control-room.webp" alt="Control Room">
+                  <img class="d-block w-100" src="https://mazureth.com/cdn/images/carousel02.jpg" alt="Piano">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="https://mazureth.com/cdn/images/van.webp" alt="The Van">
+                  <img class="d-block w-100" src="https://mazureth.com/cdn/images/carousel03.jpg" alt="Bo Randall on guitar">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="https://mazureth.com/cdn/images/carousel04.jpg" alt="Riley in the chair">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="https://mazureth.com/cdn/images/carousel05.jpg" alt="Booth">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="https://mazureth.com/cdn/images/carousel06.jpg" alt="Control room">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="https://mazureth.com/cdn/images/carousel07.jpg" alt="Live room">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="https://mazureth.com/cdn/images/carousel08.jpg" alt="Jesse at console">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="https://mazureth.com/cdn/images/carousel09.jpg" alt="Riley in bed">
                 </div>
               </div>
             </div>
