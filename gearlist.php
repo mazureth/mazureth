@@ -150,7 +150,7 @@
               <h6>Equializers</h6>
               <ul>
                 <li>BBE Sonic Maximizer 882i</li>
-                <li>DBX 131S</li1
+                <li>DBX 131S</li>
                 <li>Warm EQP-WA (Pultec EQP-1A Clone) (2)</li>
                 <li>&nbsp;</li>
                 <li>Acustica Coffee the Pun</li>
@@ -179,7 +179,7 @@
               </ul>
               <h6>Channel Strips</h6>
               <ul>
-                <li>Cubase Pro 10.5 Strip</li>
+                <li>Cubase Pro 12 Strip</li>
                 <li>Waves Scheps 73</li>
                 <li>Waves SSL 4000</li>
                 <li>Waves SSL EV2</li>
