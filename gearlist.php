@@ -380,11 +380,12 @@
                 <li>Zildjian ZBT Plus 14" Hi-Hats</li>
                 <li>Zildjian Sweet Ride 21" Ride</li>
                 <li>&nbsp;</li>
+                <li>Ludwig Black Beauty 6.5 x 14 Snare</li>
                 <li>Pearl Session Custom 22" Kick</li>
                 <li>Pearl Session Custom 12" Tom</li>
                 <li>Pearl Session Custom 13" Tom</li>
                 <li>Pearl Session Custom 16" Tom</li>
-                <li>Tama Stagestar 14" Snare (Steel)</li>
+                <li>Tama Stagestar 13" Snare (Steel)</li>
                 <li>&nbsp;</li>
                 <li>iZotope Breaktweaker</li>
                 <li>&nbsp;</li>
