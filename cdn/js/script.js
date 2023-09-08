@@ -471,5 +471,14 @@ var works = [
     artistLink: "https://myspace.com/redisrecovery",
     albumLink: "https://soundcloud.com/user-359899219/sets/red-is-recovery-goodbyes-are-new-beginnings",
     jobType: "Full Production"
+  },
+  {
+    artistName: "Tormenta",
+    albumName: "Junge Dead (Single)",
+    description: "Debut single of Seattle death thrash band",
+    coverArt: "images/artists/tormenta_jungle_dead.",
+    artistLink: "https://open.spotify.com/album/6KPsurCBJSHooFyDZtIrLu?si=uGRs2d0MToS_pcaZzbsHdQ",
+    albumLink: "https://open.spotify.com/album/6KPsurCBJSHooFyDZtIrLu?si=uGRs2d0MToS_pcaZzbsHdQ",
+    jobType: "Full Production"
   }
 ];

@@ -108,13 +108,14 @@
             <div class="card-body">
               <h6>CONDENSERS</h6>
               <ul>
-                <li>AKG C414 XLII (2)</li>
+                <li>AKG C414 XLII (2, Matched Pair)</li>
                 <li>Rode NT2-A</li>
                 <li>Samson C02 Pencils (Matched Pair)</li>
                 <li>sE 8 Small Diaphragm Concdencer (Matched Pair)</li>
               </ul>
               <h6>DYNAMIC</h6>
               <ul>
+                <li>AKG D112</li>
                 <li>Electro-Voice RE20</li>
                 <li>Sennheiser e609 (2)</li>
                 <li>Sennheiser MD421-II (6)</li>
@@ -165,6 +166,8 @@
                 <li>&nbsp;</li>
                 <li>elysia niveau filter</li>
                 <li>&nbsp;</li>
+                <li>Oeksound Soothe 2 </li>
+                <li>&nbsp;</li>
                 <li>Slate Digital Fresh Air</li>
                 <li>&nbsp;</li>
                 <li>SPL Free Ranger</li>
@@ -200,6 +203,7 @@
             <div class="card-body">
               <ul>
                 <li>Alesis 3630 Compressor</li>
+                <li>Black Lion Audio B172A (1176 and LA2A Clone)
                 <li>Waves Stereo Bus Comp (SSL 4000 Bus Comp Clone)</li>
                 <li>&nbsp;</li>
                 <li>Acustica Tan</li>
@@ -370,6 +374,16 @@
             <div class="card-body">
               <ul>
                 <li>Trick Dominator Double Pedal</li>
+                
+                <li>&nbsp;</li>
+                <li>Ludwig Black Beauty 6.5 x 14 Snare</li>
+                <li>Tama Stagestar 13" Snare (Steel)</li>
+                <li>&nbsp;</li>
+                <li>Pearl Session Custom 22" Kick</li>
+                <li>&nbsp;</li>
+                <li>Pearl Session Custom 12" Tom</li>
+                <li>Pearl Session Custom 13" Tom</li>
+                <li>Pearl Session Custom 16" Tom</li>
                 <li>&nbsp;</li>
                 <li>Meinl HCS 14" Hi-Hats</li>
                 <li>Meinl HCS 20" Ride</li>
@@ -379,13 +393,6 @@
                 <li>Meinl HCS 10" Splash</li>
                 <li>Zildjian ZBT Plus 14" Hi-Hats</li>
                 <li>Zildjian Sweet Ride 21" Ride</li>
-                <li>&nbsp;</li>
-                <li>Ludwig Black Beauty 6.5 x 14 Snare</li>
-                <li>Pearl Session Custom 22" Kick</li>
-                <li>Pearl Session Custom 12" Tom</li>
-                <li>Pearl Session Custom 13" Tom</li>
-                <li>Pearl Session Custom 16" Tom</li>
-                <li>Tama Stagestar 13" Snare (Steel)</li>
                 <li>&nbsp;</li>
                 <li>iZotope Breaktweaker</li>
                 <li>&nbsp;</li>
@@ -449,6 +456,8 @@
                 <li>Audio Assault Multi Transient</li>
                 <li>Audio Assault D-Rez</li>
                 <li>&nbsp;</li>
+                <li>Black Box HG-2</li>
+                <li>&nbsp;</li>
                 <li>iZotope Breaktweaker</li>
                 <li>iZotope Iris</li>
                 <li>iZotope Nectar</li>
@@ -456,6 +465,8 @@
                 <li>iZotope Ozone</li>
                 <li>iZotope RX-7</li>
                 <li>iZotope Stutter</li>
+                <li>&nbsp;</li>
+                <li>Oeksound Soothe 2</li>
                 <li>&nbsp;</li>
                 <li>Waves Abbey Road TG Master Chain</li>
                 <li>Waves API 2500 Bus Compressor</li>

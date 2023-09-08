@@ -290,24 +290,23 @@
         <h3>FEATURED CLIENT</h3>
         <div class="row">
         <div class="col-sm text-justify featured">
-            <h3>Bone Frau</h3>
+            <h3>Tormenta</h3>
             <p>
-              Bone Frau are a Seattle based prog rock quartet. They combine numerous genres like jazz, rock, reggae,
-              pop, and metal seamlessly into a sound that varies widely from song to song and yet maintains a
-              consistency that is very "them". They share writing duties and singing duties across the band. This 3
-              song EP features songs from 3 different members and 2 different singers. They are predominantly a live
-              band and wanted to capture that, so we recorded live off the floor that the results were fantastic.
-            </p>
+              Tormenta are a Snoqualmie Valley based death thrash band with clear influences from Sepultura, Havok, and
+              the like. Their sound is a culmination of fast heavy riffs, machine gun drums, brutal growls, and face
+              melting leads. Many of the band members are still in high school but they are talented beyond their years.
+              The single was recorded live with only a few over dubs. This is their debut single and it's  safe to say we
+              will be hearing a lot more from them soon as they claim their spot on the Seattle heavy metal scene. 
           </div>
           <div class="col-sm">
-            <a href="https://bonefrau.bandcamp.com/album/umlaut" target="_blank" rel="noreferrer">
+            <a href="https://open.spotify.com/album/6KPsurCBJSHooFyDZtIrLu?si=uGRs2d0MToS_pcaZzbsHdQ" target="_blank" rel="noreferrer">
               <figure class="figure">
-                <img src="https://mazureth.com/cdn/images/featuredArtist.webp" class="figure-image img-fluid rounded artist-image" alt="Bone Frau - Umlaut">
+                <img src="https://mazureth.com/cdn/images/featuredArtist.webp" class="figure-image img-fluid rounded artist-image" alt="Tormenta - Jungle Dead">
               </figure>
             </a>
           </div>
           <div class="col-sm">
-            <iframe title="Featured Artist Playlist" src="https://bandcamp.com/EmbeddedPlayer/album=1005649191/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless style="border: 0; width: 350px; height: 350px;" width="350" height="350" frameborder="0" allowtransparency="true" allow="encrypted-media"><a href="https://bonefrau.bandcamp.com/album/umlaut">Umlaut by Bone Frau</a></iframe>
+            <iframe title="Featured Artist Playlist" src="https://open.spotify.com/embed/track/493WuzDNY9K3kRCbxgE46V?utm_source=generator" seamless style="border: 0; width: 350px; height: 350px;" width="350" height="350" frameborder="0" allowtransparency="true" allow="encrypted-media"><a href="https://open.spotify.com/album/6KPsurCBJSHooFyDZtIrLu?si=uGRs2d0MToS_pcaZzbsHdQ">Tormenta - Jungle Dead</a></iframe>
           </div>
         </div>
       </div>
@@ -318,23 +317,38 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <p class="lead">
-                <em>"Listens to your suggestions and makes the recording process super easy and simple!
-                  Would definitely recommend this place!"</em>
+                <em>
+                  "Listens to your suggestions and makes the recording process super easy and simple!
+                  Would definitely recommend this place!"
+                </em>
               </p>
               <cite title="Julian Forester - 400.40">Julian Forester (400.40)</cite>
             </div>
             <div class="carousel-item">
               <p class="lead">
-                <em>"Killer drum sounds - very impressed!!! Tracked a whole album of drums in 3 days,
-                  Jesse is a wizard. 10/10"</em>
+                <em>
+                  "Killer drum sounds - very impressed!!! Tracked a whole album of drums in 3 days,
+                  Jesse is a wizard. 10/10"
+                </em>
               </p>
               <cite title="Alex Folkerth - Castle Dwellers">Alex Folkerth (Castle Dwellers)</cite>
             </div>
             <div class="carousel-item">
               <p class="lead">
-                <em>"This is a first class studio... I’m very happy with the product and professionalism."</em>
+                <em>
+                  "This is a first class studio... I’m very happy with the product and professionalism."
+                </em>
               </p>
               <cite title="Keith Wyss - Bone Frau">Keith Wyss (Bone Frau)</cite>
+            </div>
+            <div class="carousel-item">
+              <p class="lead">
+                <em>
+                  "Jesse did an amazing job... Other studios did not go above and beyond 
+                  to deliver a perfect product. Mazureth is the exception."
+                  </em>
+              </p>
+              <cite title="Bo Randall">Bo Randall</cite>
             </div>
           </div>
         </div>
