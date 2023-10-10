@@ -152,6 +152,8 @@
               <ul>
                 <li>BBE Sonic Maximizer 882i</li>
                 <li>DBX 131S</li>
+                <li>Lindell PEX-500 (Pultec style)</li>
+                <li>Trident 80B (2)</li>
                 <li>Warm EQP-WA (Pultec EQP-1A Clone) (2)</li>
                 <li>&nbsp;</li>
                 <li>Acustica Coffee the Pun</li>
@@ -203,7 +205,9 @@
             <div class="card-body">
               <ul>
                 <li>Alesis 3630 Compressor</li>
-                <li>Black Lion Audio B172A (1176 and LA2A Clone)
+                <li>Black Lion Audio B172A (1176 and LA2A Clone)</li>
+                <li>DBX 560A (2)</li>
+                <li>Fredenstein Artistic Compressor Plus (FET compressor, 1176 style) (2)</li>
                 <li>Waves Stereo Bus Comp (SSL 4000 Bus Comp Clone)</li>
                 <li>&nbsp;</li>
                 <li>Acustica Tan</li>
