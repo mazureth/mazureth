@@ -209,7 +209,7 @@
                 <li>Black Lion Audio B172A (1176 and LA2A Clone)</li>
                 <li>DBX 560A (2)</li>
                 <li>Fredenstein Artistic Compressor Plus (FET compressor, 1176 style) (2)</li>
-                <li>Waves Stereo Bus Comp (SSL 4000 Bus Comp Clone)</li>
+                <li>Warm Stereo Bus Comp (SSL 4000 Bus Comp Clone)</li>
                 <li>&nbsp;</li>
                 <li>Acustica Tan</li>
                 <li>&nbsp;</li>

@@ -331,7 +331,7 @@ var works = [
   {
     artistName: "Alpenglow",
     albumName: "Mountain Time (EP)",
-    description: "Seattle based progressive bluegrass band that has just hit the scene, they wanted a demo to send to venues for booking.",
+    description: "Seattle based progressive bluegrass band that wanted a demo to send to venues for booking.",
     coverArt: "images/artists/AlpenglowMountainTime.",
     artistLink: "https://www.facebook.com/AlpenglowSeattle/",
     albumLink: "https://open.spotify.com/album/1aucdFj58YlUALfS3p3ru4?si=dKaG-qGVQRam0bO489NAww",
@@ -345,6 +345,15 @@ var works = [
     artistLink: "https://www.facebook.com/anthroceneband/",
     albumLink: "https://open.spotify.com/album/1rZ0TSTy1MJpyL17ZLNxAb?si=qMPs6hXdTuqAVABHtVZxwA",
     jobType: "Tracking"
+  },
+  {
+    artistName: "Ari Warmack",
+    albumName: "The Life (Single)",
+    description: "Snoqualmie based singer/songwriter",
+    coverArt: "images/artists/Ari_The_Life.",
+    artistLink: "https://open.spotify.com/artist/5OWg8nza0NfynvaJbgCi6C?si=bfaGYHThR_Ox5Xz_hl3g-g",
+    albumLink: "https://open.spotify.com/album/08MyV4wI64aDh0ZTRdnptF?si=S56XDGbHRg2KfPkYlDm5PQ",
+    jobType: "Mixing and Mastering"
   },
   {
     artistName: "The Avenue",
