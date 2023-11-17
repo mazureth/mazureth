@@ -374,6 +374,15 @@ var works = [
     jobType: "Full Production"
   },
   {
+    artistName: "Bo Randall",
+    albumName: "Cascade Highway",
+    description: "Irish influecned Pacific Northwest blugrass",
+    coverArt: "images/artists/bo_randall_cascade_highway.",
+    artistLink: "https://open.spotify.com/artist/0gCvdYz9jKqnivUcbzjfB1?si=BM0_37K2Q52ge7oygz3vtQ",
+    albumLink: "https://open.spotify.com/album/4IHmE2b2Hon9pb01FTyUgw?si=P_E5Fv6DQuGHFLXNMHyIpA",
+    jobType: "Full Production"
+  },
+  {
     artistName: "Bone Frau",
     albumName: "Umlaut",
     description: "Seattle based prog rock with a very braod musical range",
@@ -468,8 +477,8 @@ var works = [
     albumName: "Red Is Recovery (LP)",
     description: "Debut album of Tallahassee based indie rock band that kicked off local fame leading to regional followings and label attention.",
     coverArt: "images/artists/red_is_recovery.",
-    artistLink: "https://myspace.com/redisrecovery",
-    albumLink: "https://soundcloud.com/user-359899219/sets/red-is-recovery-the-red-album",
+    artistLink: "https://open.spotify.com/artist/6inp8VYBZ7iQb9DFe6rbZI?si=6C6tReDHS3Se7yOqTlQfFg",
+    albumLink: "https://open.spotify.com/album/36hIX7KYySRYxgzMXjXJjq?si=Ltn-88-mT1KrcRTeJNw7QA",
     jobType: "Full Production"
   },
   {
@@ -477,9 +486,27 @@ var works = [
     albumName: "Goodbyes Are New Beginnings (EP)",
     description: "The follow up to their debut album released immedately before the band relocated to Orlando, FL.",
     coverArt: "images/artists/red_is_recovery_2.",
-    artistLink: "https://myspace.com/redisrecovery",
-    albumLink: "https://soundcloud.com/user-359899219/sets/red-is-recovery-goodbyes-are-new-beginnings",
+    artistLink: "https://open.spotify.com/artist/6inp8VYBZ7iQb9DFe6rbZI?si=6C6tReDHS3Se7yOqTlQfFg",
+    albumLink: "https://open.spotify.com/album/0NyNRHSNoay2z38vwWDMPA?si=NVwAlNS9Rn2P7dIbLJT5Hw",
     jobType: "Full Production"
+  },
+  {
+    artistName: "Red Is Recovery",
+    albumName: "Two Years (EP)",
+    description: "The first release with the band's seoond singer, release after their move to Orlando, FL",
+    coverArt: "images/artists/rir_two_years.",
+    artistLink: "https://open.spotify.com/artist/6inp8VYBZ7iQb9DFe6rbZI?si=6C6tReDHS3Se7yOqTlQfFg",
+    albumLink: "https://open.spotify.com/album/10Ye6qvHQJ0Bb2mvhmUPQ0?si=XW_IdpEtRi6lSAlsA1W7Aw",
+    jobType: "Co-Production"
+  },
+  {
+    artistName: "Red Is Recovery",
+    albumName: "Chillin Like Freeman (EP)",
+    description: "The final release the band ever had, and arguable the most successful",
+    coverArt: "images/artists/rir_freeman.",
+    artistLink: "https://open.spotify.com/artist/6inp8VYBZ7iQb9DFe6rbZI?si=6C6tReDHS3Se7yOqTlQfFg",
+    albumLink: "https://open.spotify.com/album/1qmbGjxqeKSdtp9t01HvFU?si=KqOkFgRZTUq6qr2C2FSQEQ",
+    jobType: "Co-Production"
   },
   {
     artistName: "Tormenta",

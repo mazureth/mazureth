@@ -290,23 +290,24 @@
         <h3>FEATURED CLIENT</h3>
         <div class="row">
         <div class="col-sm text-justify featured">
-            <h3>Tormenta</h3>
+            <h3>Bo Randall</h3>
             <p>
-              Tormenta are a Snoqualmie Valley based death thrash band with clear influences from Sepultura, Havok, and
-              the like. Their sound is a culmination of fast heavy riffs, machine gun drums, brutal growls, and face
-              melting leads. Many of the band members are still in high school but they are talented beyond their years.
-              The single was recorded live with only a few over dubs. This is their debut single and it's  safe to say we
-              will be hearing a lot more from them soon as they claim their spot on the Seattle heavy metal scene. 
+              Bo Randall is a brand new Pacific Northwest blugrass artist who has just released his debut album, Cascade
+              Highway. His music is an eclectic mix of traditional Americana Bluegrass with obvious Pacific Northwest
+              and Irish influences. Bo plays and impressive 6 instruments on the record, only using session musicians for
+              banjo, bass, accordian, and yours truely on dobro. His songwriting style brings chord changes from jazz
+              the traditional storytelling lyrical musings you find in much of blugrass and singer/songwriters.
+            </p>
           </div>
           <div class="col-sm">
-            <a href="https://open.spotify.com/album/6KPsurCBJSHooFyDZtIrLu?si=uGRs2d0MToS_pcaZzbsHdQ" target="_blank" rel="noreferrer">
+            <a href="https://open.spotify.com/album/4IHmE2b2Hon9pb01FTyUgw?si=aOTkWps0QPu_Q4oWOsWPDw" target="_blank" rel="noreferrer">
               <figure class="figure">
-                <img src="https://mazureth.com/cdn/images/featuredArtist.webp" class="figure-image img-fluid rounded artist-image" alt="Tormenta - Jungle Dead">
+                <img src="https://mazureth.com/cdn/images/featuredArtist.webp" class="figure-image img-fluid rounded artist-image" alt="Bo Randall - Cascade Highway">
               </figure>
             </a>
           </div>
           <div class="col-sm">
-            <iframe title="Featured Artist Playlist" src="https://open.spotify.com/embed/track/493WuzDNY9K3kRCbxgE46V?utm_source=generator" seamless style="border: 0; width: 350px; height: 350px;" width="350" height="350" frameborder="0" allowtransparency="true" allow="encrypted-media"><a href="https://open.spotify.com/album/6KPsurCBJSHooFyDZtIrLu?si=uGRs2d0MToS_pcaZzbsHdQ">Tormenta - Jungle Dead</a></iframe>
+            <iframe title="Featured Artist Playlist" src="https://open.spotify.com/embed/album/4IHmE2b2Hon9pb01FTyUgw?utm_source=generator&theme=0" seamless style="border: 0; width: 350px; height: 350px;" width="350" height="350" frameborder="0" allowtransparency="true" allow="encrypted-media"><a href="https://open.spotify.com/album/4IHmE2b2Hon9pb01FTyUgw?si=aOTkWps0QPu_Q4oWOsWPDw">Bo Randall - Cascade Highway</a></iframe>
           </div>
         </div>
       </div>
