@@ -356,6 +356,15 @@ var works = [
     jobType: "Mixing and Mastering"
   },
   {
+    artistName: "Ari Warmack",
+    albumName: "Writer's Bloc (Single)",
+    description: "Snoqualmie based singer/songwriter",
+    coverArt: "images/artists/ari_writers_bloc.",
+    artistLink: "https://open.spotify.com/artist/5OWg8nza0NfynvaJbgCi6C?si=bfaGYHThR_Ox5Xz_hl3g-g",
+    albumLink: "https://open.spotify.com/album/08xpTRuVYjH6OdB972EQgP?si=mMMmKS4FTCi5km5wO_P1Wg",
+    jobType: "Mixing and Mastering"
+  },
+  {
     artistName: "The Avenue",
     albumName: "8-Track Diaries (EP)",
     description: "Tallahassee based indie emo punk rock",
@@ -507,6 +516,15 @@ var works = [
     artistLink: "https://open.spotify.com/artist/6inp8VYBZ7iQb9DFe6rbZI?si=6C6tReDHS3Se7yOqTlQfFg",
     albumLink: "https://open.spotify.com/album/1qmbGjxqeKSdtp9t01HvFU?si=KqOkFgRZTUq6qr2C2FSQEQ",
     jobType: "Co-Production"
+  },
+  {
+    artistName: "The Run Out",
+    albumName: "The Six Pack (EP)",
+    description: "The Leavenworth, WA outfit's second album.",
+    coverArt: "images/artists/the_run_out_1.",
+    artistLink: "https://open.spotify.com/artist/2KC2HcmRWU73FqDgejf3jg?si=ei5s-mTTR8u0rst3ONUcCw",
+    albumLink: "",
+    jobType: "Full Production"
   },
   {
     artistName: "Tormenta",
