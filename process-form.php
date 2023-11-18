@@ -1,5 +1,7 @@
 <?php
 
+echo "<pre>"; print_r($_POST); echo "</pre>\n";
+
 // handle the post form data
 $to = 'mazureth@gmail.com';
 
@@ -35,7 +37,9 @@ $headers = "From: $email" . "\r\n" .
 $err = [];
 $header = "";
 
-// send the email or fail
+echo "<p>checking inputs</p>\n";
+
+// fail if bad inputs
 if ($token != md5(date('YmdH') . "D4teS4lt")
     || $firstName == ""
     || $lastName == ""
@@ -44,54 +48,58 @@ if ($token != md5(date('YmdH') . "D4teS4lt")
     || $endDate == ""
     || $service == ""
     || $message == "") {
-  $header = $_SERVER["SERVER_PROTOCOL"] . " 400 Bad Request";
-  // populate error array
-  array_push($err, $header);
-  array_push($err, $_POST);
-} elseif (mail($to, $subject, $emailMessage, $headers)) {
-  $header = $_SERVER["SERVER_PROTOCOL"] . " 200 OK";
-  // no error, do not populate error array
-} else {
-  $header = $_SERVER["SERVER_PROTOCOL"] . " 500 Internal Server Error";
-  // populate error array
-  array_push($err, $header);
+  // fail and return error
+  header($_SERVER["SERVER_PROTOCOL"] . " 400 Bad Request");
+  echo "<p>----- missing inputs</p>\n";
+  //echo "<meta http-equiv=\"refresh\" content=\"2;url=https://www.mazureth.com/booking.php#error?error=badInputs\" />";
+  exit;
 }
 
-// if there are any errors dump them and fail, else succeed!
-if (count($err)) {
-  header($header);
-  echo "<meta http-equiv=\"refresh\" content=\"2;url=https://www.mazureth.com/booking.php#error\" />";
-} else {
+echo "<p>----- good inputs</p>\n";
+echo "<p>attempting to email</p>\n";
 
-  // SendGrid integration to add the new form fillout to the appropriate list
-  $curl = curl_init();
-  $sendGridPayload = "{\"list_ids\":[\"16275b82-a697-4732-95f0-e6e6b2e6e41e\"],\"contacts\":[{\"email\":\"$email\",\"first_name\":\"$firstName\",\"last_name\":\"$lastName\",\"custom_fields\":{\"w9_T\":\"$startDate\",\"w10_T\":\"$endDate\",\"w7_T\":\"$service\",\"w8_T\":\"$message\"}}]}";
-
-  curl_setopt_array($curl, array(
-    CURLOPT_URL => "https://api.sendgrid.com/v3/marketing/contacts",
-    CURLOPT_RETURNTRANSFER => true,
-    CURLOPT_ENCODING => "",
-    CURLOPT_MAXREDIRS => 10,
-    CURLOPT_TIMEOUT => 30,
-    CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-    CURLOPT_CUSTOMREQUEST => "PUT",
-    CURLOPT_POSTFIELDS => $sendGridPayload,
-    CURLOPT_HTTPHEADER => array(
-      "authorization: Bearer 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",
-      "content-type: application/json"
-    ),
-  ));
-
-  $response = curl_exec($curl);
-  $curlError = curl_error($curl);
-  if (strlen($curlError)) {
-    // populate error array
-    array_push($err, curl_error($curlError));
-  }
-  curl_close($curl);
-
-  header($header);
-  echo "<meta http-equiv=\"refresh\" content=\"2;url=https://www.mazureth.com/booking.php#thanks\" />";
+// if mail send fails
+if (!mail($to, $subject, $emailMessage, $headers)) {
+  header($_SERVER["SERVER_PROTOCOL"] . " 500 Internal Server Error");
+  echo "<p>----- mail failed</p>\n";
+  //echo "<meta http-equiv=\"refresh\" content=\"2;url=https://www.mazureth.com/booking.php#error?error=mailFail\" />";
+  exit;
 }
+
+echo "<p>----- mail worked</p>\n";
+echo "<p>attepting sendgrid list add</p>\n";
+
+// SendGrid integration to add the new form fillout to the appropriate list
+$curl = curl_init();
+$sendGridPayload = "{\"list_ids\":[\"16275b82-a697-4732-95f0-e6e6b2e6e41e\"],\"contacts\":[{\"email\":\"$email\",\"first_name\":\"$firstName\",\"last_name\":\"$lastName\",\"custom_fields\":{\"w9_T\":\"$startDate\",\"w10_T\":\"$endDate\",\"w7_T\":\"$service\",\"w8_T\":\"$message\"}}]}";
+
+curl_setopt_array($curl, array(
+  CURLOPT_URL => "https://api.sendgrid.com/v3/marketing/contacts",
+  CURLOPT_RETURNTRANSFER => true,
+  CURLOPT_ENCODING => "",
+  CURLOPT_MAXREDIRS => 10,
+  CURLOPT_TIMEOUT => 30,
+  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+  CURLOPT_CUSTOMREQUEST => "PUT",
+  CURLOPT_POSTFIELDS => $sendGridPayload,
+  CURLOPT_HTTPHEADER => array(
+    "authorization: Bearer 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",
+    "content-type: application/json"
+  ),
+));
+
+$response = curl_exec($curl);
+$curlError = curl_error($curl);
+if (strlen($curlError)) {
+  $header($_SERVER["SERVER_PROTOCOL"] . " 500 Internal Server Error");
+  echo "<p>----- sendGrid failed</p>\n";
+  //echo "<meta http-equiv=\"refresh\" content=\"2;url=https://www.mazureth.com/booking.php#error?error=sendGridFail\" />";
+  exit;
+}
+curl_close($curl);
+
+header($_SERVER["SERVER_PROTOCOL"] . " 200 OK");
+//echo "<meta http-equiv=\"refresh\" content=\"2;url=https://www.mazureth.com/booking.php#thanks\" />";
+echo "<p>Should have worked completely</p>\n";
 
 ?>
