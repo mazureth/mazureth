@@ -84,16 +84,11 @@ var $window = $(window),
 $('.navbar .nav-item, .navbar .navbar-brand').on('click', function(e){
   var href, scrollTo,
       loc = window.location,
-      subpages = [
-        '/booking.php',
-        '/clients.php',
-        '/gearlist.php'
-      ];
 
   href = $(this).find('a').attr('href') || $(this).attr('href');
 
   // bail if we are on a subpage, links should work as expected
-  if (subpages.indexOf(loc.pathname) >= 0) {
+  if (loc.pathname !== "/") {
     window.location = loc.protocol + '//' + loc.host + '/' + href;
     return;
    }
