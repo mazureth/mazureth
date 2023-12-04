@@ -518,7 +518,7 @@ var works = [
     description: "The Leavenworth, WA outfit's second album.",
     coverArt: "images/artists/the_run_out_1.",
     artistLink: "https://open.spotify.com/artist/2KC2HcmRWU73FqDgejf3jg?si=ei5s-mTTR8u0rst3ONUcCw",
-    albumLink: "",
+    albumLink: "https://open.spotify.com/album/38ArNVv4nJc9dW9pGMO5zO?si=_6ISExkHS6uD2MJSAkz89Q",
     jobType: "Full Production"
   },
   {
