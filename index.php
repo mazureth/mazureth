@@ -307,7 +307,7 @@
             </a>
           </div>
           <div class="col-sm">
-            <iframe title="Featured Artist Playlist" src="https://open.spotify.com/embed/album/4IHmE2b2Hon9pb01FTyUgw?utm_source=generator&theme=0" seamless style="border: 0; width: 350px; height: 350px;" width="350" height="350" frameborder="0" allowtransparency="true" allow="encrypted-media"><a href="https://open.spotify.com/album/4IHmE2b2Hon9pb01FTyUgw?si=aOTkWps0QPu_Q4oWOsWPDw">Bo Randall - Cascade Highway</a></iframe>
+            <iframe title="Featured Artist" style="border-radius:12px" src="https://open.spotify.com/embed/album/4IHmE2b2Hon9pb01FTyUgw?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"><a href="https://open.spotify.com/album/4IHmE2b2Hon9pb01FTyUgw?si=aOTkWps0QPu_Q4oWOsWPDw">Bo Randall - Cascade Highway</a></iframe>
           </div>
         </div>
       </div>
