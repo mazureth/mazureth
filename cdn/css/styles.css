@@ -252,7 +252,7 @@ section .social .btn {
 
 #clients .featured {
   max-height: 369px;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 #gear ul > li > ul > li {
