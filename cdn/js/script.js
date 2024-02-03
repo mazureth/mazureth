@@ -468,6 +468,15 @@ var works = [
     jobType: "Full Production"
   },
   {
+    artistName: "PiKLE",
+    albumName: "PiKLE",
+    description: "Seattle based proto-metal jam band with clearn influences from Motorhead and the Doors",
+    coverArt: "images/artists/pikle_pikle.",
+    artistLink: "",
+    albumLink: "",
+    jobType: "Full Production"
+  },
+  {
     artistName: "Plateau",
     albumName: "Everything Was Sweet (LP)",
     description: "Seattle based indie rock band with clear influences from both the gunge era as well as the British pop invasion of the 60s.",
