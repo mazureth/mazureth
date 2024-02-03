@@ -522,6 +522,15 @@ var works = [
     jobType: "Full Production"
   },
   {
+    artistName: "Sharkeologist",
+    albumName: "The Last Gasp",
+    description: "Debut single of Seattle indie rock band Sharkeologist",
+    coverArt: "images/artists/Sharkeologist_Last_Gasp.",
+    artistLink: "https://open.spotify.com/artist/3UqK7v9C14OxGRxNlhAXpt?si=_jB8HiF1QkmxxWMkgSUIMg",
+    albumLink: "https://open.spotify.com/album/3tyk99wfmyyDSRqFoS3JYE?si=eQ6U4DVpTdGfTCf6n5xjAA",
+    jobType: "Mixing & Mastering"
+  },
+  {
     artistName: "Tormenta",
     albumName: "Junge Dead (Single)",
     description: "Debut single of Seattle death thrash band",
