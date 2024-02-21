@@ -472,8 +472,8 @@ var works = [
     albumName: "PiKLE",
     description: "Seattle based proto-metal jam band with clearn influences from Motorhead and the Doors",
     coverArt: "images/artists/pikle_pikle.",
-    artistLink: "",
-    albumLink: "",
+    artistLink: "https://open.spotify.com/artist/22ykSXntw7I4Xsg3NXaQnp?si=RBF76Tg3SrWQCTyPGNnwfw",
+    albumLink: "https://open.spotify.com/album/0yCdRNgraRU7kmXEZZDsfG?si=SW1paQnMTrylE9Sb-uMgOw",
     jobType: "Full Production"
   },
   {
