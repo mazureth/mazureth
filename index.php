@@ -6,7 +6,7 @@
   <div class="main container-fluid">
 
     <section id="welcome" class="bg-black hero">
-      <img src="https://mazureth.com/cdn/images/mazureth-logo-white.svg" class="img-fluid" alt="Mazureth Logo" />
+      <img src="https://cdn.mazureth.com/images/mazureth-logo-white.svg" class="img-fluid" alt="Mazureth Logo" />
     </section>
 
     <section id="about" class="subSectionStart">
@@ -15,7 +15,7 @@
         <div class="row">
           <div class="col-sm">
               <figure class="figure">
-                <img src="https://mazureth.com/cdn/images/jesse.webp" class="figure-image img-fluid rounded grayscale" alt="Jesse Mazur" />
+                <img src="https://cdn.mazureth.com/images/jesse.webp" class="figure-image img-fluid rounded grayscale" alt="Jesse Mazur" />
                 <figcaption class="figure-caption">JESSE MAZUR</figcaption>
               </figure>
           </div>
@@ -224,31 +224,31 @@
               </ol>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img class="d-block w-100" src="https://mazureth.com/cdn/images/carousel01.jpg" alt="Full studio">
+                  <img class="d-block w-100" src="https://cdn.mazureth.com/images/carousel01.jpg" alt="Full studio">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="https://mazureth.com/cdn/images/carousel02.jpg" alt="Piano">
+                  <img class="d-block w-100" src="https://cdn.mazureth.com/images/carousel02.jpg" alt="Piano">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="https://mazureth.com/cdn/images/carousel03.jpg" alt="Bo Randall on guitar">
+                  <img class="d-block w-100" src="https://cdn.mazureth.com/images/carousel03.jpg" alt="Bo Randall on guitar">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="https://mazureth.com/cdn/images/carousel04.jpg" alt="Riley in the chair">
+                  <img class="d-block w-100" src="https://cdn.mazureth.com/images/carousel04.jpg" alt="Riley in the chair">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="https://mazureth.com/cdn/images/carousel05.jpg" alt="Booth">
+                  <img class="d-block w-100" src="https://cdn.mazureth.com/images/carousel05.jpg" alt="Booth">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="https://mazureth.com/cdn/images/carousel06.jpg" alt="Control room">
+                  <img class="d-block w-100" src="https://cdn.mazureth.com/images/carousel06.jpg" alt="Control room">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="https://mazureth.com/cdn/images/carousel07.jpg" alt="Live room">
+                  <img class="d-block w-100" src="https://cdn.mazureth.com/images/carousel07.jpg" alt="Live room">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="https://mazureth.com/cdn/images/carousel08.jpg" alt="Jesse at console">
+                  <img class="d-block w-100" src="https://cdn.mazureth.com/images/carousel08.jpg" alt="Jesse at console">
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="https://mazureth.com/cdn/images/carousel09.jpg" alt="Riley in bed">
+                  <img class="d-block w-100" src="https://cdn.mazureth.com/images/carousel09.jpg" alt="Riley in bed">
                 </div>
               </div>
             </div>
@@ -302,7 +302,7 @@
           <div class="col-sm">
             <a href="https://open.spotify.com/album/4IHmE2b2Hon9pb01FTyUgw?si=aOTkWps0QPu_Q4oWOsWPDw" target="_blank" rel="noreferrer">
               <figure class="figure">
-                <img src="https://mazureth.com/cdn/images/featuredArtist.webp" class="figure-image img-fluid rounded artist-image" alt="Bo Randall - Cascade Highway">
+                <img src="https://cdn.mazureth.com/images/featuredArtist.webp" class="figure-image img-fluid rounded artist-image" alt="Bo Randall - Cascade Highway">
               </figure>
             </a>
           </div>

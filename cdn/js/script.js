@@ -28,7 +28,7 @@ function generateCoverGrid(works) {
                 : 'jpg',
       host = (window.location.host.indexOf('localhost') > -1)
            ? 'http://localhost:9000/cdn/'
-           : 'https://mazureth.com/cdn/';
+           : 'https://cdn.mazureth.com/';
 
     template += `
     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">

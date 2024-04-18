@@ -10,7 +10,7 @@
   </script>
   <link rel="preload" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet';this.media='screen'">
   <link rel="preload" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet';this.media='screen';">
-  <link rel="preload" href="https://mazureth.com/cdn/css/styles.min.css" as="style" onload="this.onload=null;this.rel='stylesheet';this.media='screen'" id="mainStylesheet">
+  <link rel="preload" href="https://cdn.mazureth.com/css/styles.min.css" as="style" onload="this.onload=null;this.rel='stylesheet';this.media='screen'" id="mainStylesheet">
   
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
@@ -28,19 +28,19 @@
   <meta property="og:url" content="https://www.mazureth.com"/>
   <meta property="og:type" content="website"/>
   <meta property="og:description" content="Mazureth Studios is a music production studio in North Bend, WA that specializes tracking, mixing, mastering, and corporate production. With artists ranging from electronic dance music to techincal death metal, we have you covered."/>
-  <meta property="og:image" content="https://mazureth.com/cdn/images/og-image.jpg"/>
+  <meta property="og:image" content="https://cdn.mazureth.com/images/og-image.jpg"/>
   <meta property="og:image:width" content="960"/>
   <meta property="og:image:height" content="640"/>
 
   <meta itemprop="name" content="Mazureth Studios"/>
   <meta itemprop="url" content="https://www.mazureth.com"/>
   <meta itemprop="description" content="Mazureth Studios is a music production studio in North Bend, WA that specializes tracking, mixing, mastering, and corporate production. With artists ranging from electronic dance music to techincal death metal, we have you covered."/>
-  <meta itemprop="thumbnailUrl" content="https://mazureth.com/cdn/images/og-image.jpg"/>
-  <meta itemprop="image" content="https://mazureth.com/cdn/images/og-image.jpg"/>
-  <link rel="image_src" href="https://mazureth.com/cdn/images/og-image.jpg"/>
+  <meta itemprop="thumbnailUrl" content="https://cdn.mazureth.com/images/og-image.jpg"/>
+  <meta itemprop="image" content="https://cdn.mazureth.com/images/og-image.jpg"/>
+  <link rel="image_src" href="https://cdn.mazureth.com/images/og-image.jpg"/>
 
   <meta name="twitter:title" content="Mazureth Studios"/>
-  <meta name="twitter:image" content="https://mazureth.com/cdn/images/og-image.jpg"/>
+  <meta name="twitter:image" content="https://cdn.mazureth.com/images/og-image.jpg"/>
   <meta name="twitter:url" content="https://www.mazureth.com"/>
   <meta name="twitter:card" content="summary"/>
   <meta name="twitter:description" content="Mazureth Studios is a music production studios in North Bend, WA that specializes tracking, mixing, mastering, and corporate production. With artists ranging from electronic dance music to techincal death metal, we have you covered."/>
@@ -55,7 +55,7 @@
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-black">
     <div class="container">
       <a class="navbar-brand" href="#">
-        <img src="https://mazureth.com/cdn/images/nav-icon.svg"
+        <img src="https://cdn.mazureth.com/images/nav-icon.svg"
           alt="Mazureth Logo"
           width="51"
           height="80" />
