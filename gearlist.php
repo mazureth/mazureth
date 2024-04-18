@@ -90,7 +90,7 @@
                 <li>Samson S-amp</li>
                 <li>&nbsp;</li>
                 <li>AKG K240</li>
-                <li>Sennheiser HD280PRO</li>
+                <li>Sennheiser HD280PRO (5)</li>
               </ul>
             </div>
           </div>
@@ -144,6 +144,7 @@
                 <li>Behringer X32 (32 pres)</li>
                 <li>Behringer S32 (32 pres)</li>
                 <li>Cloudlifter CL1 (1 pre)</li>
+                <li>Cranborne Audio Camden 500 (2)</li>
                 <li>PreSonus BlueTube Stereo Tube Preamp (2 pres)</li>
                 <li>Radial ProDI (2)</li>
                 <li>Warm WA273 2 Channel (Neve 1073 Clone)</li>
@@ -153,6 +154,7 @@
                 <li>BBE Sonic Maximizer 882i</li>
                 <li>DBX 131S</li>
                 <li>Lindell PEX-500 (Pultec style)</li>
+                <li>Maag EQ4</li>
                 <li>Trident 80B EQ (2)</li>
                 <li>Warm EQP-WA (Pultec EQP-1A Clone) (2)</li>
                 <li>&nbsp;</li>
