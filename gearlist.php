@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="en">
 
-<? include('./head-nav.php'); ?>
+<?php include('./head-nav.php'); ?>
 
-  <div class="container-fluid">
-    <div class="container">
+<div class="container-fluid">
+  <div class="container">
 
 
     <section id="gear">
@@ -23,7 +23,7 @@
             <div class="card-body">
               <ul>
                 <li>Behringer X32 Digital Consle w/ Behringer S32</li>
-              </li>
+                </li>
             </div>
           </div>
         </div>
@@ -46,11 +46,12 @@
                 <li>Behringer S32 (32 x 16 IO)</li>
                 <li>&nbsp;</li>
                 <li>Custom Built PC
-                <ul>
-                  <li>32 Gig Ram</li>
-                  <li>Quad Core Intel Processor</li>
-                  <li>Terabyte Solid State Drives<li>
-                </ul>
+                  <ul>
+                    <li>32 Gig Ram</li>
+                    <li>Quad Core Intel Processor</li>
+                    <li>Terabyte Solid State Drives
+                    <li>
+                  </ul>
               </ul>
             </div>
           </div>
@@ -345,7 +346,8 @@
             <div class="card-body">
               <ul>
                 <li>Ampeg BA-10B</li>
-                <li>Epiphone Studio 10<li>
+                <li>Epiphone Studio 10
+                <li>
                 <li>EVH 5150</li>
                 <li>Fender Twin Reverb (1976)</li>
                 <li>Marshall Valvestate AVT 2000</li>
@@ -390,7 +392,7 @@
             <div class="card-body">
               <ul>
                 <li>Trick Dominator Double Pedal</li>
-                
+
                 <li>&nbsp;</li>
                 <li>Ludwig Black Beauty 6.5" x 14" Snare</li>
                 <li>Tama Stagestar 13" Snare (Steel)</li>
@@ -457,7 +459,8 @@
                 <li>Tunetracks Metal Machine Drums</li>
                 <li>Tunetracks Superior Drummer 3</li>
                 <li>&nbsp;</li>
-                <li>Waves Morphoder<li>
+                <li>Waves Morphoder
+                <li>
               </ul>
             </div>
           </div>
@@ -503,7 +506,8 @@
                 <li>Waves L2 Ultramaximizer</li>
                 <li>Waves L3 Ultramaximizer</li>
                 <li>Waves Linear Phase Multiband Compressor</li>
-                <li>Waves Morphoder<li>
+                <li>Waves Morphoder
+                <li>
                 <li>Waves PuigChild Compressor</li>
                 <li>Waves PuigTec EQ</li>
                 <li>Waves Renaissance Compressor</li>
@@ -525,9 +529,9 @@
       </div>
     </section>
 
-    </div>
   </div>
+</div>
 
-<? include('./footer.php'); ?>
+<?php include('./footer.php'); ?>
 
 </html>

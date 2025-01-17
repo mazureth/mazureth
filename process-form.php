@@ -1,5 +1,7 @@
 <?php
 
+/**
+ * No longer used, was replaced by a Google Form
 echo "<pre>"; print_r($_POST); echo "</pre>\n";
 
 // handle the post form data
@@ -101,5 +103,4 @@ curl_close($curl);
 header($_SERVER["SERVER_PROTOCOL"] . " 200 OK");
 //echo "<meta http-equiv=\"refresh\" content=\"2;url=https://www.mazureth.com/booking.php#thanks\" />";
 echo "<p>Should have worked completely</p>\n";
-
-?>
+ */

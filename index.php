@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 
-<? include('./head-nav.php'); ?>
+<?php include('./head-nav.php'); ?>
 
 <div class="main container-fluid">
 
@@ -397,6 +397,6 @@
 
 </div>
 
-<? include('./footer.php'); ?>
+<?php include('./footer.php'); ?>
 
 </html>

@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="en">
 
-<? include('./head-nav.php'); ?>
+<?php include('./head-nav.php'); ?>
 
-  <div class="container-fluid">
-    <div class="container">
+<div class="container-fluid">
+  <div class="container">
 
     <section id="clients">
       <h1 class="text-center">CLIENTS</h1>
@@ -15,6 +15,6 @@
 
   </div>
 
-<? include('./footer.php'); ?>
+  <?php include('./footer.php'); ?>
 
 </html>
