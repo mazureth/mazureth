@@ -1,164 +1,165 @@
-$(function() {
+$(function () {
 
-$('body').show();
+  $('body').show();
 
-// WebP detection for older browsers
-function canUseWebP() {
-  var elem = document.createElement('canvas');
-  if (!!(elem.getContext && elem.getContext('2d'))) {
+  // WebP detection for older browsers
+  function canUseWebP() {
+    var elem = document.createElement('canvas');
+    if (!!(elem.getContext && elem.getContext('2d'))) {
       return elem.toDataURL('image/webp').indexOf('data:image/webp') == 0;
+    }
+    return false;
   }
-  return false;
-}
 
-function generateCoverGrid(works) {
-  var template = '';
+  function generateCoverGrid(works) {
+    var template = '';
 
-  for (var i = 0; i < works.length; i++) {
+    for (var i = 0; i < works.length; i++) {
 
-    var artistName = works[i].artistName,
-      albumName = works[i].albumName,
-      description = works[i].description,
-      coverArt = works[i].coverArt,
-      artistLink = works[i].artistLink,
-      albumLink = works[i].albumLink,
-      jobType = works[i].jobType,
-      extension = webpSupported
-                ? 'webp'
-                : 'jpg',
-      host = (window.location.host.indexOf('localhost') > -1)
-           ? 'http://localhost:9000/cdn/'
-           : 'https://cdn.mazureth.com/';
+      var artistName = works[i].artistName,
+        albumName = works[i].albumName,
+        description = works[i].description,
+        coverArt = works[i].coverArt,
+        artistLink = works[i].artistLink,
+        albumLink = works[i].albumLink,
+        jobType = works[i].jobType,
+        extension = webpSupported
+          ? 'webp'
+          : 'jpg',
+        host = (window.location.host.indexOf('localhost') > -1)
+          ? 'http://localhost:9000/cdn/'
+          : 'https://cdn.mazureth.com/';
 
-    template += `
+      template += `
     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
       <div class="card">
         <div class="card-body">`;
 
-    template += artistLink.length
-      ? `<p class="card-text"><strong>Artist:</strong> <a href="${artistLink}" target="_blank" rel="noreferrer">${artistName}</a></p>`
-      : `<p class="card-text"><strong>Artist:</strong> ${artistName}</p>`;
+      template += artistLink.length
+        ? `<p class="card-text"><strong>Artist:</strong> <a href="${artistLink}" target="_blank" rel="noreferrer">${artistName}</a></p>`
+        : `<p class="card-text"><strong>Artist:</strong> ${artistName}</p>`;
 
-    template += albumLink.length
-      ? `<p class="card-text"><strong>Album:</strong> <a href="${albumLink}" target="_blank" rel="noreferrer">${albumName}</a></p>`
-      : `<p class="card-text"><strong>Album:</strong> ${albumName}</p>`;
+      template += albumLink.length
+        ? `<p class="card-text"><strong>Album:</strong> <a href="${albumLink}" target="_blank" rel="noreferrer">${albumName}</a></p>`
+        : `<p class="card-text"><strong>Album:</strong> ${albumName}</p>`;
 
-    template += `
+      template += `
           <p class="card-text"><strong>Job Type:</strong> ${jobType}</p>
           <p class="card-text"><strong>Description:</strong> ${description}</p>
         </div>`;
 
-    template += coverArt.length
-      ? `<img class="card-img-top" src="${host}${coverArt}${extension}" alt="${artistName} - ${albumName}">`
-      : ``;
+      template += coverArt.length
+        ? `<img class="card-img-top" src="${host}${coverArt}${extension}" alt="${artistName} - ${albumName}">`
+        : ``;
 
-    template += `</div></div>`;
+      template += `</div></div>`;
 
+    }
+
+    return template;
   }
 
-  return template;
-}
+  // use local css when necessary
+  if (window.location.host.indexOf('localhost') > -1) {
+    cssTag = document.getElementById('mainStylesheet');
+    cssTag.href = 'cdn/css/styles.css';
+  }
 
-// use local css when necessary
-if (window.location.host.indexOf('localhost') > -1) {
-  cssTag = document.getElementById('mainStylesheet');
-  cssTag.href = 'cdn/css/styles.css';
-}
+  // phone call/email buttons
+  $('.callUs').click(function (e) {
+    e.preventDefault();
+    window.open('tel:2063959009', '_self');
+  });
+  $('.phNum').append(atob('KDIwNikgMzk1IC0gOTAwOQ=='));
+  $('.emailAddr').append(atob('aW5mb0BtYXp1cmV0aC5jb20='));
 
-// phone call/email buttons
-$('.callUs').click(function(e){
-  e.preventDefault();
-  window.open('tel:2063959009', '_self');
-});
-$('.phNum').append(atob('KDIwNikgMzk1IC0gOTAwOQ=='));
-$('.emailAddr').append(atob('aW5mb0BtYXp1cmV0aC5jb20='));
-
-var $window = $(window),
+  var $window = $(window),
     $hero = $('.hero'),
     $mainSection = $('.main section'),
     $navbarNav = $('#navbarNav'),
     webpSupported = canUseWebP(),
     maxScrollDepth = 0;
 
-// nav clicks for active 'tab'
-$('.navbar .nav-item, .navbar .navbar-brand').on('click', function(e){
-  var href, scrollTo,
+  // nav clicks for active 'tab'
+  $('.navbar .nav-item, .navbar .navbar-brand').on('click', function (e) {
+    var href, scrollTo,
       loc = window.location,
 
-  href = $(this).find('a').attr('href') || $(this).attr('href');
+      href = $(this).find('a').attr('href') || $(this).attr('href');
 
-  // bail if we are on a subpage, links should work as expected
-  if (loc.pathname !== "/") {
-    window.location = loc.protocol + '//' + loc.host + '/' + href;
-    return;
-   }
+    // bail if we are on a subpage, links should work as expected
+    // added /mazureth/ to account for github pages
+    if (loc.pathname !== "/" || loc.pathname !== "/mazureth/") {
+      window.location = loc.protocol + '//' + loc.host + '/' + href;
+      return;
+    }
 
-  scrollTo = $(href).offset();
+    scrollTo = $(href).offset();
 
-  e.preventDefault();
+    e.preventDefault();
 
-  $navbarNav.find('.active').removeClass('active');
-  $(this).addClass('active');
+    $navbarNav.find('.active').removeClass('active');
+    $(this).addClass('active');
 
-  window.scroll({
-    top: scrollTo.top,
-    left: 0,
-    behavior: 'smooth'
+    window.scroll({
+      top: scrollTo.top,
+      left: 0,
+      behavior: 'smooth'
+    });
+
+    if (history.pushState) {
+      history.pushState(null, null, href);
+    } else {
+      location.hash = '#myhash';
+    }
+
   });
 
-  if(history.pushState) {
-    history.pushState(null, null, href);
-  } else {
-    location.hash = '#myhash';
-  }
+  // auto close navbar on click
+  $('.navbar-collapse a').click(function () {
+    $(".navbar-collapse").collapse('hide');
+  });
 
-});
-
-// auto close navbar on click
-$('.navbar-collapse a').click(function(){
-  $(".navbar-collapse").collapse('hide');
-});
-
-// Scroll listener
-$window.on('scroll', function(e){
-  var scroll = $window.scrollTop(),
+  // Scroll listener
+  $window.on('scroll', function (e) {
+    var scroll = $window.scrollTop(),
       heroPosition;
 
-  if (scroll > maxScrollDepth) {
-    maxScrollDepth = scroll;
-  }
+    if (scroll > maxScrollDepth) {
+      maxScrollDepth = scroll;
+    }
 
-  if ($hero.length) {
-    heroPosition = $hero.css('backgroundPosition').split(' ');
+    if ($hero.length) {
+      heroPosition = $hero.css('backgroundPosition').split(' ');
 
-    // hero paralax
-    heroPosition[1] = 0 + (scroll / 5) + 'px';
-    $hero.css('backgroundPosition', heroPosition.join(' '));
+      // hero paralax
+      heroPosition[1] = 0 + (scroll / 5) + 'px';
+      $hero.css('backgroundPosition', heroPosition.join(' '));
 
-    // dumb scroll spy
-    $mainSection.each(function(){
-      var $this = $(this)[0];
-      if (Math.abs($this.offsetTop-scroll) < 20) {
-        $navbarNav.find('.active').removeClass('active');
-        $navbarNav.find('a[href="#' + $this.id + '"]').addClass('active');
+      // dumb scroll spy
+      $mainSection.each(function () {
+        var $this = $(this)[0];
+        if (Math.abs($this.offsetTop - scroll) < 20) {
+          $navbarNav.find('.active').removeClass('active');
+          $navbarNav.find('a[href="#' + $this.id + '"]').addClass('active');
 
-      }
-    });
-  }
-});
-
-// services clicks
-$('#services .nav-item').click(function(){
-  var $this = $(this);
-  var tab = $this.find('.nav-link')[0].id.split('-')[0];
-  gtag('event', 'service tab click', {
-    'value': tab
+        }
+      });
+    }
   });
-});
 
-// form handler
-$('form').submit( function(e) {
-  var $firstName = $('#firstName'),
+  // services clicks
+  $('#services .nav-item').click(function () {
+    var $this = $(this);
+    var tab = $this.find('.nav-link')[0].id.split('-')[0];
+    gtag('event', 'service tab click', {
+      'value': tab
+    });
+  });
+
+  // form handler
+  $('form').submit(function (e) {
+    var $firstName = $('#firstName'),
       $lastName = $('#lastName'),
       $email = $('#email'),
       $startDate = $('#start-date'),
@@ -169,129 +170,129 @@ $('form').submit( function(e) {
       isHuman = grecaptcha.getResponse(),
       defaultPrevented = false;
 
-  // make sure its not a bot
-  if (!isHuman) {
-    $('.g-recaptcha :first-child').first().css('border','1px solid red');
-    defaultPrevented = true;
-    e.preventDefault();
-  } else {
-    $('.g-recaptcha :first-child').first().css('border','none');
-  }
+    // make sure its not a bot
+    if (!isHuman) {
+      $('.g-recaptcha :first-child').first().css('border', '1px solid red');
+      defaultPrevented = true;
+      e.preventDefault();
+    } else {
+      $('.g-recaptcha :first-child').first().css('border', 'none');
+    }
 
-  if (!$firstName.val().trim()) {
-    $firstName.removeClass('is-valid');
-    $firstName.addClass('is-invalid');
-    defaultPrevented = true;
-    e.preventDefault();
-  } else {
-    $firstName.removeClass('is-invalid');
-    $firstName.addClass('is-valid');
-  }
+    if (!$firstName.val().trim()) {
+      $firstName.removeClass('is-valid');
+      $firstName.addClass('is-invalid');
+      defaultPrevented = true;
+      e.preventDefault();
+    } else {
+      $firstName.removeClass('is-invalid');
+      $firstName.addClass('is-valid');
+    }
 
-  if (!$lastName.val().trim()) {
-    $lastName.removeClass('is-valid');
-    $lastName.addClass('is-invalid');
-    defaultPrevented = true;
-    e.preventDefault();
-  } else {
-    $lastName.removeClass('is-invalid');
-    $lastName.addClass('is-valid');
-  }
+    if (!$lastName.val().trim()) {
+      $lastName.removeClass('is-valid');
+      $lastName.addClass('is-invalid');
+      defaultPrevented = true;
+      e.preventDefault();
+    } else {
+      $lastName.removeClass('is-invalid');
+      $lastName.addClass('is-valid');
+    }
 
-  if (!$email.val().match(/^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/)) {
-    $email.removeClass('is-valid');
-    $email.addClass('is-invalid');
-    defaultPrevented = true;
-    e.preventDefault();
-  } else {
-    $email.removeClass('is-invalid');
-    $email.addClass('is-valid');
-  }
+    if (!$email.val().match(/^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/)) {
+      $email.removeClass('is-valid');
+      $email.addClass('is-invalid');
+      defaultPrevented = true;
+      e.preventDefault();
+    } else {
+      $email.removeClass('is-invalid');
+      $email.addClass('is-valid');
+    }
 
-  if (!$startDate.val().match(/^(19|20)\d\d[- /.](0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])$/)
+    if (!$startDate.val().match(/^(19|20)\d\d[- /.](0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])$/)
       || (new Date($startDate.val())).getTime() < (new Date()).getTime()) {
-    $startDate.removeClass('is-valid');
-    $startDate.addClass('is-invalid');
-    defaultPrevented = true;
-    e.preventDefault();
-  } else {
-    $startDate.removeClass('is-invalid');
-    $startDate.addClass('is-valid');
-  }
+      $startDate.removeClass('is-valid');
+      $startDate.addClass('is-invalid');
+      defaultPrevented = true;
+      e.preventDefault();
+    } else {
+      $startDate.removeClass('is-invalid');
+      $startDate.addClass('is-valid');
+    }
 
-  if (!$endDate.val().match(/^(19|20)\d\d[- /.](0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])$/)
+    if (!$endDate.val().match(/^(19|20)\d\d[- /.](0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])$/)
       || (new Date($endDate.val())).getTime() < (new Date($startDate.val())).getTime()) {
-    $endDate.removeClass('is-valid');
-    $endDate.addClass('is-invalid');
-    defaultPrevented = true;
-    e.preventDefault();
-  } else {
-    $endDate.removeClass('is-invalid');
-    $endDate.addClass('is-valid');
-  }
+      $endDate.removeClass('is-valid');
+      $endDate.addClass('is-invalid');
+      defaultPrevented = true;
+      e.preventDefault();
+    } else {
+      $endDate.removeClass('is-invalid');
+      $endDate.addClass('is-valid');
+    }
 
-  if (!$message.val().trim()) {
-    $message.removeClass('is-valid');
-    $message.addClass('is-invalid');
-    defaultPrevented = true;
-    e.preventDefault();
-  } else {
-    $message.removeClass('is-invalid');
-    $message.addClass('is-valid');
-  }
+    if (!$message.val().trim()) {
+      $message.removeClass('is-valid');
+      $message.addClass('is-invalid');
+      defaultPrevented = true;
+      e.preventDefault();
+    } else {
+      $message.removeClass('is-invalid');
+      $message.addClass('is-valid');
+    }
 
-  if (!service.val().trim()) {
-    $service.removeClass('is-valid');
-    $service.addClass('is-invalid');
-    defaultPrevented = true;
-    e.preventDefault();
-  } else {
-    $service.removeClass('is-invalid');
-    $service.addClass('is-valid');
-  }
+    if (!service.val().trim()) {
+      $service.removeClass('is-valid');
+      $service.addClass('is-invalid');
+      defaultPrevented = true;
+      e.preventDefault();
+    } else {
+      $service.removeClass('is-invalid');
+      $service.addClass('is-valid');
+    }
 
-  if (!defaultPrevented) {
-    $(this).unbind('submit').submit();
-  }
-});
-
-var hash = window.location.hash;
-if (hash === "#thanks") {
-  $('#userMessage').addClass('alert alert-success').html('Thank you for contacting us. We will get back to you as soon as possible');
-} else if (hash === '#error') {
-  $('#userMessage').addClass('alert alert-danger').html('There was an error submitting the form. Please try again.');
-}
-
-var $clients = $('#clientRows');
-if ($clients.length) {
-  var template = generateCoverGrid(works);
-  $clients.append(template);
-}
-
-// add 4 random covers to main page if screen is large
-if ($window.height() > 924) {
-  var fourWorks = [], i, randWork = 0, moreCovers, tmpWorks = works;
-  for (var i = 0; i < 4; i++) {
-    randWork = Math.floor(Math.random() * ((tmpWorks.length - 1) + 1));
-    fourWorks.push(works[randWork]);
-    tmpWorks.splice(randWork, 1);
-  }
-  moreCovers = generateCoverGrid(fourWorks);
-  $('#otherClients').removeClass('hidden');
-  $('#moreCovers').append(moreCovers);
-}
-
-// replace webp with jpg when not supported
-if (!webpSupported) {
-  // grabs all images tags on the page and changes the extension
-  $('img[src$=".webp"]').each(function(){
-    var src = this.src;
-    src = src.replace('webp', 'jpg');
-    this.src = src;
+    if (!defaultPrevented) {
+      $(this).unbind('submit').submit();
+    }
   });
-  // adds a class to the hero window to use different background image
-  $('#welcome').addClass('noWebp');
-}
+
+  var hash = window.location.hash;
+  if (hash === "#thanks") {
+    $('#userMessage').addClass('alert alert-success').html('Thank you for contacting us. We will get back to you as soon as possible');
+  } else if (hash === '#error') {
+    $('#userMessage').addClass('alert alert-danger').html('There was an error submitting the form. Please try again.');
+  }
+
+  var $clients = $('#clientRows');
+  if ($clients.length) {
+    var template = generateCoverGrid(works);
+    $clients.append(template);
+  }
+
+  // add 4 random covers to main page if screen is large
+  if ($window.height() > 924) {
+    var fourWorks = [], i, randWork = 0, moreCovers, tmpWorks = works;
+    for (var i = 0; i < 4; i++) {
+      randWork = Math.floor(Math.random() * ((tmpWorks.length - 1) + 1));
+      fourWorks.push(works[randWork]);
+      tmpWorks.splice(randWork, 1);
+    }
+    moreCovers = generateCoverGrid(fourWorks);
+    $('#otherClients').removeClass('hidden');
+    $('#moreCovers').append(moreCovers);
+  }
+
+  // replace webp with jpg when not supported
+  if (!webpSupported) {
+    // grabs all images tags on the page and changes the extension
+    $('img[src$=".webp"]').each(function () {
+      var src = this.src;
+      src = src.replace('webp', 'jpg');
+      this.src = src;
+    });
+    // adds a class to the hero window to use different background image
+    $('#welcome').addClass('noWebp');
+  }
 
 });
 
