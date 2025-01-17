@@ -147,7 +147,9 @@
                 <li>Cranborne Audio Camden 500 (2)</li>
                 <li>PreSonus BlueTube Stereo Tube Preamp (2 pres)</li>
                 <li>Radial ProDI (2)</li>
+                <li>Radial X-Amp 500 Series Re-amping Module</li>
                 <li>Warm WA273 2 Channel (Neve 1073 Clone)</li>
+                <li>Warm WA412 4 Channel (API 3124 Clone)</li>
               </ul>
               <h6>Equializers</h6>
               <ul>
@@ -210,6 +212,7 @@
                 <li>API 2500 Bus Compressor</li>
                 <li>Black Lion Audio B172A (1176 and LA2A Clone)</li>
                 <li>DBX 560A (2)</li>
+                <li>Empirical Labs Distressor EL8</li>
                 <li>Fredenstein Artistic Compressor Plus (FET compressor, 1176 style) (2)</li>
                 <li>Warm Stereo Bus Comp (SSL 4000 Bus Comp Clone)</li>
                 <li>&nbsp;</li>
@@ -262,9 +265,16 @@
           <div id="collapseThirteen" class="collapse" aria-labelledby="headingThirteen" data-parent="#accordion">
             <div class="card-body">
               <ul>
+                <li>Boss DS-1 Distortion</li>
+                <li>Boss GE-7 Equalizer</li>
                 <li>Digitech TSR-12</li>
+                <li>Dunlop Dimebag Cry Baby Wah</li>
+                <li>Earthquaker Devices Silos</li>
+                <li>Electro-Harmonix Big Muff Op Amp</li>
+                <li>Ibanes TS9 Tube Screamer</li>
                 <li>Korg SDD-3000 Digital Delay</li>
                 <li>Line 6 POD (Kidney Bean)</li>
+                <li>Mooer E7 Synth</li>
                 <li>Rocktron HUSH Super C</li>
                 <li>&nbsp;</li>
                 <li>Black Box HG-2</li>
@@ -337,8 +347,7 @@
                 <li>Ampeg BA-10B</li>
                 <li>Epiphone Studio 10<li>
                 <li>EVH 5150</li>
-                <li>Fender Twin Reverb (1978)</li>
-                <li>Fender Hot Rod Deville</li>
+                <li>Fender Twin Reverb (1976)</li>
                 <li>Marshall Valvestate AVT 2000</li>
                 <li>Marshall Lead 1960A Cabinet</li>
                 <li>&nbsp;</li>
@@ -383,7 +392,7 @@
                 <li>Trick Dominator Double Pedal</li>
                 
                 <li>&nbsp;</li>
-                <li>Ludwig Black Beauty 6.5 x 14 Snare</li>
+                <li>Ludwig Black Beauty 6.5" x 14" Snare</li>
                 <li>Tama Stagestar 13" Snare (Steel)</li>
                 <li>&nbsp;</li>
                 <li>Pearl Session Custom 22" Kick</li>
@@ -392,12 +401,20 @@
                 <li>Pearl Session Custom 13" Tom</li>
                 <li>Pearl Session Custom 16" Tom</li>
                 <li>&nbsp;</li>
+                <li>Meinl Dark 10" Splash</li>
+                <li>Meinl Dark 12" Trash Splash</li>
+                <li>Meinl Dark 14" Medium Hi-hat</li>
+                <li>Meinl Dark 16" Medium Crash</li>
+                <li>Meinl Dark 16" Medium Trash Crash</li>
+                <li>Meinl Dark 18" China</li>
+                <li>Meinl Dark 18" Medium Crash</li>
+                <li>Meinl Dark 20" Medium Ride</li>
+                <li>Meinl HCS 10" Splash</li>
                 <li>Meinl HCS 14" Hi-Hats</li>
-                <li>Meinl HCS 20" Ride</li>
+                <li>Meinl HCS 16" China</li>
                 <li>Meinl HCS 16" Crash</li>
                 <li>Meinl HCS 18" Crash</li>
-                <li>Meinl HCS 16" China</li>
-                <li>Meinl HCS 10" Splash</li>
+                <li>Meinl HCS 20" Ride</li>
                 <li>Zildjian ZBT Plus 14" Hi-Hats</li>
                 <li>Zildjian Sweet Ride 21" Ride</li>
                 <li>&nbsp;</li>
