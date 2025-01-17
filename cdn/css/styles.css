@@ -133,13 +133,15 @@ section.subSectionEnd {
 }
 
 .hero {
-  background-image: url(https://mazureth.com/cdn/images/hero.webp);
+  background-image: url(https://cdn.mazureth.com/images/hero.webp);
   background-position: 50% 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
 }
 
 .hero.noWebp {
-  background-image: url(https://mazureth.com/cdn/images/hero.jpg);
+  background-image: url(https://cdn.mazureth.com/images/hero.jpg);
 }
 
 .hero img {

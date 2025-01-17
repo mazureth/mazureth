@@ -28,7 +28,7 @@ function generateCoverGrid(works) {
                 : 'jpg',
       host = (window.location.host.indexOf('localhost') > -1)
            ? 'http://localhost:9000/cdn/'
-           : 'https://mazureth.com/cdn/';
+           : 'https://cdn.mazureth.com/';
 
     template += `
     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
@@ -472,8 +472,8 @@ var works = [
     albumName: "PiKLE",
     description: "Seattle based proto-metal jam band with clearn influences from Motorhead and the Doors",
     coverArt: "images/artists/pikle_pikle.",
-    artistLink: "",
-    albumLink: "",
+    artistLink: "https://open.spotify.com/artist/22ykSXntw7I4Xsg3NXaQnp?si=RBF76Tg3SrWQCTyPGNnwfw",
+    albumLink: "https://open.spotify.com/album/0yCdRNgraRU7kmXEZZDsfG?si=SW1paQnMTrylE9Sb-uMgOw",
     jobType: "Full Production"
   },
   {

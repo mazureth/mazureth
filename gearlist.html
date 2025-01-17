@@ -1,10 +1,103 @@
 <!doctype html>
 <html lang="en">
 
-<? include('./head-nav.php'); ?>
+<head>
 
-  <div class="container-fluid">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-15886975-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-15886975-2');
+  </script>
+  <link rel="preload" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet';this.media='screen'">
+  <link rel="preload" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet';this.media='screen';">
+  <link rel="preload" href="https://cdn.mazureth.com/css/styles.min.css" as="style" onload="this.onload=null;this.rel='stylesheet';this.media='screen'" id="mainStylesheet">
+  
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png"/>
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png"/>
+  <link rel="manifest" href="./site.webmanifest"/>
+  <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5"/>
+  <meta name="msapplication-TileColor" content="#da532c"/>
+  <meta name="theme-color" content="#ffffff"/>
+
+  <link rel="canonical" href="https://www.mazureth.com" />
+  <meta property="og:site_name" content="Mazureth Studios"/>
+  <meta property="og:title" content="Mazureth Studios"/>
+  <meta property="og:url" content="https://www.mazureth.com"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="Mazureth Studios is a music production studio in North Bend, WA that specializes tracking, mixing, mastering, and corporate production. With artists ranging from electronic dance music to techincal death metal, we have you covered."/>
+  <meta property="og:image" content="https://cdn.mazureth.com/images/og-image.jpg"/>
+  <meta property="og:image:width" content="960"/>
+  <meta property="og:image:height" content="640"/>
+
+  <meta itemprop="name" content="Mazureth Studios"/>
+  <meta itemprop="url" content="https://www.mazureth.com"/>
+  <meta itemprop="description" content="Mazureth Studios is a music production studio in North Bend, WA that specializes tracking, mixing, mastering, and corporate production. With artists ranging from electronic dance music to techincal death metal, we have you covered."/>
+  <meta itemprop="thumbnailUrl" content="https://cdn.mazureth.com/images/og-image.jpg"/>
+  <meta itemprop="image" content="https://cdn.mazureth.com/images/og-image.jpg"/>
+  <link rel="image_src" href="https://cdn.mazureth.com/images/og-image.jpg"/>
+
+  <meta name="twitter:title" content="Mazureth Studios"/>
+  <meta name="twitter:image" content="https://cdn.mazureth.com/images/og-image.jpg"/>
+  <meta name="twitter:url" content="https://www.mazureth.com"/>
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:description" content="Mazureth Studios is a music production studios in North Bend, WA that specializes tracking, mixing, mastering, and corporate production. With artists ranging from electronic dance music to techincal death metal, we have you covered."/>
+
+  <meta name="description" content="Mazureth Studios is a music production studio in North Bend, WA that specializes tracking, mixing, mastering, and corporate production. With artists ranging from electronic to techincal death metal, we have you covered."/>
+  <meta name="keywords" content="north bend recoring studio, music recording studio, recording studio, band studio, audio mixing, mastering, audio recording, recording, mazureth, mazureth studios, jesse mazur, audio production, record producer, music producer, record label, recoding stuiod in north bend, recoding stuiod in north bend, recoding stuiod in north bend"/>
+  <title>Mazureth Studios | Music Recording Studio in North Bend, WA</title>
+
+</head>
+<body style="display: none">
+
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-black">
     <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="https://cdn.mazureth.com/images/nav-icon.svg"
+          alt="Mazureth Logo"
+          width="51"
+          height="80" />
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#welcome">WELCOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">SERVICES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#rates">RATES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#studio">STUDIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#clients">CLIENTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">CONTACT</a>
+          </li>
+        </ul>
+        <a class="btn btn-outline-light my-2 my-sm-0 callUs phNum">Call Us: </a>
+        <a class="btn btn-outline-light my-2 my-sm-0" href="booking.html">BOOK NOW</a>
+      </div>
+    </div>
+  </nav>
+
+<div class="container-fluid">
+  <div class="container">
 
 
     <section id="gear">
@@ -23,7 +116,7 @@
             <div class="card-body">
               <ul>
                 <li>Behringer X32 Digital Consle w/ Behringer S32</li>
-              </li>
+                </li>
             </div>
           </div>
         </div>
@@ -46,11 +139,12 @@
                 <li>Behringer S32 (32 x 16 IO)</li>
                 <li>&nbsp;</li>
                 <li>Custom Built PC
-                <ul>
-                  <li>32 Gig Ram</li>
-                  <li>Quad Core Intel Processor</li>
-                  <li>Terabyte Solid State Drives<li>
-                </ul>
+                  <ul>
+                    <li>32 Gig Ram</li>
+                    <li>Quad Core Intel Processor</li>
+                    <li>Terabyte Solid State Drives
+                    <li>
+                  </ul>
               </ul>
             </div>
           </div>
@@ -90,7 +184,7 @@
                 <li>Samson S-amp</li>
                 <li>&nbsp;</li>
                 <li>AKG K240</li>
-                <li>Sennheiser HD280PRO</li>
+                <li>Sennheiser HD280PRO (5)</li>
               </ul>
             </div>
           </div>
@@ -144,15 +238,19 @@
                 <li>Behringer X32 (32 pres)</li>
                 <li>Behringer S32 (32 pres)</li>
                 <li>Cloudlifter CL1 (1 pre)</li>
+                <li>Cranborne Audio Camden 500 (2)</li>
                 <li>PreSonus BlueTube Stereo Tube Preamp (2 pres)</li>
                 <li>Radial ProDI (2)</li>
+                <li>Radial X-Amp 500 Series Re-amping Module</li>
                 <li>Warm WA273 2 Channel (Neve 1073 Clone)</li>
+                <li>Warm WA412 4 Channel (API 3124 Clone)</li>
               </ul>
               <h6>Equializers</h6>
               <ul>
                 <li>BBE Sonic Maximizer 882i</li>
                 <li>DBX 131S</li>
                 <li>Lindell PEX-500 (Pultec style)</li>
+                <li>Maag EQ4</li>
                 <li>Trident 80B EQ (2)</li>
                 <li>Warm EQP-WA (Pultec EQP-1A Clone) (2)</li>
                 <li>&nbsp;</li>
@@ -208,6 +306,7 @@
                 <li>API 2500 Bus Compressor</li>
                 <li>Black Lion Audio B172A (1176 and LA2A Clone)</li>
                 <li>DBX 560A (2)</li>
+                <li>Empirical Labs Distressor EL8</li>
                 <li>Fredenstein Artistic Compressor Plus (FET compressor, 1176 style) (2)</li>
                 <li>Warm Stereo Bus Comp (SSL 4000 Bus Comp Clone)</li>
                 <li>&nbsp;</li>
@@ -260,9 +359,16 @@
           <div id="collapseThirteen" class="collapse" aria-labelledby="headingThirteen" data-parent="#accordion">
             <div class="card-body">
               <ul>
+                <li>Boss DS-1 Distortion</li>
+                <li>Boss GE-7 Equalizer</li>
                 <li>Digitech TSR-12</li>
+                <li>Dunlop Dimebag Cry Baby Wah</li>
+                <li>Earthquaker Devices Silos</li>
+                <li>Electro-Harmonix Big Muff Op Amp</li>
+                <li>Ibanes TS9 Tube Screamer</li>
                 <li>Korg SDD-3000 Digital Delay</li>
                 <li>Line 6 POD (Kidney Bean)</li>
+                <li>Mooer E7 Synth</li>
                 <li>Rocktron HUSH Super C</li>
                 <li>&nbsp;</li>
                 <li>Black Box HG-2</li>
@@ -333,10 +439,10 @@
             <div class="card-body">
               <ul>
                 <li>Ampeg BA-10B</li>
-                <li>Epiphone Studio 10<li>
+                <li>Epiphone Studio 10
+                <li>
                 <li>EVH 5150</li>
-                <li>Fender Twin Reverb (1978)</li>
-                <li>Fender Hot Rod Deville</li>
+                <li>Fender Twin Reverb (1976)</li>
                 <li>Marshall Valvestate AVT 2000</li>
                 <li>Marshall Lead 1960A Cabinet</li>
                 <li>&nbsp;</li>
@@ -379,9 +485,9 @@
             <div class="card-body">
               <ul>
                 <li>Trick Dominator Double Pedal</li>
-                
+
                 <li>&nbsp;</li>
-                <li>Ludwig Black Beauty 6.5 x 14 Snare</li>
+                <li>Ludwig Black Beauty 6.5" x 14" Snare</li>
                 <li>Tama Stagestar 13" Snare (Steel)</li>
                 <li>&nbsp;</li>
                 <li>Pearl Session Custom 22" Kick</li>
@@ -390,12 +496,20 @@
                 <li>Pearl Session Custom 13" Tom</li>
                 <li>Pearl Session Custom 16" Tom</li>
                 <li>&nbsp;</li>
+                <li>Meinl Dark 10" Splash</li>
+                <li>Meinl Dark 12" Trash Splash</li>
+                <li>Meinl Dark 14" Medium Hi-hat</li>
+                <li>Meinl Dark 16" Medium Crash</li>
+                <li>Meinl Dark 16" Medium Trash Crash</li>
+                <li>Meinl Dark 18" China</li>
+                <li>Meinl Dark 18" Medium Crash</li>
+                <li>Meinl Dark 20" Medium Ride</li>
+                <li>Meinl HCS 10" Splash</li>
                 <li>Meinl HCS 14" Hi-Hats</li>
-                <li>Meinl HCS 20" Ride</li>
+                <li>Meinl HCS 16" China</li>
                 <li>Meinl HCS 16" Crash</li>
                 <li>Meinl HCS 18" Crash</li>
-                <li>Meinl HCS 16" China</li>
-                <li>Meinl HCS 10" Splash</li>
+                <li>Meinl HCS 20" Ride</li>
                 <li>Zildjian ZBT Plus 14" Hi-Hats</li>
                 <li>Zildjian Sweet Ride 21" Ride</li>
                 <li>&nbsp;</li>
@@ -438,7 +552,8 @@
                 <li>Tunetracks Metal Machine Drums</li>
                 <li>Tunetracks Superior Drummer 3</li>
                 <li>&nbsp;</li>
-                <li>Waves Morphoder<li>
+                <li>Waves Morphoder
+                <li>
               </ul>
             </div>
           </div>
@@ -484,7 +599,8 @@
                 <li>Waves L2 Ultramaximizer</li>
                 <li>Waves L3 Ultramaximizer</li>
                 <li>Waves Linear Phase Multiband Compressor</li>
-                <li>Waves Morphoder<li>
+                <li>Waves Morphoder
+                <li>
                 <li>Waves PuigChild Compressor</li>
                 <li>Waves PuigTec EQ</li>
                 <li>Waves Renaissance Compressor</li>
@@ -506,9 +622,27 @@
       </div>
     </section>
 
-    </div>
   </div>
+</div>
 
-<? include('./footer.php'); ?>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script>
+  (function() {
+    var scriptTag = document.createElement('script');
+        scriptSrc = '',
+        body = document.querySelector('body');
+    if (window.location.host.indexOf('localhost') > -1) {
+      scriptSrc = 'cdn/js/script.js';
+    } else {
+      scriptSrc = 'https://cdn.mazureth.com/js/script.min.js';
+    }
+    scriptTag.src = scriptSrc;
+    body.appendChild(scriptTag);
+  })();
+</script>
+
+</body>
 
 </html>
