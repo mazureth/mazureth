@@ -90,6 +90,10 @@ $(function () {
     // bail if we are on a subpage, links should work as expected
     // added /mazureth/ to account for github pages
     if (loc.pathname !== "/" && loc.pathname !== "/mazureth/") {
+      if (loc.host === 'mazureth.github.io') {
+        // if github pages put path back in
+        href = 'mazureth/' + href;
+      }
       window.location = loc.protocol + '//' + loc.host + '/' + href;
       return;
     }
