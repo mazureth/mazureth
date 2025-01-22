@@ -4,12 +4,12 @@
 <script>
   (function() {
     var scriptTag = document.createElement('script');
-        scriptSrc = '',
-        body = document.querySelector('body');
+    scriptSrc = '',
+      body = document.querySelector('body');
     if (window.location.host.indexOf('localhost') > -1) {
       scriptSrc = 'cdn/js/script.js';
     } else {
-      scriptSrc = 'https://cdn.mazureth.com/js/script.min.js';
+      scriptSrc = 'https://mazureth.com/cdn/js/script.min.js';
     }
     scriptTag.src = scriptSrc;
     body.appendChild(scriptTag);

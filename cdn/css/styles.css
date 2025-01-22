@@ -16,7 +16,8 @@ img.grayscale:hover {
   box-shadow: 0px 15px 38px -10px rgba(0, 0, 0, .5);
 }
 
-h1, h2 {
+h1,
+h2 {
   margin-bottom: 40px;
 }
 
@@ -53,7 +54,8 @@ label {
   margin-top: 60px;
 }
 
-.btn-outline-light:hover, .btn-outline-dark:hover {
+.btn-outline-light:hover,
+.btn-outline-dark:hover {
   color: #fff;
   background-color: #506eff;
 }
@@ -79,6 +81,7 @@ label {
 a {
   color: #000;
 }
+
 a:hover {
   color: #000;
   text-decoration: underline;
@@ -87,11 +90,13 @@ a:hover {
 nav {
   font-size: 0.9rem;
 }
+
 nav .btn {
   font-size: 0.9rem;
 }
 
-.navbar .collapse.show, .navbar .collapsing {
+.navbar .collapse.show,
+.navbar .collapsing {
   padding-top: 40px;
 }
 
@@ -116,16 +121,19 @@ section {
   min-height: 100vh;
   position: relative;
 }
+
 section.subSectionStart {
   padding-top: 80px;
   padding-bottom: 0;
   min-height: 0;
 }
+
 section.subSection {
   padding-top: 0;
   padding-bottom: 0;
   min-height: 0;
 }
+
 section.subSectionEnd {
   padding-top: 0;
   padding-bottom: 40px;
@@ -133,7 +141,7 @@ section.subSectionEnd {
 }
 
 .hero {
-  background-image: url(https://cdn.mazureth.com/images/hero.webp);
+  background-image: url(https://mazureth.com/cdn/images/hero.webp);
   background-position: 50% 0px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -141,12 +149,12 @@ section.subSectionEnd {
 }
 
 .hero.noWebp {
-  background-image: url(https://cdn.mazureth.com/images/hero.jpg);
+  background-image: url(https://mazureth.com/cdn/images/hero.jpg);
 }
 
 .hero img {
   position: absolute;
-  top:0;
+  top: 0;
   bottom: 0;
   left: 0;
   right: 0;
@@ -157,6 +165,7 @@ section .btn {
   padding: 15px 40px;
   margin: 0 auto;
 }
+
 section .social .btn {
   padding: 0;
   height: 50px;
@@ -174,6 +183,7 @@ section .social .btn {
 .icon.large {
   font-size: 48px;
 }
+
 .icon.med {
   font-size: 30px;
 }
@@ -210,8 +220,8 @@ section .social .btn {
 }
 
 #clients .card {
-  background-color: rgba(0,0,0,.125);
-  border-top: 1px solid rgba(0,0,0,.125);
+  background-color: rgba(0, 0, 0, .125);
+  border-top: 1px solid rgba(0, 0, 0, .125);
   margin-bottom: 30px;
   overflow: hidden auto;
   padding-top: 100%;
@@ -257,7 +267,7 @@ section .social .btn {
   overflow-y: auto;
 }
 
-#gear ul > li > ul > li {
+#gear ul>li>ul>li {
   margin-left: 10px;
 }
 
@@ -285,6 +295,7 @@ section .social .btn {
 .rate {
   font-size: 3rem;
 }
+
 .rate .unit {
   font-size: 1rem;
   color: #767676;
