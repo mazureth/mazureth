@@ -566,7 +566,7 @@ var works = [
     artistName: "Violent Insurrection",
     albumName: "Arson (EP)",
     description: "Debut release of Seattle death thrash band",
-    coverArt: "images/artists/tormenta_jungle_dead.",
+    coverArt: "images/artists/violent_insurrection_arson.",
     artistLink: "https://open.spotify.com/artist/05FydTe5LjHJgDRJWhfp5V?si=VgY-FKzzQKKOpKVztkiR_A",
     albumLink: "https://open.spotify.com/album/1ijqYxDzRz90aIavkZ85aH?si=ZW5Jzg4IQE6ZL0EVDJnaQg",
     jobType: "Full Production"
