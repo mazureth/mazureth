@@ -351,6 +351,24 @@
             </p>
             <cite title="Bo Randall">Bo Randall</cite>
           </div>
+          <div class="carousel-item">
+            <p class="lead">
+              <em>
+                "ABSOLUTELY FANTASTIC!!! Jesse not only has the technical abilities and
+                knowledge but he was so easy to work with and he got the music"
+              </em>
+            </p>
+            <cite title="Violent Insurrection">Violent Insurrection</cite>
+          </div>
+          <div class="carousel-item">
+            <p class="lead">
+              <em>
+                "It would be hard to overstate just how easy, inspiring, and productive
+                it was to work with Jesse"
+              </em>
+            </p>
+            <cite title="Jeff Grant">Jeff Grant (Sharkeologist)</cite>
+          </div>
         </div>
       </div>
     </div>
