@@ -365,6 +365,15 @@ var works = [
     jobType: "Mixing and Mastering"
   },
   {
+    artistName: "Ari Warmack",
+    albumName: "Waiting Room (EP)",
+    description: "Snoqualmie based singer/songwriter",
+    coverArt: "images/artists/ari_warmack_waiting_room.",
+    artistLink: "https://open.spotify.com/artist/5OWg8nza0NfynvaJbgCi6C?si=bfaGYHThR_Ox5Xz_hl3g-g",
+    albumLink: "https://open.spotify.com/album/5a0th7L1r9lk7J6RYiko2i?si=qRhqLuH2Tz-dv-p2FJdVWw",
+    jobType: "Mixing and Mastering"
+  },
+  {
     artistName: "The Avenue",
     albumName: "8-Track Diaries (EP)",
     description: "Tallahassee based indie emo punk rock",
@@ -551,6 +560,15 @@ var works = [
     coverArt: "images/artists/tormenta_jungle_dead.",
     artistLink: "https://open.spotify.com/album/6KPsurCBJSHooFyDZtIrLu?si=uGRs2d0MToS_pcaZzbsHdQ",
     albumLink: "https://open.spotify.com/album/6KPsurCBJSHooFyDZtIrLu?si=uGRs2d0MToS_pcaZzbsHdQ",
+    jobType: "Full Production"
+  },
+  {
+    artistName: "Violent Insurrection",
+    albumName: "Arson (EP)",
+    description: "Debut release of Seattle death thrash band",
+    coverArt: "images/artists/tormenta_jungle_dead.",
+    artistLink: "https://open.spotify.com/artist/05FydTe5LjHJgDRJWhfp5V?si=VgY-FKzzQKKOpKVztkiR_A",
+    albumLink: "https://open.spotify.com/album/1ijqYxDzRz90aIavkZ85aH?si=ZW5Jzg4IQE6ZL0EVDJnaQg",
     jobType: "Full Production"
   }
 ];
