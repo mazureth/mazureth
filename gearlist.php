@@ -324,6 +324,7 @@
                 <li>Johnson Acoustic Guitar</li>
                 <li>Peavey Predator Plus TR7 (7 String)</li>
                 <li>Martin Travel Acoustic</li>
+                <li>Solar A1.6AAN-27 Bariton Guitar with EverTune Bridge</li>
                 <li>Squire Stratocaster</li>
                 <li>&nbsp;</li>
                 <li>Ibanez Ergodyne EDB 405 Bass (5 String)</li>
@@ -346,11 +347,14 @@
             <div class="card-body">
               <ul>
                 <li>Ampeg BA-10B</li>
-                <li>Epiphone Studio 10
-                <li>
+                <li>Epiphone Studio 10</li>
                 <li>EVH 5150</li>
                 <li>Fender Twin Reverb (1976)</li>
+                <li>Hartke LH1000</li>
                 <li>Marshall Valvestate AVT 2000</li>
+                <li>&nbsp;</li>
+                <li>Acoustic B410 Cabinet</li>
+                <li>Acoustic BN115 Cabinet</li>
                 <li>Marshall Lead 1960A Cabinet</li>
                 <li>&nbsp;</li>
                 <li>Ampeg SVT-VR Classic</li>
