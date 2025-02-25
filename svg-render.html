@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head></head>
+
+<body>
+
+    <p>
+        Type one dimesion and hit &lt;enter&gt; to update image size.<br />
+        Aspect ratio will be maintained.
+    </p>
+    <input type="text" id="width" placeholder="width" onchange="updateSVG(event)" />
+    <input type="text" id="height" placeholder="height" onchange="updateSVG(event)" />
+    <br /><br />
+    <button onclick="downloadJPG()">Download as JPG</button>
+    <br /><br />
+    <hr /><br />
+    <img id="svgImage" src="https://mazureth.com/cdn/images/nav-icon.svg" alt="Mazureth Logo" width="51" height="80"
+        crossorigin="anonymous" />
+
+    <script>
+        function updateSVG(event) {
+            const target = event.target.id;
+            const img = document.getElementById('svgImage');
+            const aspectRatio = img.width / img.height;
+
+            if (target === 'width') {
+                img.width = event.target.value;
+                img.height = img.width / aspectRatio;
+            } else if (target === 'height') {
+                img.height = event.target.value;
+                img.width = img.height * aspectRatio;
+            }
+        }
+
+        function downloadJPG() {
+            const standardSizes = [16, 32, 48, 64, 96, 128, 256, 512];
+            const img = document.getElementById('svgImage');
+
+            // Find smallest standard size that fits both dimensions
+            const requiredSize = Math.max(img.width, img.height);
+            const canvasSize = standardSizes.find(size => size >= requiredSize) || standardSizes[standardSizes.length - 1];
+
+            const canvas = document.createElement('canvas');
+            canvas.width = canvasSize;
+            canvas.height = canvasSize;
+
+            const ctx = canvas.getContext('2d');
+            ctx.fillStyle = 'white';
+            ctx.fillRect(0, 0, canvasSize, canvasSize);
+
+            // Center image
+            const x = (canvasSize - img.width) / 2;
+            const y = (canvasSize - img.height) / 2;
+            ctx.drawImage(img, x, y, img.width, img.height);
+
+            const link = document.createElement('a');
+            link.download = `mazureth-logo-${canvasSize}x${canvasSize}.jpg`;
+            link.href = canvas.toDataURL('image/jpeg', 0.9);
+            link.click();
+        }
+    </script>
+</body>
+
+</html>
