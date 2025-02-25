@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /svg-render.html
+Disallow: /compiler.php
+
+Sitemap: https://mazureth.com/sitemap.xml
