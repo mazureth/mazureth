@@ -197,7 +197,7 @@
           well as two 15 minute "ear fatigue" breaks for the engineer.</p>
 
         <p class="footnote"><sup>†</sup> The standard song rate for mixing assumes that you will send us the multitrack
-          files.</p>
+          files. Does not include editing.</p>
 
         <p class="footnote"><sup>§</sup> The LP flat rate assumes that the LP has a length of approximately 45
           minutes or 12 songs, whichever is reached first.</p>
