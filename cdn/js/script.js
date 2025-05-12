@@ -455,6 +455,15 @@ var works = [
     jobType: "Mixing & Mastering"
   },
   {
+    artistName: "Fairvalley",
+    albumName: "The Dogwoods",
+    description: "Folky songs from singer/songwriter Joe Larson.",
+    coverArt: "images/artists/dogwoods.",
+    artistLink: "https://open.spotify.com/artist/1iggIBZxWLdFI1rY89OVYw?si=3PuOHan6QEKY9vyMbmiW7Q",
+    albumLink: "https://open.spotify.com/album/4YMmjPbejY5Dj2o8iYy0Um?si=Ol6zY0gnTKeEaxHuRsyfaw",
+    jobType: "Mastering"
+  },
+  {
     artistName: "Glen Ridge",
     albumName: "All The Things (LP)",
     description: "Folky bluegrass musings of singer/songwriter Glen Ridge.",
