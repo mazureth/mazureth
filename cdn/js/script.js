@@ -11,6 +11,36 @@ $(function () {
     return false;
   }
 
+  function generateLnkBio(works) {
+    var template = '';
+
+    for (var i = 0; i < works.length; i++) {
+
+      var artistName = works[i].artistName,
+        albumName = works[i].albumName,
+        coverArt = works[i].coverArt,
+        extension = webpSupported
+          ? 'webp'
+          : 'jpg',
+        host = (window.location.host.indexOf('localhost') > -1)
+          ? 'http://localhost:9000/cdn/'
+          : 'https://mazureth.com/cdn/';
+
+      template += `
+    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6">
+      <div class="card">`;
+
+      template += coverArt.length
+        ? `<img class="card-img-top" src="${host}${coverArt}${extension}" alt="${artistName} - ${albumName}">`
+        : ``;
+
+      template += `</div></div>`;
+
+    }
+
+    return template;
+  }
+
   function generateCoverGrid(works) {
     var template = '';
 
@@ -265,6 +295,12 @@ $(function () {
     $('#userMessage').addClass('alert alert-success').html('Thank you for contacting us. We will get back to you as soon as possible');
   } else if (hash === '#error') {
     $('#userMessage').addClass('alert alert-danger').html('There was an error submitting the form. Please try again.');
+  }
+
+  var $bioLinks = $('#bioLinks');
+  if ($bioLinks.length) {
+    var template = generateLnkBio(works);
+    $bioLinks.append(template);
   }
 
   var $clients = $('#clientRows');
