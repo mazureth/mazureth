@@ -294,9 +294,9 @@
           <p>
             Sharkeologist are a Seattle based band that has been around for a couple years now. They have a unique sound
             which combines elements of indie, rock, and grunge. They have a very energetic live show and have been
-            taking the Seattle scene by storm. This is their first album which features songs spaning influences from
-            Weezer, to Nirvana, to Nine Inch Nails, to Sufjan Stevens. Yet somehow it all works together in a way that
-            is uniquely Sharkeologist. Emotionally chaged lyrics, catchy hooks, and a driving rythms.
+            taking the Seattle scene by storm. This is their sophmore album in which the band reall came into their open
+            and solidified a sound that draws from a wide array of influence and yet somehow is uniquely their own.
+            Emotionally chaged lyrics, catchy hooks, and a driving rythms.
           </p>
         </div>
         <div class="col-sm">
@@ -307,7 +307,7 @@
           </a>
         </div>
         <div class="col-sm">
-          <iframe title="Featured Artist" style="border-radius:12px" src="https://open.spotify.com/artist/0b8VQ84NzFUWFfvlVqFHHK?si=Cu9J0NKPRzuKx7X_a_VeWQ&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"><a href="https://open.spotify.com/album/4IHmE2b2Hon9pb01FTyUgw?si=aOTkWps0QPu_Q4oWOsWPDw">Bo Randall - Cascade Highway</a></iframe>
+          <iframe title="Featured Artist" style="border-radius:12px" src="https://open.spotify.com/embed/album/0hryQIBSPHrSE5cFitfJYV?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"><a href="https://open.spotify.com/album/0hryQIBSPHrSE5cFitfJYV?si=UuOUdmCPTLefIvEBNvzguQ" target="_blank" rel="noreferrer">Sharkeologist - Sharkeologist</a></iframe>
         </div>
       </div>
     </div>
