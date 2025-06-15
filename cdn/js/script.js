@@ -518,6 +518,15 @@ var works = [
     jobType: "Full Production"
   },
   {
+    artistName: "Jindos",
+    albumName: "Horror Machine (EP)",
+    description: "The second release from the Washingtonian band.",
+    coverArt: "images/artists/jindos.",
+    artistLink: "https://open.spotify.com/artist/0b8VQ84NzFUWFfvlVqFHHK?si=Cu9J0NKPRzuKx7X_a_VeWQ",
+    albumLink: "https://open.spotify.com/album/2GdhSwyI5WtO2LknA0F8AM?si=yPAiDz6sQQqjBnxUNWXAYw",
+    jobType: "Full Production"
+  },
+  {
     artistName: "Luna Nova",
     albumName: "What are you, gay? (EP)",
     description: "Trip hop, jazztronic, downtemp songs about coming out as a non-binary",
@@ -600,8 +609,17 @@ var works = [
   },
   {
     artistName: "Sharkeologist",
+    albumName: "Sharkeologist",
+    description: "Sophmore album of Seattle indie rock band Sharkeologist",
+    coverArt: "images/artists/Sharkeologist_Sharkeologist.",
+    artistLink: "https://open.spotify.com/artist/3UqK7v9C14OxGRxNlhAXpt?si=_jB8HiF1QkmxxWMkgSUIMg",
+    albumLink: "https://open.spotify.com/album/0hryQIBSPHrSE5cFitfJYV?si=d1y7NVnxSfae7gNJHEn6SQ",
+    jobType: "Full Production"
+  },
+  {
+    artistName: "Sharkeologist",
     albumName: "The Last Gasp",
-    description: "Debut single of Seattle indie rock band Sharkeologist",
+    description: "Debut album of Seattle indie rock band Sharkeologist",
     coverArt: "images/artists/Sharkeologist_Last_Gasp.",
     artistLink: "https://open.spotify.com/artist/3UqK7v9C14OxGRxNlhAXpt?si=_jB8HiF1QkmxxWMkgSUIMg",
     albumLink: "https://open.spotify.com/album/3tyk99wfmyyDSRqFoS3JYE?si=eQ6U4DVpTdGfTCf6n5xjAA",
