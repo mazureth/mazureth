@@ -500,6 +500,15 @@ var works = [
     jobType: "Mixing & Mastering"
   },
   {
+    artistName: "E.M. Bodwick",
+    albumName: "Broken Bones",
+    description: "North Bend, WA based artist with threads of new wave, psycadelic rock, and americana.",
+    coverArt: "images/artists/em_bodwick_broken_bones.",
+    artistLink: "https://open.spotify.com/artist/6oyWVVf5PLnmNLUBV7CunO?si=CZoKMfp7QgG6SoVTumd0VQ",
+    albumLink: "https://open.spotify.com/album/24Zkut36T227XvnmiGaNAp?si=hal__GgURMi5cdrhyKB-ng",
+    jobType: "Full Production"
+  },
+  {
     artistName: "Fairvalley",
     albumName: "The Dogwoods",
     description: "Folky songs from singer/songwriter Joe Larson.",
@@ -597,6 +606,15 @@ var works = [
     artistLink: "https://open.spotify.com/artist/6inp8VYBZ7iQb9DFe6rbZI?si=6C6tReDHS3Se7yOqTlQfFg",
     albumLink: "https://open.spotify.com/album/1qmbGjxqeKSdtp9t01HvFU?si=KqOkFgRZTUq6qr2C2FSQEQ",
     jobType: "Co-Production"
+  },
+  {
+    artistName: "The Lively Arts",
+    albumName: "A New Age?",
+    description: "Snoqualmie valley based old school punk rock band, with influences from the 70s and 80s punk scenes.",
+    coverArt: "images/artists/the_lively_arts.",
+    artistLink: "https://open.spotify.com/artist/3SiyA3K1Cau4lTfz4lWQlj?si=WQ1LbTDzSzyKNfsIuNW_SA",
+    albumLink: "https://open.spotify.com/album/2DWWUKmAIQwycWnaNGJS5X?si=G-FC3pyATZq58v57pS3MiQ",
+    jobType: "Full Production (selected tracks)"
   },
   {
     artistName: "The Run Out",
