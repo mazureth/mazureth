@@ -64,7 +64,9 @@
             <div class="card-body">
               <ul>
                 <li>Barefoot Audio Footprint 03</li>
+                <li>Event 20/20 BAS</li>
                 <li>&nbsp;</li>
+                <li>Behringer Power Play P16-HQ (3)</li>
                 <li>Sony 55" Display</li>
               </ul>
             </div>
@@ -153,6 +155,7 @@
                 <li>DBX 131S</li>
                 <li>Lindell PEX-500 (Pultec style)</li>
                 <li>Maag EQ4</li>
+                <li>SSL 611EQ (2)</li>
                 <li>Trident 80B EQ (2)</li>
                 <li>Warm EQP-WA (Pultec EQP-1A Clone) (2)</li>
                 <li>&nbsp;</li>
@@ -204,7 +207,7 @@
           <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
             <div class="card-body">
               <ul>
-                <li>AudioScape DA-3A (Dual LA-3A Clone)
+                <li>AudioScape DA-3A (Dual LA-3A Clone)</li>
                 <li>Alesis 3630 Compressor</li>
                 <li>API 2500 Bus Compressor</li>
                 <li>Black Lion Audio B172A (1176 and LA2A Clone)</li>
