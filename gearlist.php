@@ -187,7 +187,7 @@
               </ul>
               <h6>Channel Strips</h6>
               <ul>
-                <li>Cubase Pro 12 Strip</li>
+                <li>Cubase Pro 15 Strip</li>
                 <li>Waves Scheps 73</li>
                 <li>Waves SSL 4000</li>
                 <li>Waves SSL EV2</li>
@@ -479,7 +479,7 @@
                 <li>iZotope Nectar</li>
                 <li>iZotope Neutron</li>
                 <li>iZotope Ozone</li>
-                <li>iZotope RX-7</li>
+                <li>iZotope RX 11</li>
                 <li>iZotope Stutter</li>
                 <li>&nbsp;</li>
                 <li>Oeksound Soothe 2</li>
