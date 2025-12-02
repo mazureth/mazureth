@@ -39,14 +39,17 @@
           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
             <div class="card-body">
               <ul>
+                <li>DAWs:</li>
                 <li>Cubase Pro</li>
                 <li>Pro Tools</li>
                 <li>&nbsp;</li>
+                <li>Converters:</li>
                 <li>Behringer X32 (32 x 16 IO)</li>
                 <li>Behringer S32 (32 x 16 IO)</li>
                 <li>&nbsp;</li>
-                <li>Mac Studio 4 Max
-                <li>Terabyte Solid State Drives
+                </li>Computer:</li>
+                <li>Mac Studio 4 Max</li>
+                <li>Terabyte Solid State Drives</li>
               </ul>
             </div>
           </div>
@@ -63,10 +66,11 @@
           <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
             <div class="card-body">
               <ul>
+                <li>Speakers:</li>
                 <li>Barefoot Audio Footprint 03</li>
                 <li>Event 20/20 BAS</li>
                 <li>&nbsp;</li>
-                <li>Behringer Power Play P16-HQ (3)</li>
+                <li>Screens:</li>
                 <li>Sony 55" Display</li>
               </ul>
             </div>
@@ -84,9 +88,12 @@
           <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
             <div class="card-body">
               <ul>
-                <li>Behringer Powerplay P1</li>
-                <li>Samson S-amp</li>
+                <li>Amps & Mixers:</li>
+                <li>Behringer P1 Stereo Amp</li>
+                <li>Behringer P16-HQ Personal Mixer (3)</li>
+                <li>Samson 4 Channel Stereo Amp</li>
                 <li>&nbsp;</li>
+                <li>Headphones:</li>
                 <li>AKG K240</li>
                 <li>Sennheiser HD280PRO (5)</li>
               </ul>
@@ -109,7 +116,7 @@
                 <li>AKG C414 XLII (2, Matched Pair)</li>
                 <li>Rode NT2-A</li>
                 <li>Samson C02 Pencils (Matched Pair)</li>
-                <li>sE 8 Small Diaphragm Concdencer (Matched Pair)</li>
+                <li>sE 8 Small Diaphragm (Matched Pair)</li>
               </ul>
               <h6>DYNAMIC</h6>
               <ul>
@@ -117,11 +124,15 @@
                 <li>Electro-Voice RE20</li>
                 <li>Sennheiser e609 (2)</li>
                 <li>Sennheiser MD421-II (6)</li>
-                <li>Shure SM57 (3)</li>
+                <li>Shure SM57 (4)</li>
                 <li>Shure SM7B</li>
                 <li>Superlux PRA-218B Kick Mic</li>
                 <li>Superlux PRA-228A Tom Mics (3)</li>
                 <li>Yamaha NS10 Sub Kick</li>
+              </ul>
+              <h6>RIBBON</h6>
+              <ul>
+                <li>Warm Audio WA-FT (Matched Pair)</li>
               </ul>
             </div>
           </div>
@@ -145,6 +156,7 @@
                 <li>Cranborne Audio Camden 500 (2)</li>
                 <li>PreSonus BlueTube Stereo Tube Preamp (2 pres)</li>
                 <li>Radial ProDI (2)</li>
+                <li>Radial ProDI Stereo</li>
                 <li>Radial X-Amp 500 Series Re-amping Module</li>
                 <li>Warm WA273 2 Channel (Neve 1073 Clone)</li>
                 <li>Warm WA412 4 Channel (API 3124 Clone)</li>
@@ -159,34 +171,20 @@
                 <li>Trident 80B EQ (2)</li>
                 <li>Warm EQP-WA (Pultec EQP-1A Clone) (2)</li>
                 <li>&nbsp;</li>
-                <li>Acustica Coffee the Pun</li>
-                <li>Acustica Coral Baxter</li>
-                <li>Acustica Titanium 3 Basstard</li>
-                <li>&nbsp;</li>
-                <li>Audio Assault Multi Transient</li>
-                <li>Audio Assault D-Rez</li>
-                <li>&nbsp;</li>
+                <li>Plugins:</li>
                 <li>bx_cleansweep V2</li>
                 <li>bx_subfilter</li>
-                <li>&nbsp;</li>
                 <li>elysia niveau filter</li>
-                <li>&nbsp;</li>
                 <li>Oeksound Soothe 2 </li>
-                <li>&nbsp;</li>
                 <li>Slate Digital Fresh Air</li>
-                <li>&nbsp;</li>
                 <li>SPL Free Ranger</li>
-                <li>&nbsp;</li>
-                <li>TDR Nova</li>
-                <li>TDR VOS SlickEQ</li>
-                <li>&nbsp;</li>
-                <li>Waves Abbey Road TG Master Chain</li>
                 <li>Waves PuigTec EQ</li>
                 <li>Waves Scheps 73</li>
                 <li>Waves SSL 4000 EQ</li>
               </ul>
               <h6>Channel Strips</h6>
               <ul>
+                <li>Behringer X32 Channels (32)</li>
                 <li>Cubase Pro 15 Strip</li>
                 <li>Waves Scheps 73</li>
                 <li>Waves SSL 4000</li>
@@ -217,15 +215,15 @@
                 <li>Warm Stereo Bus Comp (SSL 4000 Bus Comp Clone)</li>
                 <li>&nbsp;</li>
                 <li>&nbsp;</li>
+                <li>Plugins:</li>
                 <li>bx_masterdesk</li>
                 <li>bx_masterdesk Classic</li>
-                <li>&nbsp;</li>
                 <li>Klanghelm DC1A3</li>
                 <li>Klanghelm MJUCjr</li>
-                <li>&nbsp;</li>
                 <li>Shadow Hills Mastering Compressor</li>
-                <li>&nbsp;</li>
-                <li>Waves Abbey Road TG Master Chain</li>
+                <li>UA 1176</li>
+                <li>UA Distressor</li>
+                <li>UA LA-2A</li>
                 <li>Waves API 2500 Bus Compressor</li>
                 <li>Waves CLA-2A</li>
                 <li>Waves CLA-3A</li>
@@ -269,24 +267,14 @@
                 <li>Mooer E7 Synth</li>
                 <li>Rocktron HUSH Super C</li>
                 <li>&nbsp;</li>
+                <li>Plugins:</li>
                 <li>Black Box HG-2</li>
-                <li>&nbsp;</li>
                 <li>Bricasti M7 Impulse Response Library</li>
-                <li>&nbsp;</li>
-                <li>Ignite Amps TS-999 (TS-9 Tube Screamer)</li>
-                <li>Ignite Amps TS-B (TS-808 Tube Screamer)</li>
-                <li>&nbsp;</li>
                 <li>iZotope Stutter Edit 2</li>
                 <li>iZotope Trash 2</li>
-                <li>&nbsp;</li>
                 <li>Klanghelm IVGI Saturator</li>
-                <li>&nbsp;</li>
                 <li>Lexicon 480L Impulse Response Library</li>
-		<li>&nbsp;</li>
-                <li>TSE 808 Tube Screamer</li>
-                <li>TSE RA7 "Rat" Distortion</li>
-                <li>TSE BOD "SansAmp"</li>
-                <li>&nbsp;</li>
+                <li>Steinberg Magneto II</li>
                 <li>Waves Berzerk Distortion</li>
                 <li>Waves J37 Tape</li>
                 <li>Waves Retro LoFi</li>
@@ -347,26 +335,9 @@
                 <li>Acoustic B410 Cabinet</li>
                 <li>Acoustic BN115 Cabinet</li>
                 <li>Marshall Lead 1960A Cabinet</li>
-                <li>&nbsp;</li>
-                <li>Ampeg SVT-VR Classic</li>
-                <li>&nbsp;</li>
+                <li>Plugins:</li>
                 <li>bx_rockrack V3 Player</li>
-                <li>&nbsp;</li>
-                <li>Ignite Amps Emissary</li>
-                <li>Ignite NadIR Loader</li>
-                <li>&nbsp;</li>
                 <li>Jens Bogren Impulse Response Library</li>
-                <li>&nbsp;</li>
-                <li>NaLex J800 (Marshal JCM 800 Sim)</li>
-                <li>NaLex Crunshman (Friedman Sim)</li>
-                <li>NaLex Gerbert (Diezel Sim)</li>
-                <li>NaLex Ninja</li>
-                <li>NaLex Pectifier (Mesa Boogie Dual Rectifier Sim)</li>
-                <li>&nbsp;</li>
-                <li>Nick Crow 7170 (Peavey 5150 Sim)</li>
-                <li>Nick Crow 8505 (Peavey 6505 Sim)</li>
-                <li>Nick Sharp Wagnar Sharp</li>
-                <li>&nbsp;</li>
                 <li>Steinberg VST Guitar Amp</li>
                 <li>Steinberg VST Bass Amp</li>
                 <li>
@@ -441,20 +412,19 @@
                 <li>&nbsp;</li>
                 <li>iZotope Iris 2</li>
                 <li>&nbsp;</li>
-                <li>Steinberg Groove Agent SE 4</li>
-                <li>Steinberg HALion Sonic SE 3</li>
-                <li>Steinberg LoopMash 2</li>
+                <li>Steinberg Groove Agent</li>
+                <li>Steinberg HALion Sonic</li>
+                <li>Steinberg LoopMash</li>
                 <li>Steinberg Mystic</li>
                 <li>Steinberg Padshop</li>
                 <li>Steinberg Prologue</li>
-                <li>Steinberg Retrologue 2</li>
+                <li>Steinberg Retrologue</li>
                 <li>Steinberg Spector</li>
                 <li>&nbsp;</li>
                 <li>Tunetracks EZ Drummer 2</li>
                 <li>Tunetracks Metal Machine Drums</li>
                 <li>Tunetracks Superior Drummer 3</li>
                 <li>&nbsp;</li>
-                <li>Waves Morphoder
                 <li>
               </ul>
             </div>
@@ -484,7 +454,6 @@
                 <li>&nbsp;</li>
                 <li>Oeksound Soothe 2</li>
                 <li>&nbsp;</li>
-                <li>Waves Abbey Road TG Master Chain</li>
                 <li>Waves API 2500 Bus Compressor</li>
                 <li>Waves Berzerk Distortion</li>
                 <li>Waves CLA-2A</li>
@@ -494,19 +463,13 @@
                 <li>Waves DeEsser</li>
                 <li>Waves J37 Tape</li>
                 <li>Waves L2 Ultramaximizer</li>
-                <li>Waves L3 Ultramaximizer</li>
                 <li>Waves Linear Phase Multiband Compressor</li>
-                <li>Waves Morphoder
                 <li>Waves PuigChild Compressor</li>
                 <li>Waves PuigTec EQ</li>
-                <li>Waves Renaissance Compressor</li>
                 <li>Waves Scheps 73</li>
                 <li>Waves Sibilance</li>
                 <li>Waves SSL 4000 Collection</li>
-                <li>Waves Studio Rack</li>
-                <li>Waves Torque</li>
                 <li>Waves Vocal Rider</li>
-                <li>Waves WLM Plus Loudness Meter</li>
                 <li>&nbsp;</li>
                 <li>Steinberg VST Guitar Amp</li>
                 <li>Steinberg VST Bass Amp</li>
