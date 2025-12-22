@@ -527,11 +527,21 @@ $(function () {
     matrix.forEach(function (row) {
       row.forEach(function (value) {
         var cell = document.createElement("div");
-        var shade = Math.round(200 * (1 - value / N));
+
+        // Blue shade: 0 = light blue, N = dark blue
+        var blue = Math.round(255 * (value / N));      // 0..255
+        var red = 0;
+        var green = Math.round(255 - blue);           // inverse for contrast
+
+        // Background color: shades of blue
+        cell.style.backgroundColor = `rgb(${red}, ${green}, ${blue})`;
+
+        // Determine text color for contrast
+        var luminance = (0.299 * red + 0.587 * green + 0.114 * blue) / 255;
+        cell.style.color = luminance < 0.5 ? "#ffffff" : "#000000";
 
         cell.style.width = cellPx + "px";
         cell.style.height = cellPx + "px";
-        cell.style.backgroundColor = "rgb(" + shade + "," + shade + "," + shade + ")";
         cell.style.display = "flex";
         cell.style.alignItems = "center";
         cell.style.justifyContent = "center";
