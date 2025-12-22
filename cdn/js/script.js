@@ -527,7 +527,7 @@ $(function () {
     matrix.forEach(function (row) {
       row.forEach(function (value) {
         var cell = document.createElement("div");
-        var shade = Math.round(255 * (1 - value / N));
+        var shade = Math.round(200 * (1 - value / N));
 
         cell.style.width = cellPx + "px";
         cell.style.height = cellPx + "px";
