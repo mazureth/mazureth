@@ -14,7 +14,6 @@
 
   </div>
 </div>
-<script src="https://mazureth.com/cdn/js/diffuser.js"></script>
 <?php include('./footer.php'); ?>
 
 </html>
