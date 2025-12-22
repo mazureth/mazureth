@@ -560,37 +560,46 @@ $(function () {
     return container;
   }
 
-  /* =========================
-     Example Usage (Auto-run)
-     ========================= */
+  // Function to generate and render diffuser
+  function renderDiffuser() {
+    const diffuserElem = document.getElementById('renderedDiffuser');
+    diffuserElem.innerHTML = ''; // clear previous content
 
-  var diffuser = generateDiffuser({
-    plywoodWidthIn: 48,
-    plywoodHeightIn: 48,
-    maxDepthIn: 6.0,
-    seed: 42
-  });
+    // Get input values
+    const plywoodWidth = parseFloat(document.getElementById('plywoodWidthIn').value) || 48;
+    const plywoodHeight = parseFloat(document.getElementById('plywoodHeightIn').value) || 48;
 
-  var lumber = estimatePlanks({
-    cutList: diffuser.cutList
-  });
+    // Generate diffuser
+    const diffuser = generateDiffuser({
+      plywoodWidthIn: plywoodWidth,
+      plywoodHeightIn: plywoodHeight,
+      maxDepthIn: 6.0,
+      seed: 42
+    });
 
-  var info = document.createElement("pre");
-  info.textContent =
-    "Grid: " + diffuser.N + " x " + diffuser.N + "\n" +
-    "Max depth: 6\"\n" +
-    "Estimated weight: " + diffuser.totalWeight + " lb\n" +
-    "8' planks required: " + lumber.plankCount;
+    // Estimate planks
+    const lumber = estimatePlanks({ cutList: diffuser.cutList });
 
-  const diffuserElem = document.getElementById('diffuser');
-  diffuserElem.appendChild(info);
+    // Render info
+    const info = document.createElement('pre');
+    info.textContent =
+      `Grid: ${diffuser.N} x ${diffuser.N}\n` +
+      `Max depth: 6"\n` +
+      `Estimated weight: ${diffuser.totalWeight} lb\n` +
+      `8' planks required: ${lumber.plankCount}`;
+    diffuserElem.appendChild(info);
 
-  var grid = renderDiffuserMatrix(diffuser.matrix, {
-    cellPx: 18,
-    showValues: true
-  });
+    // Render matrix grid
+    const grid = renderDiffuserMatrix(diffuser.matrix, { cellPx: 18, showValues: true });
+    diffuserElem.appendChild(grid);
+  }
 
-  diffuserElem.appendChild(grid);
+  // Auto-render on page load
+  window.addEventListener('load', renderDiffuser);
+
+  // Re-render whenever width or height input changes
+  document.getElementById('plywoodWidthIn').addEventListener('input', renderDiffuser);
+  document.getElementById('plywoodHeightIn').addEventListener('input', renderDiffuser);
 
 });
 
