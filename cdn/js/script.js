@@ -660,6 +660,15 @@ var works = [
   },
   {
     artistName: "Ari Warmack",
+    albumName: "He Ruins Everything (Single)",
+    description: "Snoqualmie based singer/songwriter",
+    coverArt: "images/artists/ari_warmack_ruins.",
+    artistLink: "https://open.spotify.com/artist/5OWg8nza0NfynvaJbgCi6C?si=bfaGYHThR_Ox5Xz_hl3g-g",
+    albumLink: "https://open.spotify.com/track/6YBtwQe5PcmJF1drTcTvPC?si=762908920742438e",
+    jobType: "Mixing and Mastering"
+  },
+  {
+    artistName: "Ari Warmack",
     albumName: "The Life (Single)",
     description: "Snoqualmie based singer/songwriter",
     coverArt: "images/artists/Ari_The_Life.",
@@ -669,20 +678,20 @@ var works = [
   },
   {
     artistName: "Ari Warmack",
-    albumName: "Writer's Bloc (Single)",
-    description: "Snoqualmie based singer/songwriter",
-    coverArt: "images/artists/ari_writers_bloc.",
-    artistLink: "https://open.spotify.com/artist/5OWg8nza0NfynvaJbgCi6C?si=bfaGYHThR_Ox5Xz_hl3g-g",
-    albumLink: "https://open.spotify.com/album/08xpTRuVYjH6OdB972EQgP?si=mMMmKS4FTCi5km5wO_P1Wg",
-    jobType: "Mixing and Mastering"
-  },
-  {
-    artistName: "Ari Warmack",
     albumName: "Waiting Room (EP)",
     description: "Snoqualmie based singer/songwriter",
     coverArt: "images/artists/ari_warmack_waiting_room.",
     artistLink: "https://open.spotify.com/artist/5OWg8nza0NfynvaJbgCi6C?si=bfaGYHThR_Ox5Xz_hl3g-g",
     albumLink: "https://open.spotify.com/album/5a0th7L1r9lk7J6RYiko2i?si=qRhqLuH2Tz-dv-p2FJdVWw",
+    jobType: "Mixing and Mastering"
+  },
+  {
+    artistName: "Ari Warmack",
+    albumName: "Writer's Bloc (Single)",
+    description: "Snoqualmie based singer/songwriter",
+    coverArt: "images/artists/ari_writers_bloc.",
+    artistLink: "https://open.spotify.com/artist/5OWg8nza0NfynvaJbgCi6C?si=bfaGYHThR_Ox5Xz_hl3g-g",
+    albumLink: "https://open.spotify.com/album/08xpTRuVYjH6OdB972EQgP?si=mMMmKS4FTCi5km5wO_P1Wg",
     jobType: "Mixing and Mastering"
   },
   {
