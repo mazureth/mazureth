@@ -21,22 +21,23 @@
         </div>
         <div class="col-sm-8">
           <p class="text-justify">
-            Jesse Mazur, owner, producer, and engineer at Mazureth Studios, has been producing music since
-            2003 and playing for much longer. He's worked with artists ranging from ambient electronic to
-            technical death metal and everything in between. He's toured the country in several
-            bands and has been signed to both Altantic and Dream Works records. Whether you need an audio
-            engineering, a producer, help with arragement, or writing, Jesse is more than capable.
+            Mazureth Studios is a Seattle-area recording studio that combines hybrid analog/digital production
+            with professionally tuned rooms, high-end outboard gear, and decades of experience in recording,
+            mixing, and production. Nestled in the mountains just outside Seattle, the studio provides a peaceful,
+            distraction-free environment where artists can focus on their music, experiment with tone, and
+            capture performances with clarity and character. Our work spans indie rock, metal, singer-songwriter,
+            and experimental projects, with credits on over 60 releases.
           </p>
           <p class="text-justify">
-            Jesse is also a multi-instumentalist and is happy to do session work on your album as well.
-            While his primary instrument is guitar, he is also a skilled drummer and can play most stringed
-            instruments, most brass instruments, and can navigate his way around a piano pretty well. He also has
-            several years of singing and vocal lessons under his belt. It's very common for Jesse to appear
-            on the albums created at Mazureth Studios.
+            Jesse Mazur, owner, producer, and engineer at Mazureth Studios, has been shaping music since 2003.
+            With experience across genres from ambient electronic to technical death metal, he guides artists through
+            every step of production, from arranging and recording to mixing and mastering. As a multi-instrumentalist,
+            Jesse often contributes directly to sessions, playing guitar, drums, strings, brass, and piano, alongside
+            years of vocal training, ensuring every project benefits from both technical skill and musicality.
           </p>
           <blockquote class="text-left">
-            <p class="mb-0"><em>"I just love music and being a part of the creative process. I am never having more fun than when
-                I am making music with people"</em></p>
+            <p class="mb-0"><em>"“I just love music and being part of the creative process. There’s nothing more
+                ewarding than making music with people in a space designed to let creativity thrive."</em></p>
             <footer class="blockquote-footer"><cite title="Jesse Mazur">Jesse Mazur</cite></footer>
           </blockquote>
         </div>
@@ -318,56 +319,63 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <p class="lead">
-              <em>
-                "Listens to your suggestions and makes the recording process super easy and simple!
-                Would definitely recommend this place!"
-              </em>
+              <a href="https://share.google/QcbLoWFOUSGTKJxoq" target="_blank" rel="noreferrer">
+                <em>
+                  "Jesse truly was a gift to work with... Highly HIGHLY recommend!!" - <span class="stars">★★★★★</span>
+                </em>
+              </a>
             </p>
-            <cite title="Julian Forester - 400.40">Julian Forester (400.40)</cite>
+            <cite title="Tennyson Jacobson">Tennyson Jacobson</cite>
           </div>
           <div class="carousel-item">
             <p class="lead">
-              <em>
-                "Killer drum sounds - very impressed!!! Tracked a whole album of drums in 3 days,
-                Jesse is a wizard. 10/10"
-              </em>
+              <a href="https://share.google/ZnuGlwJD5h29axTIK" target="_blank" rel="noreferrer">
+                <em>
+                  "Jesse did an amazing job with our 12 year old Olivia. She felt at ease with him right away" - <span class="stars">★★★★★</span>
+                </em>
+              </a>
             </p>
-            <cite title="Alex Folkerth - Castle Dwellers">Alex Folkerth (Castle Dwellers)</cite>
+            <cite title="Dustin Thompson">Dustin Thompson</cite>
           </div>
           <div class="carousel-item">
             <p class="lead">
-              <em>
-                "This is a first class studio... I’m very happy with the product and professionalism."
-              </em>
-            </p>
-            <cite title="Keith Wyss - Bone Frau">Keith Wyss (Bone Frau)</cite>
-          </div>
-          <div class="carousel-item">
-            <p class="lead">
-              <em>
-                "Jesse did an amazing job... Other studios did not go above and beyond
-                to deliver a perfect product. Mazureth is the exception."
-              </em>
+              <a href="https://share.google/IQB74XaRI29qK1I99" target="_blank" rel="noreferrer">
+                <em>
+                  "Other studios I’ve worked with in the past did not go above and beyond ... Mazureth is the exception" - <span class="stars">★★★★★</span>
+                </em>
+              </a>
             </p>
             <cite title="Bo Randall">Bo Randall</cite>
           </div>
           <div class="carousel-item">
             <p class="lead">
-              <em>
-                "Jesse not only has the technical abilities and
-                knowledge but he was so easy to work with and he got the music"
-              </em>
+              <a href="https://share.google/mGL7QMMuB6mhyvKpc" target="_blank" rel="noreferrer">
+                <em>
+                  "It would be hard to overstate just how easy, inspiring, and productive it was to work with Jesse." - <span class="stars">★★★★★</span>
+                </em>
+              </a>
+            </p>
+            <cite title="Jeff Grant">Jeff Grant</cite>
+          </div>
+          <div class="carousel-item">
+            <p class="lead">
+              <a href="https://share.google/RTyJCha2wqhXuFlhT" target="_blank" rel="noreferrer">
+                <em>
+                  "ABSOLUTELY FANTASTIC!!! ... he was so easy to work with and he got the music. " - <span class="stars">★★★★★</span>
+                </em>
+              </a>
             </p>
             <cite title="Violent Insurrection">Violent Insurrection</cite>
           </div>
           <div class="carousel-item">
             <p class="lead">
-              <em>
-                "It would be hard to overstate just how easy, inspiring, and productive
-                it was to work with Jesse"
-              </em>
+              <a href="https://share.google/mmM3N0GB4N4QR1uzo" target="_blank" rel="noreferrer">
+                <em>
+                  "This is a first class studio. " - <span class="stars">★★★★★</span>
+                </em>
+              </a>
             </p>
-            <cite title="Jeff Grant">Jeff Grant (Sharkeologist)</cite>
+            <cite title="Keith Wyss">Keith Wyss</cite>
           </div>
         </div>
       </div>
