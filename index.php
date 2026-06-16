@@ -291,26 +291,26 @@
       <h3>FEATURED CLIENT</h3>
       <div class="row">
         <div class="col-sm text-justify featured">
-          <h3>Sharkeologist</h3>
+          <h3>Carrie Jennings</h3>
           <p>
-            Sharkeologist are a Seattle based band that has been around for a couple years now. They have a unique sound
-            which combines elements of indie, rock, and grunge. They have a very energetic live show and have been
-            taking the Seattle scene by storm. This is their sophmore album in which the band reall came into their open
-            and solidified a sound that draws from a wide array of influence and yet somehow is uniquely their own.
-            Emotionally chaged lyrics, catchy hooks, and a driving rythms.
+            Carrie Jennings is a vocalist, flugelhorn player, and guitarist based in Seattle, WA. Her music is deliberate
+            and sultry, combining melancholic singer-songwriter lyricism with soulful horn lines and dreamy indie pop
+            aesthetics. Her performances are both tender and bold, with lush instrumentals and endearing stage banter.
+            She is a storyteller and groove maker inviting people together to explore the depths of our human experience
+            through song.
           </p>
         </div>
         <div class="col-sm">
-          <a href="https://open.spotify.com/artist/0b8VQ84NzFUWFfvlVqFHHK?si=Cu9J0NKPRzuKx7X_a_VeWQ" target="_blank" rel="noreferrer">
+          <a href="https://open.spotify.com/artist/5POciwq1tPauJonFfO2pLS?si=MGDBekdNTBWESQbBmwL5gg" target="_blank" rel="noreferrer">
             <figure class="figure">
-              <img src="https://mazureth.com/cdn/images/featuredArtist.webp" class="figure-image img-fluid rounded artist-image" alt="Sharkeologist - The Last Gasp">
+              <img src="https://mazureth.com/cdn/images/featuredArtist.webp" class="figure-image img-fluid rounded artist-image" alt="Carrie Jennings - Slow Burn">
             </figure>
           </a>
         </div>
         <div class="col-sm">
-          <iframe title="Featured Artist" style="border-radius:12px" src="https://open.spotify.com/embed/album/0hryQIBSPHrSE5cFitfJYV?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"><a href="https://open.spotify.com/album/0hryQIBSPHrSE5cFitfJYV?si=UuOUdmCPTLefIvEBNvzguQ" target="_blank" rel="noreferrer">Sharkeologist - Sharkeologist</a></iframe>
+          <iframe title="Featured Artist" style="border-radius:12px" src="https://open.spotify.com/embed/album/14beJE8NIc4U7jURhieT6p?utm_source=generator&si=07fb54cb390e4bb1" target="_blank" rel="noreferrer">Carrie Jennings - Slow Burn</a></iframe>
         </div>
-      </div>
+      </div>`
     </div>
     <br /><br />
     <h3>TESTIMONIALS</h3>

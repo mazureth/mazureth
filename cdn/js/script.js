@@ -724,11 +724,20 @@ var works = [
   {
     artistName: "Bone Frau",
     albumName: "Umlaut",
-    description: "Seattle based prog rock with a very braod musical range",
+    description: "Seattle based prog rock with a very broad musical range",
     coverArt: "images/artists/bone_frau_umlaut.",
     artistLink: "https://bonefrau.bandcamp.com/",
     albumLink: "https://bonefrau.bandcamp.com/album/umlaut",
     jobType: "Full Production"
+  },
+  {
+    artistName: "Carrie Jennings",
+    albumName: "Slow Burn EP",
+    description: "Seattle based neo-soul featuring flugelhorn and jazzy guitar work",
+    coverArt: "images/artists/carrie_jennings_slow_burn.",
+    artistLink: "https://open.spotify.com/artist/5POciwq1tPauJonFfO2pLS?si=MGDBekdNTBWESQbBmwL5gg",
+    albumLink: "https://open.spotify.com/album/14beJE8NIc4U7jURhieT6p?si=CfiZZCVZRYC7NQ6vlOD-vw",
+    jobType: "Full Production (Tracks 1 & 4)"
   },
   {
     artistName: "Castle Dwellers",
