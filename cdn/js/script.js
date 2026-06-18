@@ -929,6 +929,15 @@ var works = [
     jobType: "Mixing & Mastering"
   },
   {
+    artistName: "Tennison Jacobson",
+    albumName: "The Mother of All Days",
+    description: "Audiobook of a memior about a tragic experiennce",
+    coverArt: "images/artists/tennison_jacombson_book.",
+    artistLink: "",
+    albumLink: "https://www.amazon.com/Mother-All-Days-Unexpected-Healing/dp/B0GN3VL7LX/ref=tmm_aud_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.sdUmIYIaacSb9REj0nR70Q.SuPK-HzXYgSsW3XgwB9t3yzEVHJzOKYGhiwp0kdFpkw&qid=1781755650&sr=8-1",
+    jobType: "Full Production"
+  },
+  {
     artistName: "Tormenta",
     albumName: "Junge Dead (Single)",
     description: "Debut single of Seattle death thrash band",
