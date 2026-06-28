@@ -821,6 +821,15 @@ var works = [
     jobType: "Full Production"
   },
   {
+    artistName: "Katrina Sheehan",
+    albumName: "Perfection (Single)",
+    description: "Singer songwriter who plays a ukulele, Hawaian vibes.",
+    coverArt: "images/artists/katrina_perfection.",
+    artistLink: "https://open.spotify.com/artist/73KLzkJBEjxZfErP15Sg5U?si=KbSicn7SSZqpBumA678cgg",
+    albumLink: "https://open.spotify.com/album/1Z1ol36j7x7eihSBLfQBg0?si=drgI1mK3RxekRMN2PjZaWw",
+    jobType: "Full Production"
+  },
+  {
     artistName: "Luna Nova",
     albumName: "What are you, gay? (EP)",
     description: "Trip hop, jazztronic, downtemp songs about coming out as a non-binary",
