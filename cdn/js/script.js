@@ -930,6 +930,15 @@ var works = [
   },
   {
     artistName: "Sharkeologist",
+    albumName: "Taxidermy is Forever",
+    description: "The third release from Sharkeologist with a couple new tracks, some covers, and a remix",
+    coverArt: "images/artists/sharkeologist_taxidermy.",
+    artistLink: "https://open.spotify.com/artist/3UqK7v9C14OxGRxNlhAXpt?si=_jB8HiF1QkmxxWMkgSUIMg",
+    albumLink: "https://open.spotify.com/album/5nGeaZIh6CPdG5H9kprpTP?si=VSUOWNIVQoKukOWzd7Fjcg",
+    jobType: "Mixing & Mastering"
+  },
+  {
+    artistName: "Sharkeologist",
     albumName: "The Last Gasp",
     description: "Debut album of Seattle indie rock band Sharkeologist",
     coverArt: "images/artists/Sharkeologist_Last_Gasp.",
