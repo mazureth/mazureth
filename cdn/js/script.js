@@ -930,7 +930,7 @@ var works = [
   },
   {
     artistName: "Sharkeologist",
-    albumName: "Taxidermy is Forever",
+    albumName: "Taxidermy is Forever (EP)",
     description: "The third release from Sharkeologist with a couple new tracks, some covers, and a remix",
     coverArt: "images/artists/sharkeologist_taxidermy.",
     artistLink: "https://open.spotify.com/artist/3UqK7v9C14OxGRxNlhAXpt?si=_jB8HiF1QkmxxWMkgSUIMg",
