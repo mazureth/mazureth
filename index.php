@@ -29,11 +29,12 @@
             and experimental projects, with credits on over 60 releases.
           </p>
           <p class="text-justify">
-            Jesse Mazur, owner, producer, and engineer at Mazureth Studios, has been shaping music since 2003.
-            With experience across genres from ambient electronic to technical death metal, he guides artists through
-            every step of production, from arranging and recording to mixing and mastering. As a multi-instrumentalist,
-            Jesse often contributes directly to sessions, playing guitar, drums, strings, brass, and piano, alongside
-            years of vocal training, ensuring every project benefits from both technical skill and musicality.
+            Jesse Mazur, owner, producer, and engineer at Mazureth Studios, is a GRAMMY<sup>®</sup> voting member of the Recording
+            Academy and has been shaping music since 2003.With experience across genres from ambient electronic to
+            technical death metal, he guides artists through every step of production, from arranging and recording
+            to mixing and mastering. As a multi-instrumentalist, Jesse often contributes directly to sessions, playing
+            guitar, drums, strings, brass, and piano, alongside years of vocal training, ensuring every project
+            benefits from both technical skill and musicality.
           </p>
           <blockquote class="text-left">
             <p class="mb-0"><em>"“I just love music and being part of the creative process. There’s nothing more
@@ -147,8 +148,8 @@
             </div>
             <div class="card-body">
               <p>Studio sessions include the use of our entire facility: the live room, control room, and studio gear. </p>
-              <p class="rate"><sup><small>$</small></sup>50<span class="unit">/hour</span></p>
-              <p class="rate"><sup><small>$</small></sup>475<span class="unit">/day<sup>*</sup></span></p>
+              <p class="rate"><sup><small>$</small></sup>75<span class="unit">/hour</span></p>
+              <p class="rate"><sup><small>$</small></sup>725<span class="unit">/day<sup>*</sup></span></p>
               <a href="booking.php" class="btn btn-secondary">Book Now</a>
             </div>
           </div>
@@ -160,8 +161,8 @@
             </div>
             <div class="card-body">
               <p>Editing includes comping takes, pitch correction, quantizing, etc, to create perfect tracks.</p>
-              <p class="rate"><sup><small>$</small></sup>50<span class="unit">/hour</span></p>
-              <p class="rate"><sup><small>$</small></sup>475<span class="unit">/day<sup>*</sup></span></p>
+              <p class="rate"><sup><small>$</small></sup>75<span class="unit">/hour</span></p>
+              <p class="rate"><sup><small>$</small></sup>725<span class="unit">/day<sup>*</sup></span></p>
               <a href="booking.php" class="btn btn-secondary">Book Now</a>
             </div>
           </div>
@@ -173,8 +174,8 @@
             </div>
             <div class="card-body">
               <p>Mixing service includes importing your files into our DAW plus the use of our control room.</p>
-              <p class="rate"><sup><small>$</small></sup>50<span class="unit">/hour</span></p>
-              <p class="rate"><sup><small>$</small></sup>250<span class="unit">/song<sup>†</sup></span></p>
+              <p class="rate"><sup><small>$</small></sup>75<span class="unit">/hour</span></p>
+              <p class="rate"><sup><small>$</small></sup>725<span class="unit">/day<sup>*</sup></span></p>
               <a href="booking.php" class="btn btn-secondary">Book Now</a>
             </div>
           </div>
@@ -186,8 +187,8 @@
             </div>
             <div class="card-body">
               <p>Mastering service includes importing stereo mixes into our DAW and returing a final polished song.</p>
-              <p class="rate"><sup><small>$</small></sup>70<span class="unit">/song</span></p>
-              <p class="rate"><sup><small>$</small></sup>750<span class="unit">/LP<sup>§</sup></span></p>
+              <p class="rate"><sup><small>$</small></sup>100<span class="unit">/song</span></p>
+              <p class="rate"><sup><small>$</small></sup>950<span class="unit">/LP<sup>§</sup></span></p>
               <a href="booking.php" class="btn btn-secondary">Book Now</a>
             </div>
           </div>
