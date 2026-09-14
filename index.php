@@ -37,8 +37,8 @@
             benefits from both technical skill and musicality.
           </p>
           <blockquote class="text-left">
-            <p class="mb-0"><em>"“I just love music and being part of the creative process. There’s nothing more
-                ewarding than making music with people in a space designed to let creativity thrive."</em></p>
+            <p class="mb-0"><em>"I just love music and being part of the creative process. There’s nothing more
+                rewarding than making music with people in a space designed to let creativity thrive."</em></p>
             <footer class="blockquote-footer"><cite title="Jesse Mazur">Jesse Mazur</cite></footer>
           </blockquote>
         </div>
