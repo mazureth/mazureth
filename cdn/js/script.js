@@ -334,6 +334,21 @@ $(function () {
     $('#welcome').addClass('noWebp');
   }
 
+  // dispay the hero image based on season
+  var month = new Date().getMonth();
+  var welcome = document.getElementById('welcome');
+  var ext = webpSupported ? 'webp' : 'jpg';
+  var host = window.location.protocol === 'file:' ? 'file:///Users/jessemazur/Code/mazureth/public/cdn/images/' : 'https://mazureth.com/cdn/images/';
+  if (month === 11 || month === 0 || month === 1) {
+    welcome.style.backgroundImage = "url('" + host + "hero-winter." + ext + "')";
+  } else if (month === 2 || month === 3 || month === 4) {
+    welcome.style.backgroundImage = "url('" + host + "hero-spring." + ext + "')";
+  } else if (month === 5 || month === 6 || month === 7) {
+    welcome.style.backgroundImage = "url('" + host + "hero-summer." + ext + "')";
+  } else if (month === 8 || month === 9 || month === 10) {
+    welcome.style.backgroundImage = "url('" + host + "hero-autumn." + ext + "')";
+  }
+
   /*************************************************
    * Skyline Diffuser Generator (Bottom-of-Page)
    * -----------------------------------------------
@@ -509,7 +524,6 @@ $(function () {
   /* =========================
      DOM Renderer
      ========================= */
-
   function renderDiffuserMatrix(matrix, opts) {
     opts = opts || {};
     var cellPx = opts.cellPx || 18;
@@ -563,6 +577,8 @@ $(function () {
   // Function to generate and render diffuser
   function renderDiffuser() {
     const diffuserElem = document.getElementById('renderedDiffuser');
+    if (!diffuserElem) return;
+
     diffuserElem.innerHTML = ''; // clear previous content
 
     // Get input values
@@ -594,13 +610,15 @@ $(function () {
     diffuserElem.appendChild(grid);
   }
 
-  // Auto-render on page load
-  window.addEventListener('load', renderDiffuser);
+  const diffuserElem = document.getElementById('renderedDiffuser');
+  if (diffuserElem) {
+    // Auto-render on page load
+    window.addEventListener('load', renderDiffuser);
 
-  // Re-render whenever width or height input changes
-  document.getElementById('plywoodWidthIn').addEventListener('input', renderDiffuser);
-  document.getElementById('plywoodHeightIn').addEventListener('input', renderDiffuser);
-
+    // Re-render whenever width or height input changes
+    document.getElementById('plywoodWidthIn').addEventListener('input', renderDiffuser);
+    document.getElementById('plywoodHeightIn').addEventListener('input', renderDiffuser);
+  }
 });
 
 var works = [
