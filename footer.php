@@ -4,10 +4,10 @@
 <script>
   (function() {
     var scriptTag = document.createElement('script');
-    scriptSrc = '',
-      body = document.querySelector('body');
-    if (window.location.host.indexOf('localhost') > -1) {
-      scriptSrc = 'cdn/js/script.js';
+    scriptSrc = '', body = document.querySelector('body');
+
+    if (window.location.protocol === 'file:') {
+      scriptSrc = 'file:///Users/jessemazur/Code/mazureth/public/cdn/js/script.min.js';
     } else {
       scriptSrc = 'https://mazureth.com/cdn/js/script.min.js';
     }

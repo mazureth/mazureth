@@ -13,7 +13,14 @@
   </script>
   <link rel="preload" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet';this.media='screen'">
   <link rel="preload" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet';this.media='screen';">
-  <link rel="preload" href="https://mazureth.com/cdn/css/styles.min.css" as="style" onload="this.onload=null;this.rel='stylesheet';this.media='screen'" id="mainStylesheet">
+
+  <script>
+    if (window.location.protocol === 'file:') {
+      document.write('<link rel="preload" href="file:///Users/jessemazur/Code/mazureth/public/cdn/css/styles.css" as="style" onload="this.onload=null;this.rel=\'stylesheet\';this.media=\'screen\'" id="mainStylesheet">');
+    } else {
+      document.write('<link rel="preload" href="https://mazureth.com/cdn/css/styles.min.css" as="style" onload="this.onload=null;this.rel=\'stylesheet\';this.media=\'screen\'" id="mainStylesheet">');
+    }
+  </script>
 
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
