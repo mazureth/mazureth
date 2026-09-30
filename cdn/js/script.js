@@ -115,10 +115,13 @@ $(function () {
     var href, scrollTo,
       loc = window.location,
 
-      href = $(this).find('a').attr('href') || $(this).attr('href');
+      href = $(this).find('a').attr('href') || $(this).attr('href'),
+      target = $(this).find('a').attr('target') || $(this).attr('target');
 
-    // bail if we are on a subpage, links should work as expected
+    // bail if we are on a subpage or target is _blank
+    // links should work as expected
     // added /mazureth/ to account for github pages
+    if (target === '_blank') { return; }
     if (loc.pathname !== "/" && loc.pathname !== "/mazureth/") {
       if (loc.host === 'mazureth.github.io') {
         // if github pages put path back in
